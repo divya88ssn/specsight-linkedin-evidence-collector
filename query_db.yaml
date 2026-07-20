@@ -1,0 +1,173 @@
+query_groups:
+  story_reopened:
+    topic_phrases:
+      - "story reopened"
+      - "story returned to development"
+      - "product owner rejected"
+    symptoms:
+      reopened_after_qa:
+        - "after QA"
+        - "QA passed"
+      sprint_review_rework:
+        - "sprint review"
+        - "rework"
+      missing_edge_case:
+        - "edge case"
+        - "business rule"
+
+  dev_qa_ping_pong:
+    topic_phrases:
+      - "Dev QA"
+      - "QA disagreement"
+      - "developer QA"
+    symptoms:
+      different_interpretations:
+        - "different interpretations"
+        - "interpreted differently"
+      ambiguous_acceptance_criteria:
+        - "ambiguous acceptance criteria"
+        - "unclear acceptance criteria"
+      repeated_rework:
+        - "rework"
+        - "returned to development"
+
+  product_owner_rejection:
+    topic_phrases:
+      - "product owner acceptance"
+      - "product owner rejected"
+      - "story not accepted"
+    symptoms:
+      subjective_approval:
+        - "subjective approval"
+        - "acceptance dispute"
+      late_review:
+        - "reviewed too late"
+        - "late review"
+      missed_business_intent:
+        - "business intent"
+        - "product intent"
+
+  outcome_gap:
+    topic_phrases:
+      - "QA passed"
+      - "feature shipped"
+      - "acceptance criteria met"
+    symptoms:
+      low_adoption:
+        - "low adoption"
+        - "poor adoption"
+      shipped_but_unused:
+        - "shipped but unused"
+        - "nobody used"
+      users_unhappy:
+        - "users unhappy"
+        - "customers unhappy"
+      no_customer_value:
+        - "no customer value"
+        - "did not solve the problem"
+
+  implementation_intent_drift:
+    topic_phrases:
+      - "built the wrong feature"
+      - "implementation drift"
+      - "requirements misunderstood"
+    symptoms:
+      matches_ticket_not_intent:
+        - "matches the ticket"
+        - "business intent"
+      technically_complete_but_wrong:
+        - "technically complete"
+        - "wrong thing"
+      engineering_interpreted_differently:
+        - "engineering interpreted"
+        - "interpreted differently"
+
+  weak_acceptance_criteria:
+    topic_phrases:
+      - "acceptance criteria"
+      - "weak acceptance criteria"
+      - "ambiguous acceptance criteria"
+    symptoms:
+      two_interpretations:
+        - "two interpretations"
+        - "different interpretations"
+      missing_business_rules:
+        - "missing business rules"
+        - "business rules"
+      not_testable:
+        - "not testable"
+        - "QA assumptions"
+      failed_uat:
+        - "failed UAT"
+        - "rejected during UAT"
+
+  late_validation:
+    topic_phrases:
+      - "product validation"
+      - "product owner review"
+      - "story acceptance"
+    symptoms:
+      rejected_at_sprint_review:
+        - "rejected at sprint review"
+        - "sprint review surprise"
+      final_demo_rework:
+        - "final demo"
+        - "rework"
+      no_mid_sprint_demo:
+        - "mid-sprint demo"
+        - "review only at the end"
+
+  definition_of_done_gap:
+    topic_phrases:
+      - "definition of done"
+      - "engineering says done"
+      - "ready for sprint review"
+    symptoms:
+      product_says_not_done:
+        - "product says not done"
+        - "product owner signoff"
+      monitoring_missing:
+        - "monitoring missing"
+        - "analytics missing"
+      not_releasable:
+        - "not ready to release"
+        - "coded but not releasable"
+
+  refinement_failure:
+    topic_phrases:
+      - "backlog refinement"
+      - "story refinement"
+      - "definition of ready"
+    symptoms:
+      sprint_planning_became_discovery:
+        - "sprint planning"
+        - "live discovery"
+      developers_blocked:
+        - "developers blocked"
+        - "unclear requirements"
+      dependencies_discovered_late:
+        - "dependency discovered late"
+        - "edge case discovered late"
+
+  ai_specification_failure:
+    topic_phrases:
+      - "AI generated code"
+      - "AI coding agent"
+      - "vibe coding"
+    symptoms:
+      wrong_feature:
+        - "wrong feature"
+        - "wrong implementation"
+      ambiguous_prompt:
+        - "ambiguous prompt"
+        - "prompt ambiguity"
+      missed_product_intent:
+        - "product intent"
+        - "business rules"
+      rework:
+        - "rework"
+        - "product rejected"
+
+settings:
+  site_filter: "site:linkedin.com/posts"
+  max_queries_per_symptom: 8
