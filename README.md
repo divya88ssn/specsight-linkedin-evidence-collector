@@ -49,6 +49,16 @@ python collect_urls.py --engine google --headed
 ## Test with only a few queries
 
 Open `queries.txt`, retain 2–3 lines, and run:
+---------------------------------------------------------
+queries.txt
+    ↓
+collect_urls.py
+    ├── output/urls_<timestamp>.txt
+    └── data/evidence_index.jsonl
+              ↓
+       extract_posts.py
+              ↓
+       data/evidence_posts.jsonl
 
 ```powershell
 python collect_urls.py --headed --delay 5
