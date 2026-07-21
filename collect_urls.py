@@ -1,18 +1,16 @@
 from __future__ import annotations
 
 import argparse
-import asyncio
-import base64
+import os
+import time
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import parse_qs, quote_plus, unquote, urlparse
+from urllib.parse import urlparse, urlunparse
 
-from playwright.async_api import (
-    BrowserContext,
-    Page,
-    TimeoutError as PlaywrightTimeoutError,
-    async_playwright,
-)
+import requests
+
+
+SERPER_ENDPOINT = "https://google.serper.dev/search"
 
 
 def load_queries(path: Path) -> list[tuple[str, str, str]]:
@@ -25,7 +23,9 @@ def load_queries(path: Path) -> list[tuple[str, str, str]]:
     Plain query-only lines are also supported.
     """
     if not path.exists():
-        raise FileNotFoundError(f"Query file not found: {path.resolve()}")
+        raise FileNotFoundError(
+            f"Query file not found: {path.resolve()}"
+        )
 
     rows: list[tuple[str, str, str]] = []
 
@@ -41,10 +41,11 @@ def load_queries(path: Path) -> list[tuple[str, str, str]]:
         parts = line.split("\t", maxsplit=2)
 
         if len(parts) == 3:
-            group, symptom, query = parts
+            failure_mode, symptom, query = parts
+
             rows.append(
                 (
-                    group.strip(),
+                    failure_mode.strip(),
                     symptom.strip(),
                     query.strip(),
                 )
@@ -61,456 +62,312 @@ def load_queries(path: Path) -> list[tuple[str, str, str]]:
     return rows
 
 
-def clean_linkedin_url(url: str) -> str | None:
+def normalize_linkedin_url(url: str) -> str | None:
     """
-    Return a normalized public LinkedIn post URL.
+    Normalize and validate a LinkedIn post URL.
 
-    Only URLs containing /posts/ are retained.
-    Tracking query parameters and fragments are removed.
+    Accepts URLs such as:
+        https://www.linkedin.com/posts/...
+        https://linkedin.com/posts/...
+
+    Query parameters and fragments are removed.
     """
     if not url:
         return None
 
-    url = unquote(url).strip()
-
-    if not url.startswith("http"):
-        return None
-
-    parsed = urlparse(url)
-
-    if "linkedin.com" not in parsed.netloc.lower():
-        return None
-
-    if "/posts/" not in parsed.path:
-        return None
-
-    return (
-        f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
-    ).rstrip("/")
-
-
-def decode_possible_base64_url(value: str) -> str | None:
-    """
-    Bing sometimes stores its destination URL in a base64-like `u` parameter.
-
-    The encoded value may begin with `a1`.
-    """
-    if not value:
-        return None
-
-    candidate = value
-
-    if candidate.startswith("a1"):
-        candidate = candidate[2:]
-
-    padding = "=" * (-len(candidate) % 4)
-
-    for decoder in (base64.b64decode, base64.urlsafe_b64decode):
-        try:
-            decoded = decoder(candidate + padding).decode(
-                "utf-8",
-                errors="ignore",
-            )
-
-            cleaned = clean_linkedin_url(decoded)
-
-            if cleaned:
-                return cleaned
-
-        except Exception:
-            continue
-
-    return None
-
-
-def decode_bing_result_url(href: str) -> str | None:
-    """
-    Convert a Bing result URL into a clean LinkedIn post URL.
-
-    Handles:
-    - direct LinkedIn links
-    - Bing tracking URLs
-    - base64-encoded Bing destination URLs
-    """
-    if not href:
-        return None
-
-    href = unquote(href).strip()
-
-    direct = clean_linkedin_url(href)
-
-    if direct:
-        return direct
-
-    parsed = urlparse(href)
-
-    if "bing.com" not in parsed.netloc.lower():
-        return None
-
-    params = parse_qs(parsed.query)
-
-    for key in ("u", "url", "q", "r"):
-        values = params.get(key, [])
-
-        for value in values:
-            direct = clean_linkedin_url(value)
-
-            if direct:
-                return direct
-
-            decoded = decode_possible_base64_url(value)
-
-            if decoded:
-                return decoded
-
-    return None
-
-
-def decode_google_result_url(href: str) -> str | None:
-    """
-    Convert a Google result URL into a clean LinkedIn post URL.
-
-    Handles:
-    - direct LinkedIn links
-    - /url?q=<destination> links
-    """
-    if not href:
-        return None
-
-    href = unquote(href).strip()
-
-    direct = clean_linkedin_url(href)
-
-    if direct:
-        return direct
-
-    parsed = urlparse(href)
-
-    if href.startswith("/url?") or "google." in parsed.netloc.lower():
-        params = parse_qs(parsed.query)
-
-        for key in ("q", "url"):
-            values = params.get(key, [])
-
-            for value in values:
-                direct = clean_linkedin_url(value)
-
-                if direct:
-                    return direct
-
-    return None
-
-
-async def maybe_handle_google_consent(page: Page) -> None:
-    """
-    Attempt to dismiss common Google consent prompts.
-
-    This does not bypass CAPTCHAs or access controls.
-    """
-    labels = (
-        "Accept all",
-        "I agree",
-        "Reject all",
-        "Accept",
-        "Agree",
-    )
-
-    for label in labels:
-        button = page.get_by_role("button", name=label)
-
-        try:
-            if await button.count() > 0:
-                await button.first.click(timeout=2000)
-                await page.wait_for_timeout(1000)
-                return
-        except Exception:
-            continue
-
-
-async def search_bing(
-    page: Page,
-    query: str,
-    top_n: int,
-) -> list[str]:
-    """
-    Search Bing and return up to top_n LinkedIn post URLs.
-    """
-    search_url = (
-        "https://www.bing.com/search"
-        f"?q={quote_plus(query)}"
-        "&count=30"
-        "&setlang=en-us"
-    )
-
-    await page.goto(
-        search_url,
-        wait_until="domcontentloaded",
-        timeout=60000,
-    )
-
-    await page.wait_for_timeout(2000)
-
-    selector = "li.b_algo h2 a"
+    url = url.strip()
 
     try:
-        await page.wait_for_selector(
-            selector,
-            timeout=20000,
-        )
-    except PlaywrightTimeoutError:
-        return []
+        parsed = urlparse(url)
+    except ValueError:
+        return None
 
-    links = page.locator(selector)
-    link_count = await links.count()
+    hostname = parsed.netloc.lower()
 
-    urls: list[str] = []
+    if not (
+        hostname == "linkedin.com"
+        or hostname == "www.linkedin.com"
+        or hostname.endswith(".linkedin.com")
+    ):
+        return None
 
-    for index in range(link_count):
-        try:
-            href = await links.nth(index).get_attribute("href")
-        except Exception:
-            continue
+    path = parsed.path.rstrip("/")
 
-        normalized = decode_bing_result_url(href or "")
+    if "/posts/" not in path:
+        return None
 
-        if normalized and normalized not in urls:
-            urls.append(normalized)
+    normalized = parsed._replace(
+        scheme="https",
+        netloc="www.linkedin.com",
+        path=path,
+        params="",
+        query="",
+        fragment="",
+    )
 
-        if len(urls) >= top_n:
-            break
-
-    return urls
+    return urlunparse(normalized)
 
 
-async def search_google(
-    page: Page,
-    query: str,
+def extract_linkedin_results(
+    response_data: dict,
     top_n: int,
-) -> list[str]:
+) -> list[dict]:
     """
-    Search Google and return up to top_n LinkedIn post URLs.
+    Extract LinkedIn post results from Serper's organic results.
+
+    Returns dictionaries containing:
+        position
+        title
+        url
+        snippet
     """
-    await page.goto(
-        "https://www.google.com",
-        wait_until="domcontentloaded",
-        timeout=60000,
-    )
+    results: list[dict] = []
+    seen_urls: set[str] = set()
 
-    await maybe_handle_google_consent(page)
+    organic_results = response_data.get("organic", [])
 
-    search_url = (
-        "https://www.google.com/search"
-        f"?q={quote_plus(query)}"
-        "&num=20"
-        "&hl=en"
-    )
+    if not isinstance(organic_results, list):
+        return results
 
-    await page.goto(
-        search_url,
-        wait_until="domcontentloaded",
-        timeout=60000,
-    )
-
-    await page.wait_for_timeout(2000)
-
-    selectors = [
-        "div#search a",
-        'a[href^="http"]',
-        'a[href^="/url?"]',
-    ]
-
-    hrefs: list[str] = []
-
-    for selector in selectors:
-        locator = page.locator(selector)
-
-        try:
-            count = await locator.count()
-        except Exception:
+    for item in organic_results:
+        if not isinstance(item, dict):
             continue
 
-        for index in range(count):
-            try:
-                href = await locator.nth(index).get_attribute("href")
-            except Exception:
-                continue
+        raw_url = str(item.get("link", "")).strip()
+        normalized_url = normalize_linkedin_url(raw_url)
 
-            if href:
-                hrefs.append(href)
+        if not normalized_url:
+            continue
 
-    urls: list[str] = []
+        if normalized_url in seen_urls:
+            continue
 
-    for href in hrefs:
-        normalized = decode_google_result_url(href)
+        seen_urls.add(normalized_url)
 
-        if normalized and normalized not in urls:
-            urls.append(normalized)
+        position = item.get("position")
 
-        if len(urls) >= top_n:
+        if not isinstance(position, int):
+            position = len(results) + 1
+
+        results.append(
+            {
+                "position": position,
+                "title": str(item.get("title", "")).strip(),
+                "url": normalized_url,
+                "snippet": str(item.get("snippet", "")).strip(),
+            }
+        )
+
+        if len(results) >= top_n:
             break
 
-    return urls
+    return results
 
 
-async def replace_page_if_closed(
-    context: BrowserContext,
-    page: Page,
-) -> Page:
+def search_serper(
+    query: str,
+    api_key: str,
+    num_results: int,
+    timeout_seconds: int,
+    country: str,
+    language: str,
+) -> dict:
     """
-    Create a fresh page if the current one was unexpectedly closed.
+    Submit one search query to Serper and return parsed JSON.
     """
-    if page.is_closed():
-        new_page = await context.new_page()
-        new_page.set_default_timeout(30000)
-        new_page.set_default_navigation_timeout(60000)
-        return new_page
+    headers = {
+        "X-API-KEY": api_key,
+        "Content-Type": "application/json",
+    }
 
-    return page
+    payload = {
+        "q": query,
+        "num": num_results,
+        "gl": country,
+        "hl": language,
+    }
+
+    response = requests.post(
+        SERPER_ENDPOINT,
+        headers=headers,
+        json=payload,
+        timeout=timeout_seconds,
+    )
+
+    if response.status_code == 401:
+        raise RuntimeError(
+            "Serper rejected the API key. Check SERPER_API_KEY."
+        )
+
+    if response.status_code == 403:
+        raise RuntimeError(
+            "Serper denied the request. Check your account, "
+            "API key, and available credits."
+        )
+
+    if response.status_code == 429:
+        raise RuntimeError(
+            "Serper rate limit reached. Increase --delay or retry later."
+        )
+
+    response.raise_for_status()
+
+    try:
+        data = response.json()
+    except ValueError as exc:
+        raise RuntimeError(
+            "Serper returned a response that was not valid JSON."
+        ) from exc
+
+    if not isinstance(data, dict):
+        raise RuntimeError(
+            "Serper returned an unexpected response format."
+        )
+
+    return data
 
 
-async def run(
+def run(
     queries_path: Path,
     output_dir: Path,
-    engine: str,
+    api_key: str,
     top_n: int,
-    headless: bool,
+    request_num: int,
     delay_seconds: float,
+    timeout_seconds: int,
+    country: str,
+    language: str,
+    include_metadata: bool,
 ) -> Path:
     queries = load_queries(queries_path)
 
     if not queries:
-        raise ValueError(f"No queries found in {queries_path.resolve()}")
+        raise ValueError(
+            f"No queries found in {queries_path.resolve()}"
+        )
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_path = output_dir / f"urls_{timestamp}.txt"
 
-    async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(
-            headless=headless,
-        )
+    with output_path.open(
+        "w",
+        encoding="utf-8",
+    ) as output:
+        for index, (failure_mode, symptom, query) in enumerate(
+            queries,
+            start=1,
+        ):
+            started_at = datetime.now().isoformat(
+                timespec="seconds"
+            )
 
-        context = await browser.new_context(
-            viewport={
-                "width": 1400,
-                "height": 900,
-            },
-            locale="en-US",
-            user_agent=(
-                "Mozilla/5.0 "
-                "(Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 "
-                "(KHTML, like Gecko) "
-                "Chrome/124.0.0.0 "
-                "Safari/537.36"
-            ),
-        )
+            print(
+                f"[{index}/{len(queries)}] "
+                f"{failure_mode} / {symptom}"
+            )
+            print(f"  {query}")
 
-        page = await context.new_page()
-        page.set_default_timeout(30000)
-        page.set_default_navigation_timeout(60000)
+            output.write(
+                f"QUERY\t{failure_mode}\t{symptom}\t"
+                f"{query}\t{started_at}\n"
+            )
 
-        with output_path.open(
-            "w",
-            encoding="utf-8",
-        ) as output:
-            for index, (group, symptom, query) in enumerate(
-                queries,
-                start=1,
-            ):
-                print(
-                    f"[{index}/{len(queries)}] "
-                    f"{group} / {symptom}"
-                )
-                print(f"  {query}")
-
-                page = await replace_page_if_closed(
-                    context,
-                    page,
+            try:
+                response_data = search_serper(
+                    query=query,
+                    api_key=api_key,
+                    num_results=request_num,
+                    timeout_seconds=timeout_seconds,
+                    country=country,
+                    language=language,
                 )
 
-                started_at = datetime.now().isoformat(
-                    timespec="seconds"
+                results = extract_linkedin_results(
+                    response_data=response_data,
+                    top_n=top_n,
+                )
+
+                if not results:
+                    output.write("NO_RESULTS\n")
+                    print(
+                        "  No matching LinkedIn post URLs found"
+                    )
+                else:
+                    for rank, result in enumerate(
+                        results,
+                        start=1,
+                    ):
+                        output.write(
+                            f"{rank}\t{result['url']}\n"
+                        )
+
+                        if include_metadata:
+                            if result["title"]:
+                                output.write(
+                                    f"TITLE\t{result['title']}\n"
+                                )
+
+                            if result["snippet"]:
+                                output.write(
+                                    f"SNIPPET\t{result['snippet']}\n"
+                                )
+
+                    print(
+                        f"  Found {len(results)} LinkedIn URL(s)"
+                    )
+
+            except requests.Timeout:
+                message = (
+                    f"Request timed out after "
+                    f"{timeout_seconds} seconds"
+                )
+                output.write(f"ERROR\tTimeoutError: {message}\n")
+                print(f"  Timeout: {message}")
+
+            except requests.ConnectionError as exc:
+                output.write(
+                    f"ERROR\tConnectionError: {exc}\n"
+                )
+                print(f"  Connection error: {exc}")
+
+            except requests.HTTPError as exc:
+                status_code = (
+                    exc.response.status_code
+                    if exc.response is not None
+                    else "unknown"
+                )
+
+                response_text = (
+                    exc.response.text[:500]
+                    if exc.response is not None
+                    else str(exc)
                 )
 
                 output.write(
-                    f"QUERY\t{group}\t{symptom}\t"
-                    f"{query}\t{started_at}\n"
+                    f"ERROR\tHTTPError {status_code}: "
+                    f"{response_text}\n"
                 )
 
-                try:
-                    if engine == "google":
-                        urls = await search_google(
-                            page,
-                            query,
-                            top_n,
-                        )
-                    else:
-                        urls = await search_bing(
-                            page,
-                            query,
-                            top_n,
-                        )
+                print(
+                    f"  HTTP error {status_code}: "
+                    f"{response_text}"
+                )
 
-                    if urls:
-                        for rank, url in enumerate(
-                            urls,
-                            start=1,
-                        ):
-                            output.write(
-                                f"{rank}\t{url}\n"
-                            )
+            except Exception as exc:
+                output.write(
+                    f"ERROR\t{type(exc).__name__}: {exc}\n"
+                )
+                print(
+                    f"  Error: {type(exc).__name__}: {exc}"
+                )
 
-                        print(
-                            f"  Found {len(urls)} URL(s)"
-                        )
-                    else:
-                        output.write("NO_RESULTS\n")
-                        print("  No matching LinkedIn post URLs found")
+            output.write("\n")
+            output.flush()
 
-                except PlaywrightTimeoutError as exc:
-                    output.write(
-                        f"ERROR\tTimeoutError: {exc}\n"
-                    )
-                    print(f"  Timeout: {exc}")
-
-                    try:
-                        await page.close()
-                    except Exception:
-                        pass
-
-                    page = await context.new_page()
-                    page.set_default_timeout(30000)
-                    page.set_default_navigation_timeout(60000)
-
-                except Exception as exc:
-                    output.write(
-                        f"ERROR\t{type(exc).__name__}: {exc}\n"
-                    )
-                    print(
-                        f"  Error: {type(exc).__name__}: {exc}"
-                    )
-
-                    if (
-                        "Execution context was destroyed"
-                        in str(exc)
-                    ):
-                        try:
-                            await page.wait_for_load_state(
-                                "domcontentloaded",
-                                timeout=10000,
-                            )
-                        except Exception:
-                            pass
-
-                output.write("\n")
-                output.flush()
-
-                await asyncio.sleep(delay_seconds)
-
-        await context.close()
-        await browser.close()
+            if index < len(queries):
+                time.sleep(delay_seconds)
 
     return output_path
 
@@ -518,15 +375,15 @@ async def run(
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Run browser searches and save the top "
-            "LinkedIn post URLs to a timestamped file."
+            "Search for LinkedIn post URLs using the "
+            "Serper API and save them to a timestamped file."
         )
     )
 
     parser.add_argument(
         "--queries",
         default="queries.txt",
-        help="Path to the query input file.",
+        help="Path to the tab-separated query file.",
     )
 
     parser.add_argument(
@@ -536,30 +393,57 @@ def main() -> None:
     )
 
     parser.add_argument(
-        "--engine",
-        choices=["bing", "google"],
-        default="bing",
-        help="Search engine to use.",
-    )
-
-    parser.add_argument(
         "--top-n",
         type=int,
         default=10,
-        help="Maximum number of LinkedIn URLs per query.",
+        help=(
+            "Maximum number of LinkedIn post URLs "
+            "to save per query."
+        ),
     )
 
     parser.add_argument(
-        "--headed",
-        action="store_true",
-        help="Show the browser while searches run.",
+        "--request-num",
+        type=int,
+        default=20,
+        help=(
+            "Number of organic search results to request "
+            "from Serper per query."
+        ),
     )
 
     parser.add_argument(
         "--delay",
         type=float,
-        default=5.0,
-        help="Seconds to wait between searches.",
+        default=1.0,
+        help="Seconds to wait between API requests.",
+    )
+
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=30,
+        help="HTTP timeout in seconds.",
+    )
+
+    parser.add_argument(
+        "--country",
+        default="us",
+        help="Two-letter country code passed to Serper.",
+    )
+
+    parser.add_argument(
+        "--language",
+        default="en",
+        help="Language code passed to Serper.",
+    )
+
+    parser.add_argument(
+        "--include-metadata",
+        action="store_true",
+        help=(
+            "Write result titles and snippets below each URL."
+        ),
     )
 
     args = parser.parse_args()
@@ -567,18 +451,36 @@ def main() -> None:
     if args.top_n < 1:
         raise ValueError("--top-n must be at least 1")
 
+    if args.request_num < 1:
+        raise ValueError("--request-num must be at least 1")
+
     if args.delay < 0:
         raise ValueError("--delay cannot be negative")
 
-    output_path = asyncio.run(
-        run(
-            queries_path=Path(args.queries),
-            output_dir=Path(args.output_dir),
-            engine=args.engine,
-            top_n=args.top_n,
-            headless=not args.headed,
-            delay_seconds=args.delay,
+    if args.timeout < 1:
+        raise ValueError("--timeout must be at least 1")
+
+    api_key = os.getenv("SERPER_API_KEY")
+
+    if not api_key:
+        raise RuntimeError(
+            "SERPER_API_KEY is not set.\n\n"
+            "In PowerShell, run:\n"
+            '$env:SERPER_API_KEY="YOUR_KEY"\n\n'
+            "Then run this script again."
         )
+
+    output_path = run(
+        queries_path=Path(args.queries),
+        output_dir=Path(args.output_dir),
+        api_key=api_key,
+        top_n=args.top_n,
+        request_num=args.request_num,
+        delay_seconds=args.delay,
+        timeout_seconds=args.timeout,
+        country=args.country,
+        language=args.language,
+        include_metadata=args.include_metadata,
     )
 
     print()
