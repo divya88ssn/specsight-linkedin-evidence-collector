@@ -1,0 +1,6 @@
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "story reopened" "after QA"	2026-07-20T21:21:06
+ERROR	TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("li.b_algo h2 a") to be visible
+
+

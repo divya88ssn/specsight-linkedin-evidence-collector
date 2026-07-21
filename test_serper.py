@@ -1,7 +1,7 @@
 import os
 import requests
 
-query = 'site:linkedin.com/posts "story reopened" "after QA"'
+query = 'site:linkedin.com/posts continous validation of acceptance criteria'
 
 r = requests.post(
     "https://google.serper.dev/search",
