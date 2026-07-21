@@ -1,0 +1,1622 @@
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "story reopened" "after QA"	2026-07-21T14:29:04
+SERPER_QUERY	site:linkedin.com/posts story reopened after QA
+1	https://www.linkedin.com/posts/moyseyenkonataly_engineeringmanagement-qualityengineering-activity-7312805947842727936-kY1w
+2	https://www.linkedin.com/posts/moyseyenkonataly_qualityengineering-qametrics-reopenrate-activity-7310329637958467584-afuI
+3	https://www.linkedin.com/posts/deepak-kumar-523a931b6_manualtesting-softwaretesting-qalife-activity-7393802747562680320-fbV1
+4	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+5	https://www.linkedin.com/posts/volhababan_qa-engineers-are-not-testers-most-companies-activity-7467909941060898816-WdKt
+6	https://www.linkedin.com/posts/faisalkhatri_actions-to-be-taken-by-a-qa-on-finding-a-activity-7284606269120745475-28yx
+7	https://www.linkedin.com/posts/hassan-sanduka_qa-manualtesting-buglifecycle-activity-7326999987878338560-vR_v
+8	https://www.linkedin.com/posts/nour-taleb-34818722b_qa-softwaretesting-qualityassurance-activity-7353763009195851778-h_JA
+9	https://www.linkedin.com/posts/jeremiah-de-leon-sqa_one-of-the-hardest-parts-of-embedding-a-qa-activity-7476288188299268096-w1aK
+10	https://www.linkedin.com/posts/motunrayojoseph_i-didnt-become-a-better-qa-engineer-because-activity-7398997657207312386-1-_O
+
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "story reopened" "QA passed"	2026-07-21T14:29:07
+SERPER_QUERY	site:linkedin.com/posts story reopened QA passed
+1	https://www.linkedin.com/posts/moyseyenkonataly_engineeringmanagement-qualityengineering-activity-7312805947842727936-kY1w
+2	https://www.linkedin.com/posts/moyseyenkonataly_qualityengineering-qametrics-reopenrate-activity-7310329637958467584-afuI
+3	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+4	https://www.linkedin.com/posts/bosun-sogeke-a1413713b_reopened-defects-are-more-than-a-qa-problem-activity-7473255989979430912-eeTW
+5	https://www.linkedin.com/posts/raghvendra-singh-718b72209_2026-has-just-started-and-within-14-weeks-activity-7417551529244602369-XOkX
+6	https://www.linkedin.com/posts/jonathancphelps_kubernetes-qualityengineering-devops-activity-7472611440311443456-Lr6t
+7	https://www.linkedin.com/posts/jeremiah-de-leon-sqa_one-of-the-hardest-parts-of-embedding-a-qa-activity-7476288188299268096-w1aK
+8	https://www.linkedin.com/posts/panda-restaurant-group_one-year-ago-we-reopened-the-doors-of-our-activity-7395158587146383360-Ubka
+9	https://www.linkedin.com/posts/senthilkumarlakshmanan_defect-bug-life-cycle-as-a-software-activity-7413564273945313280-hzzd
+10	https://www.linkedin.com/posts/vaneet-ahuja-0964bb14_qualityassurance-softwaretesting-aiinsoftwaredevelopment-activity-7477709175519649792-nhQL
+
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "story returned to development" "after QA"	2026-07-21T14:29:10
+SERPER_QUERY	site:linkedin.com/posts story returned to development after QA
+1	https://www.linkedin.com/posts/chovy_qa-softwaredevelopment-engineering-activity-7364931932779933696-VM48
+2	https://www.linkedin.com/posts/piyush-gupta-1a022310_in-qa-i-have-seen-people-lose-many-things-activity-7422133979450953728-jrl3
+3	https://www.linkedin.com/posts/raghvendra-singh-718b72209_every-few-years-someone-declares-qa-is-dead-activity-7457774611015917568-3D7C
+4	https://www.linkedin.com/posts/raghvendra-singh-718b72209_if-i-lost-everything-today-and-had-to-start-activity-7324053425753673728-pf5A
+5	https://www.linkedin.com/posts/raghvendra-singh-718b72209_youll-never-grow-beyond-junior-qa-qa-i-activity-7411756269931257856-BDwC
+6	https://www.linkedin.com/posts/anirban-roy-769b19142_reality-of-qa-from-my-14-years-in-testing-activity-7361328001772384256-zaW0
+7	https://www.linkedin.com/posts/nithya-vimalanathan-0411_qa-softwaretesting-quality-activity-7432557929729347584-Yrfs
+8	https://www.linkedin.com/posts/dhirendra-sinha_from-losing-hope-and-almost-giving-up-to-activity-7305240351106023425-FUPH
+9	https://www.linkedin.com/posts/aiswarya-pl_qualityassurance-qa-careercomeback-activity-7475502668841619457-ae99
+10	https://www.linkedin.com/posts/shahdarshit88_qa-softwaretesting-sdet-activity-7359444702149885953-hi6K
+
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "story returned to development" "QA passed"	2026-07-21T14:29:13
+SERPER_QUERY	site:linkedin.com/posts story returned to development QA passed
+1	https://www.linkedin.com/posts/dariakors_5-years-ago-i-made-a-decision-to-leave-qa-activity-7452615293241094144-z1LM
+2	https://www.linkedin.com/posts/cgregan_week-14-qa-with-claude-code-well-folks-activity-7465428525626351616-uD9M
+3	https://www.linkedin.com/posts/syed-ghayyour-ahmed-54887017_qa-softwaretesting-activity-7454775489593839616-Itjf
+4	https://www.linkedin.com/posts/piyush-gupta-1a022310_%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F-%3F-%3F%3F%3F%3F%3F%3F%3F-activity-7402666806521556992-Glro
+5	https://www.linkedin.com/posts/mohammed-haseeb-ali-khan-25397643_naveenautomationlabs-rahulshettyacademy-aidlc-activity-7453547551980408833-K-PP
+6	https://www.linkedin.com/posts/arungaikwad-engineering-leader_engineeringleadership-softwareengineering-activity-7437471145819361281-1EKL
+7	https://www.linkedin.com/posts/tania-duggal-07a297220_developer-done-ready-for-testing-qa-activity-7442055493482639360-x3rD
+8	https://www.linkedin.com/posts/moneeb-awan_qaengineering-softwaretesting-playwright-activity-7475116502434889728-XZjR
+9	https://www.linkedin.com/posts/danielbloom_ai-claudecode-writtenwithoutai-activity-7457858485389713409-cePO
+10	https://www.linkedin.com/posts/andrewamann_hot-take-the-best-qa-engineers-for-ai-systems-activity-7466161664011464704-XDAv
+
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "product owner rejected" "after QA"	2026-07-21T14:29:15
+SERPER_QUERY	site:linkedin.com/posts product owner rejected after QA
+1	https://www.linkedin.com/posts/shravantickoo_i-once-knew-a-guy-who-got-rejected-from-42-activity-7321153746598539265-baUP
+2	https://www.linkedin.com/posts/shobhitchugh_i-got-rejected-multiple-times-before-finally-activity-7376646392704032769-Q-4o
+3	https://www.linkedin.com/posts/iamgauravpathak_productmanagement-careergrowth-interviewtips-activity-7430454907528323072-wIzu
+4	https://www.linkedin.com/posts/maarten-dalmijn_a-b-c-and-d-are-wrong-if-youre-in-a-situation-activity-7429054532384358400-iqPM
+5	https://www.linkedin.com/posts/awladimirow_years-ago-i-got-rejected-for-a-product-manager-activity-7475455500281675776-PIKt
+6	https://www.linkedin.com/posts/nicholasslavich_getting-rejected-from-a-job-is-inevitable-activity-7419405143219138560-XRsC
+7	https://www.linkedin.com/posts/drbartpm_productmanagement-productmanager-qa-activity-7475492547503779840-9wP3
+8	https://www.linkedin.com/posts/sachin-sharma-product-career-coach_interview-linkedin-corporate-activity-7460240046726721537-NN2x
+9	https://www.linkedin.com/posts/michaeltchu_opinion-rant-qa-activity-7331909521977552896-Zge-
+10	https://www.linkedin.com/posts/jitendrab4u_productowner-scrum-agile-activity-7348310752023166977-B-83
+
+QUERY	story_reopened	reopened_after_qa	site:linkedin.com/posts "product owner rejected" "QA passed"	2026-07-21T14:29:19
+SERPER_QUERY	site:linkedin.com/posts product owner rejected QA passed
+1	https://www.linkedin.com/posts/ronaldglevi_hiring-jobsearch-ats-activity-7457044023149514752-0gvj
+2	https://www.linkedin.com/posts/iamgauravpathak_productmanagement-careergrowth-interviewtips-activity-7430454907528323072-wIzu
+3	https://www.linkedin.com/posts/anupamak15_mastering-key-qa-metrics-defect-leakage-activity-7422888836239908864-TStg
+4	https://www.linkedin.com/posts/bashir-u-327a846a_qualityassurance-hiring-leadership-activity-7381265802051600384-wFH-
+5	https://www.linkedin.com/posts/drbartpm_productmanagement-productmanager-qa-activity-7475492547503779840-9wP3
+6	https://www.linkedin.com/posts/sachin-sharma-product-career-coach_interview-linkedin-corporate-activity-7460240046726721537-NN2x
+7	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+8	https://www.linkedin.com/posts/aman-bharti-b20826aa_unpopular-opinion-product-owner-is-not-activity-7401862759132635136-nihE
+9	https://www.linkedin.com/posts/moneeb-awan_qaengineering-softwaretesting-techcareers-activity-7458463017027117056-CKpd
+10	https://www.linkedin.com/posts/raghvendra-singh-718b72209_every-qa-you-see-today-at-amazon-or-google-activity-7425162074143535105-KtW8
+
+QUERY	story_reopened	sprint_review_rework	site:linkedin.com/posts "story reopened" "sprint review"	2026-07-21T14:29:22
+SERPER_QUERY	site:linkedin.com/posts story reopened sprint review
+1	https://www.linkedin.com/posts/romanpichler_productmanagement-productdiscovery-productdelivery-activity-7353389709680615424-NkZZ
+2	https://www.linkedin.com/posts/shawnwallack_youre-doing-the-sprint-review-all-wrong-activity-7276263390681993217-yS66
+3	https://www.linkedin.com/posts/graysonjulius_beagile-productmanagement-agile-activity-7296033117180424193-8_Qb
+4	https://www.linkedin.com/posts/tochi1_sprintreview-scrummaster-sprintcycleseries-activity-7337806932348436480-OTF4
+5	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+6	https://www.linkedin.com/posts/tejas-sanghavi_agile-scrummaster-jira-activity-7427229908784930817-Fe4o
+7	https://www.linkedin.com/posts/joelbc_gorillamoments-backlogrefinement-agilehumor-activity-7329891047579230208-7akN
+8	https://www.linkedin.com/posts/bo-kristensen-768841_backlog-backlogrefinement-agile-activity-7339202616129638400-nNFj
+9	https://www.linkedin.com/posts/helping-organizations-change_myth-15-the-sprint-review-is-a-demo-activity-7272153811559845888-6XRA
+10	https://www.linkedin.com/posts/chandan-kumar-scrum_%F0%9D%90%92%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%9F%8E-%F0%9D%90%A2%F0%9D%90%A7-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%80-%F0%9D%90%90%F0%9D%90%80-activity-7272588475286069248-NJ36
+
+QUERY	story_reopened	sprint_review_rework	site:linkedin.com/posts "story reopened" "rework"	2026-07-21T14:29:24
+SERPER_QUERY	site:linkedin.com/posts story reopened rework
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/diwakarsinghbamentor_ba-jira-guide-activity-7409829400856313856-C3UD
+3	https://www.linkedin.com/posts/shawnwallack_jira-scriptrunner-queries-for-superusers-activity-7291214586358161411-pS21
+4	https://www.linkedin.com/posts/meet-shah1010_projectmanagement-jira-agile-activity-7406698960964259841-Edz6
+5	https://www.linkedin.com/posts/maximevermeir_ai-has-reopened-the-build-trap-enterprises-activity-7446939025434640384-rpO_
+6	https://www.linkedin.com/posts/pittsburgh-regional-transit_pittsburgh-prt-publictransit-activity-7408967465596133376-6-fY
+7	https://www.linkedin.com/posts/angelawickcbap_most-teams-struggle-with-done-not-because-activity-7398453042511110144-oCZL
+8	https://www.linkedin.com/posts/robert-n-harris_just-put-a-couple-of-things-on-the-dashboard-activity-7473358858783158274-yyUB
+9	https://www.linkedin.com/posts/daniel-mackenzie-72552528_month-end-close-isnt-busy-its-the-quiet-activity-7429872460105412608-r51T
+10	https://www.linkedin.com/posts/michaeltatham_leadership-hiring-coo-activity-7445432393999601664-rFlW
+
+QUERY	story_reopened	sprint_review_rework	site:linkedin.com/posts "story returned to development" "sprint review"	2026-07-21T14:29:27
+SERPER_QUERY	site:linkedin.com/posts story returned to development sprint review
+1	https://www.linkedin.com/posts/barryovereem_the-limitations-of-the-sprint-retrospective-activity-7335931686393638912-7BJM
+2	https://www.linkedin.com/posts/mikewcohn_5-ways-to-get-stakeholders-to-get-involved-activity-7295170098800078848-2ni6
+3	https://www.linkedin.com/posts/agilelearninglabs_spillover-from-one-sprint-to-another-activity-7476273330170494976--A6l
+4	https://www.linkedin.com/posts/mikewcohn_its-been-30-years-since-the-birth-of-scrum-activity-7295843240509853697-HXKE
+5	https://www.linkedin.com/posts/mikewcohn_unclear-user-stories-rarely-stay-contained-activity-7475293720037285890-sR8f
+6	https://www.linkedin.com/posts/scrum-duncan_a-sprint-review-without-stakeholders-is-just-activity-7349374775720378369-l2zO
+7	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+8	https://www.linkedin.com/posts/mikewcohn_your-team-may-be-busy-all-sprint-and-still-activity-7468045855074406400-WFPc
+9	https://www.linkedin.com/posts/yasamanzarezadeh_agile-scrum-sprintreview-activity-7310743110806888448-tC55
+10	https://www.linkedin.com/posts/mikewcohn_scrum-agile-userstories-activity-7409277346559635457-E7vs
+
+QUERY	story_reopened	sprint_review_rework	site:linkedin.com/posts "story returned to development" "rework"	2026-07-21T14:29:31
+SERPER_QUERY	site:linkedin.com/posts story returned to development rework
+1	https://www.linkedin.com/posts/wearecapicua_productleadership-foundermode-shapedclarity-activity-7452367644391038977-qd0h
+2	https://www.linkedin.com/posts/osyshyn_something-is-bothering-me-about-the-custom-activity-7475620176705585152-hNhL
+3	https://www.linkedin.com/posts/zameelhassan_vibecoding-ai-app-activity-7309513406221275137-W3pe
+4	https://www.linkedin.com/posts/sortsites_how-to-turn-a-vague-user-story-into-something-activity-7441468742452125696-HdM5
+5	https://www.linkedin.com/posts/angelawickcbap_requirements-gathering-fails-when-ba-walks-activity-7396532656064270336-vkeW
+6	https://www.linkedin.com/posts/neilawalker_throughflow-agilemetrics-leadership-activity-7398803686686093312-m7NS
+7	https://www.linkedin.com/posts/devopsto_agile-flow-sdlc-activity-7407881839765487616--k0Y
+8	https://www.linkedin.com/posts/kahrens_everyone-wants-to-build-an-ai-software-factory-activity-7477471434362159104-6Jrk
+9	https://www.linkedin.com/posts/sandeepgokhale_ai-wont-replace-junior-engineers-it-will-activity-7411617035656441856-_VUY
+10	https://www.linkedin.com/posts/diego-rigazio-584638122_definitionofready-edgecases-rework-activity-7436966217313099776-AeLU
+
+QUERY	story_reopened	sprint_review_rework	site:linkedin.com/posts "product owner rejected" "sprint review"	2026-07-21T14:29:34
+SERPER_QUERY	site:linkedin.com/posts product owner rejected sprint review
+1	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+2	https://www.linkedin.com/posts/vinay-kumar-sadineni_sprintreview-agile-scrummaster-activity-7399665919645372416-e0G_
+3	https://www.linkedin.com/posts/maarten-dalmijn_a-b-c-and-d-are-wrong-if-youre-in-a-situation-activity-7429054532384358400-iqPM
+4	https://www.linkedin.com/posts/romanpichler_productmanagement-productdiscovery-productdelivery-activity-7353389709680615424-NkZZ
+5	https://www.linkedin.com/posts/mohammad-javaid-hamid-a2090636_pmp-question-21-your-team-is-working-on-activity-7362228037997780993-r_Qb
+6	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+7	https://www.linkedin.com/posts/simon-%C3%A0-campo_if-your-sprint-review-doesnt-change-decisions-activity-7427712361337245696--Ypx
+8	https://www.linkedin.com/posts/scrum-duncan_a-sprint-review-without-stakeholders-is-just-activity-7349374775720378369-l2zO
+9	https://www.linkedin.com/posts/ameralipmp_to-master-the-pmp-exam-you-must-master-agile-activity-7485329186191237120-F9mb
+10	https://www.linkedin.com/posts/mikewcohn_its-been-30-years-since-the-birth-of-scrum-activity-7295843240509853697-HXKE
+
+QUERY	story_reopened	sprint_review_rework	site:linkedin.com/posts "product owner rejected" "rework"	2026-07-21T14:29:37
+SERPER_QUERY	site:linkedin.com/posts product owner rejected rework
+1	https://www.linkedin.com/posts/patrickgiwa_a-typical-day-in-the-life-of-a-product-owner-activity-7265031218990084096-8_QH
+2	https://www.linkedin.com/posts/patrickgiwa_she-delivered-value-without-managing-developers-activity-7384913620897304577-Dw5g
+3	https://www.linkedin.com/posts/jitendrab4u_productowner-scrum-agile-activity-7348310752023166977-B-83
+4	https://www.linkedin.com/posts/etnlbck_one-year-as-a-product-owner-what-i-learned-activity-7381703318567346177-EhIX
+5	https://www.linkedin.com/posts/lukehohmann_productmanager-productowner-agile-activity-7383853074567766018-_fs8
+6	https://www.linkedin.com/posts/drbartpm_productmanagement-productmanager-teamspirit-activity-7353756554908647425-yuai
+7	https://www.linkedin.com/posts/jennifer-decesari-a22ab36_not-all-product-roles-are-created-equal-activity-7300522541985480705-WBVp
+8	https://www.linkedin.com/posts/akshaykumawat27_top-20-senior-product-owner-interview-questions-activity-7427237506548609024-BYBa
+9	https://www.linkedin.com/posts/aagupta_most-product-managers-think-theyre-doing-activity-7269548081996615681-d9Y0
+10	https://www.linkedin.com/posts/jitendrab4u_%F0%9D%90%93%F0%9D%90%A8%F0%9D%90%A9-5-%F0%9D%90%8C%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%88-%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%9A%F0%9D%90%AC-activity-7375726429696634880-ffRT
+
+QUERY	story_reopened	missing_edge_case	site:linkedin.com/posts "story reopened" "edge case"	2026-07-21T14:29:40
+SERPER_QUERY	site:linkedin.com/posts story reopened edge case
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/paul-thomas-mchenry-8b7206a_when-barry-mccarthy-walked-into-peloton-activity-7424406302682079232-dDgd
+3	https://www.linkedin.com/posts/robert-n-harris_just-put-a-couple-of-things-on-the-dashboard-activity-7473358858783158274-yyUB
+4	https://www.linkedin.com/posts/wal-nut_5-test-types-ai-test-case-gen-covers-per-activity-7468134438049292288-T6ay
+5	https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineer-activity-7417468097693143040-qov0
+6	https://www.linkedin.com/posts/brettlevenson_your-guardrails-are-just-vibes-moonbounceio-activity-7448470702782967808-PMT9
+7	https://www.linkedin.com/posts/bode-technology_cold-case-involving-death-of-7-year-old-solved-activity-7272996137534373888-HmZE
+8	https://www.linkedin.com/posts/joshagardner_the-most-dangerous-person-in-the-room-isnt-activity-7472153173747740672-TXFs
+9	https://www.linkedin.com/posts/cgregan_week-14-qa-with-claude-code-well-folks-activity-7465428525626351616-uD9M
+10	https://www.linkedin.com/posts/stephanieevergreen_if-you-want-to-be-a-great-data-storyteller-activity-7429936697150341120-kOBO
+
+QUERY	story_reopened	missing_edge_case	site:linkedin.com/posts "story reopened" "business rule"	2026-07-21T14:29:42
+SERPER_QUERY	site:linkedin.com/posts story reopened business rule
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/lucky-tech-world_servicenow-businessrule-itsm-activity-7422849062279909377-k43P
+3	https://www.linkedin.com/posts/vishwajith-kalubadanage-42183011a_servicenow-itsm-servicenowdeveloper-activity-7431101161769742337-2Avr
+4	https://www.linkedin.com/posts/meetjimspaeth_if-anyone-doubts-the-seriousness-of-my-unc-activity-7445250227772645378-lsxk
+5	https://www.linkedin.com/posts/bwilson85_servicenow-servicenowcommunity-onlyflows-activity-7447040507999989760-W-G-
+6	https://www.linkedin.com/posts/lindseyirvine_irl-in-real-life-marketing-lets-go-activity-7426978707145302016-_pwL
+7	https://www.linkedin.com/posts/karl-graham-luminus_we-failed-one-year-ago-we-started-a-garage-activity-7256979463060533248-AXxk
+8	https://www.linkedin.com/posts/bwilson85_servicenow-techhumor-itlife-activity-7444141380802895872-AT1O
+9	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+10	https://www.linkedin.com/posts/cnbc-tv18_thethoughtleague-season03-leadershipinlaw-activity-7378749312421380096-fI6w
+
+QUERY	story_reopened	missing_edge_case	site:linkedin.com/posts "story returned to development" "edge case"	2026-07-21T14:29:46
+SERPER_QUERY	site:linkedin.com/posts story returned to development edge case
+1	https://www.linkedin.com/posts/antonnaumenko_are-we-back-to-waterfall-thats-the-uncomfortable-activity-7434795575939645440-_7ZQ
+2	https://www.linkedin.com/posts/simonmartinelli_use-cases-vs-user-stories-same-content-activity-7433068467622342656-OLq5
+3	https://www.linkedin.com/posts/chovy_qa-softwaredevelopment-engineering-activity-7364931932779933696-VM48
+4	https://www.linkedin.com/posts/brunofortunato_storydrivendevelopment-softwareengineering-activity-7434894358115508224-n4TF
+5	https://www.linkedin.com/posts/shanifdhanani_i-recently-started-work-on-a-project-that-activity-7376680574557581312-aP1V
+6	https://www.linkedin.com/posts/olgamack_for-a-long-time-we-treated-edge-cases-as-activity-7478833220172795905-9qJk
+7	https://www.linkedin.com/posts/timdmorris_same-as-it-ever-was-as-a-slightly-greying-activity-7444291912066494465-6b_8
+8	https://www.linkedin.com/posts/baruchsachsvalueinnovation_ai-pega-catalyst-activity-7358481366004469760-OgEz
+9	https://www.linkedin.com/posts/vineettyagi1973_softwareengineering-engineeringleadership-activity-7469950152724869120-k3-Z
+10	https://www.linkedin.com/posts/melissajeanperri_stop-trying-to-perfect-features-before-development-activity-7379840179613880320-L_CN
+
+QUERY	story_reopened	missing_edge_case	site:linkedin.com/posts "story returned to development" "business rule"	2026-07-21T14:29:49
+SERPER_QUERY	site:linkedin.com/posts story returned to development business rule
+1	https://www.linkedin.com/posts/sarthak-kachare_servicenow-business-rules-activity-7397363124766601216-njp5
+2	https://www.linkedin.com/posts/madhu-vyshnavi-67807127a_servicenow-businessrule-technotes-activity-7366883668906147840-8MBu
+3	https://www.linkedin.com/posts/victoria-oni-_display-bussiness-rule-activity-7375554098483490816-0tFX
+4	https://www.linkedin.com/posts/lucky-tech-world_servicenow-businessrule-itsm-activity-7422849062279909377-k43P
+5	https://www.linkedin.com/posts/diwakarsinghbamentor_frd-activity-7391471453365248000-VzuB
+6	https://www.linkedin.com/posts/pulla-sai-preethika_day28-nickundh-servicenow-activity-7355228508073177088-eDcC
+7	https://www.linkedin.com/posts/abhijeetnagtode_servicenow-devjourney-learninginpublic-activity-7373947765061562368-yv5k
+8	https://www.linkedin.com/posts/mikewcohn_when-a-team-says-this-story-cant-be-split-activity-7475655999488466944-JSNT
+9	https://www.linkedin.com/posts/vishwajith-kalubadanage-42183011a_servicenow-itsm-servicenowdeveloper-activity-7431101161769742337-2Avr
+10	https://www.linkedin.com/posts/kawan-soni-352297134_productmanagement-userstories-agile-activity-7346184992886005761-lme_
+
+QUERY	story_reopened	missing_edge_case	site:linkedin.com/posts "product owner rejected" "edge case"	2026-07-21T14:29:53
+SERPER_QUERY	site:linkedin.com/posts product owner rejected edge case
+1	https://www.linkedin.com/posts/patrickgiwa_a-typical-day-in-the-life-of-a-product-owner-activity-7265031218990084096-8_QH
+2	https://www.linkedin.com/posts/shobhitchugh_i-got-rejected-multiple-times-before-finally-activity-7376646392704032769-Q-4o
+3	https://www.linkedin.com/posts/drbartpm_productmanagement-productmanager-teamspirit-activity-7353756554908647425-yuai
+4	https://www.linkedin.com/posts/angelawickcbap_businessanalyst-businessanalysis-productmanagement-activity-7467651611952062464-kviI
+5	https://www.linkedin.com/posts/aagupta_when-i-was-vp-of-product-i-used-this-exact-activity-7347386108827123713-gv38
+6	https://www.linkedin.com/posts/zfmuhammad_been-noticing-an-interesting-trend-lately-activity-7462499022759428096-JeFd
+7	https://www.linkedin.com/posts/deblina-boral_completed-a-google-interview-last-month-activity-7404469506540154880-kN6c
+8	https://www.linkedin.com/posts/mikesadvice_10-things-that-will-sink-a-new-product-manager-activity-7287632606228013057-Ag0-
+9	https://www.linkedin.com/posts/fabian-kleeberger_youre-the-pm-everyone-expects-clarity-activity-7323972046370009088-4SXx
+10	https://www.linkedin.com/posts/sstruan_why-did-my-application-get-rejected-in-minutes-activity-7270081083935805440-8aww
+
+QUERY	story_reopened	missing_edge_case	site:linkedin.com/posts "product owner rejected" "business rule"	2026-07-21T14:29:55
+SERPER_QUERY	site:linkedin.com/posts product owner rejected business rule
+1	https://www.linkedin.com/posts/muhammad-ahmad-50483975_owned-prioritized-collaborated-activity-7338180693304209408-6By9
+2	https://www.linkedin.com/posts/aman-bharti-b20826aa_unpopular-opinion-product-owner-is-not-activity-7401862759132635136-nihE
+3	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+4	https://www.linkedin.com/posts/komal-jaiswal-31a78b66_businessanalysis-businessanalyst-businessrules-activity-7460903070529425409-DgAP
+5	https://www.linkedin.com/posts/komal-pasari-542b11103_productmanagement-userpainpoints-rapido-activity-7457365449039618048-qQ8v
+6	https://www.linkedin.com/posts/igor-voth-47892329_scrum-is-not-product-management-this-is-activity-7437814962636587008-2wMx
+7	https://www.linkedin.com/posts/jenthai_im-not-a-predictions-person-ask-me-what-activity-7482995347741364225-KOGu
+8	https://www.linkedin.com/posts/jitendrab4u_%F0%9D%90%93%F0%9D%90%A8%F0%9D%90%A9-5-%F0%9D%90%8C%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%88-%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%9A%F0%9D%90%AC-activity-7375726429696634880-ffRT
+9	https://www.linkedin.com/posts/kttross_i-dont-put-business-owner-on-my-resume-activity-7360777047901720576-C3wq
+10	https://www.linkedin.com/posts/brandonfluharty_purposefulperformer-activity-7375173233186185216-EQbk
+
+QUERY	dev_qa_ping_pong	different_interpretations	site:linkedin.com/posts "Dev QA" "different interpretations"	2026-07-21T14:29:58
+SERPER_QUERY	site:linkedin.com/posts Dev QA different interpretations
+1	https://www.linkedin.com/posts/kolade-orimolade_who-should-use-the-dev-environment-for-testing-activity-7419336159928963072-K1nL
+2	https://www.linkedin.com/posts/elena-bartash_a-few-years-ago-i-noticed-a-funny-pattern-activity-7473661996299649025-5icU
+3	https://www.linkedin.com/posts/danieljdougherty_a-lot-of-qa-teams-are-still-spending-their-activity-7454915973897195520-jW4d
+4	https://www.linkedin.com/posts/nathan-glatus_you-dont-really-notice-what-experienced-activity-7457820095306772480-zIbv
+5	https://www.linkedin.com/posts/greenjosh_in-the-video-game-industry-quality-assurance-activity-7431842642411347969-W8iG
+6	https://www.linkedin.com/posts/nichita-ialivciuc_a-bug-in-production-is-not-a-qa-failure-activity-7483121910780739584-_A4a
+7	https://www.linkedin.com/posts/haider-shahzad-44883722b_qualityassurance-softwaretesting-qaengineer-activity-7473245415664934912-lSnl
+8	https://www.linkedin.com/posts/jeffputz_did-we-make-a-mistake-pivoting-away-from-activity-7354154730501160962-BMw0
+9	https://www.linkedin.com/posts/paulgkanaris_this-question-keeps-coming-up-why-cant-activity-7458143000158904320-D5lK
+10	https://www.linkedin.com/posts/jenthai_ill-be-the-first-to-put-my-hand-up-and-say-activity-7431903547748737024-g270
+
+QUERY	dev_qa_ping_pong	different_interpretations	site:linkedin.com/posts "Dev QA" "interpreted differently"	2026-07-21T14:30:01
+SERPER_QUERY	site:linkedin.com/posts Dev QA interpreted differently
+1	https://www.linkedin.com/posts/ben-f-44778426_qualityassurance-software-testing-activity-7313537083325706240-ZYvW
+2	https://www.linkedin.com/posts/neha-solanki-54913313a_softwaretesting-qa-developers-activity-7375067669068328960-UGzK
+3	https://www.linkedin.com/posts/semishan_qa-testing-openforwork-activity-7304816328803033088-FXpu
+4	https://www.linkedin.com/posts/niharika-gupta-8aa423165_qa-dev-testing-activity-7378651068525625344-5MpB
+5	https://www.linkedin.com/posts/chehani-jayawardena_why-qadev-conflicts-happen-and-how-a-activity-7428085206928080896-zRpa
+6	https://www.linkedin.com/posts/samuel-bermudez_qualityassurance-softwareengineering-qa-activity-7355701470307962881-z82r
+7	https://www.linkedin.com/posts/lukasz-musch_qa-softwareengineering-engineeringleadership-activity-7310201285197152256-shvv
+8	https://www.linkedin.com/posts/kadiryapar_lifeinqa-dayinthelife-softwaretesting-activity-7323288519559249920-EPYe
+9	https://www.linkedin.com/posts/amarnath-rao-sulake-06994592_softwareengineering-qualityassurance-testing-activity-7473617032534581248-OKTm
+10	https://www.linkedin.com/posts/raghvendra-singh-718b72209_if-i-wanted-to-crack-a-qa-role-at-amazon-activity-7364643054902738946-AkEF
+
+QUERY	dev_qa_ping_pong	different_interpretations	site:linkedin.com/posts "QA disagreement" "different interpretations"	2026-07-21T14:30:03
+SERPER_QUERY	site:linkedin.com/posts QA disagreement different interpretations
+1	https://www.linkedin.com/posts/r-venkatesan-47a7321a_qainspectors-qcinspectors-activity-7419982273837572096-dTGe
+2	https://www.linkedin.com/posts/ben-f-44778426_kind-of-a-bigger-thought-but-if-you-strip-activity-7424807692428484608-fyGM
+3	https://www.linkedin.com/posts/revathivadlamudi_it-worked-in-qa-it-failed-in-prod-here-activity-7414659923814469632-F-mJ
+4	https://www.linkedin.com/posts/shawnwallack_bugs-vs-defects-is-there-really-a-difference-activity-7353867760424128513-xcxV
+5	https://www.linkedin.com/posts/dhruv-suyamprakasam-49005b17_if-two-models-disagree-which-one-is-wrong-activity-7444901063180054529-10h3
+6	https://www.linkedin.com/posts/shahid-hussain-80a56511b_difference-between-qa-and-qc-1-quality-activity-7411681932251652097-kVYZ
+7	https://www.linkedin.com/posts/alison-l-coops_crucialconversations-communicationskills-activity-7467574922077159424-JTeM
+8	https://www.linkedin.com/posts/covent-it_at-covent-it-know-grow-delivery-team-workshops-activity-7434936785496985600-dDb3
+9	https://www.linkedin.com/posts/sophiewardell_conflict-opposition-communication-activity-7331195726523154433-I1NR
+10	https://www.linkedin.com/posts/muhammad-abid3376_qaengineering-softwaretesting-qualityfirst-activity-7419715206156587008-kY1N
+
+QUERY	dev_qa_ping_pong	different_interpretations	site:linkedin.com/posts "QA disagreement" "interpreted differently"	2026-07-21T14:30:06
+SERPER_QUERY	site:linkedin.com/posts QA disagreement interpreted differently
+1	https://www.linkedin.com/posts/ben-f-44778426_kind-of-a-bigger-thought-but-if-you-strip-activity-7424807692428484608-fyGM
+2	https://www.linkedin.com/posts/sophiewardell_conflict-opposition-communication-activity-7331195726523154433-I1NR
+3	https://www.linkedin.com/posts/karan-mehra-57769134_ive-lost-count-of-how-many-times-ive-heard-activity-7424021322554363904-29d5
+4	https://www.linkedin.com/posts/prabsharan-singh_qualityassurance-softwaretesting-qa-activity-7427670763161407488-WO2H
+5	https://www.linkedin.com/posts/jana-bou-ghader_growth-positivemindset-improvement-activity-7377046558300590080-hHl8
+6	https://www.linkedin.com/posts/kevinaxellino_want-to-be-a-qa-engineer-try-answering-these-activity-7294706280244334592-AxVz
+7	https://www.linkedin.com/posts/lae-lae-shwe-0971b420a_qa-softwaretesting-qualityassurance-activity-7425390478369431552-aNVq
+8	https://www.linkedin.com/posts/namita-naik-flawsomeimage_flawsomeme-communicationtrainer-leadershipdevelopment-activity-7482763866985132032-Azvw
+9	https://www.linkedin.com/posts/thomasnys_%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%AC-%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%F0%9D%90%B0-%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%AD-activity-7396224711086518272-8D-P
+10	https://www.linkedin.com/posts/colinadam_one-of-the-questions-that-has-surfaced-activity-7472987130479341570-HCTP
+
+QUERY	dev_qa_ping_pong	different_interpretations	site:linkedin.com/posts "developer QA" "different interpretations"	2026-07-21T14:30:09
+SERPER_QUERY	site:linkedin.com/posts developer QA different interpretations
+1	https://www.linkedin.com/posts/paulgkanaris_this-question-keeps-coming-up-why-cant-activity-7458143000158904320-D5lK
+2	https://www.linkedin.com/posts/nathan-glatus_you-dont-really-notice-what-experienced-activity-7457820095306772480-zIbv
+3	https://www.linkedin.com/posts/arman-ayvazyan_hey-qa-folks-while-working-on-my-test-activity-7302405458261073920-pkt_
+4	https://www.linkedin.com/posts/kolade-orimolade_who-should-use-the-dev-environment-for-testing-activity-7419336159928963072-K1nL
+5	https://www.linkedin.com/posts/domagojbagaric_how-do-you-know-if-a-developer-is-actually-activity-7384888555749314560-Kz5y
+6	https://www.linkedin.com/posts/rakesh-ranjan-b85606352_qawisdom-softwaretesting-qa-activity-7429737693443481600-uCMm
+7	https://www.linkedin.com/posts/precious-evhameh-246789268_30daysofbugs-qa-softwaretesting-activity-7398042911411605504-CU54
+8	https://www.linkedin.com/posts/tanyaloera_qa-is-about-communication-as-much-as-activity-7370917106009186304-guW6
+9	https://www.linkedin.com/posts/tom-sabine-678778132_lets-talk-about-the-ongoing-feud-between-activity-7417170595223609344-a17E
+10	https://www.linkedin.com/posts/revathivadlamudi_it-worked-in-qa-it-failed-in-prod-here-activity-7414659923814469632-F-mJ
+
+QUERY	dev_qa_ping_pong	different_interpretations	site:linkedin.com/posts "developer QA" "interpreted differently"	2026-07-21T14:30:12
+SERPER_QUERY	site:linkedin.com/posts developer QA interpreted differently
+1	https://www.linkedin.com/posts/ben-f-44778426_qualityassurance-software-testing-activity-7313537083325706240-ZYvW
+2	https://www.linkedin.com/posts/semishan_qa-testing-openforwork-activity-7304816328803033088-FXpu
+3	https://www.linkedin.com/posts/dinesh-chand-aa04a322a_wait-you-actually-write-manual-test-cases-activity-7354904113471475712-W0dl
+4	https://www.linkedin.com/posts/engrmaryamshahzad_been-deep-diving-into-qa-and-honestly-seeing-activity-7307748278165540864-DU0O
+5	https://www.linkedin.com/posts/alex-lushchenko-15b44942_qa-and-developers-not-opponents-but-activity-7330138132014698496-n6k-
+6	https://www.linkedin.com/posts/neha-solanki-54913313a_softwaretesting-qa-developers-activity-7375067669068328960-UGzK
+7	https://www.linkedin.com/posts/volhababan_this-qa-book-should-be-required-reading-activity-7475541125974552576-WwBZ
+8	https://www.linkedin.com/posts/aleksandra-gontarz_qaengineer-softwaretesting-impostersyndrome-activity-7352032804605431808-mfPp
+9	https://www.linkedin.com/posts/samuel-bermudez_qualityassurance-softwareengineering-qa-activity-7355701470307962881-z82r
+10	https://www.linkedin.com/posts/archana-virkar_team-qa-softwaretesting-activity-7377516271820488705-l5l2
+
+QUERY	dev_qa_ping_pong	ambiguous_acceptance_criteria	site:linkedin.com/posts "Dev QA" "ambiguous acceptance criteria"	2026-07-21T14:30:15
+SERPER_QUERY	site:linkedin.com/posts Dev QA ambiguous acceptance criteria
+1	https://www.linkedin.com/posts/uday-sai-kollati-5594aa29b_acceptance-criteria-activity-7428390708346060800-MWKC
+2	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+3	https://www.linkedin.com/posts/shruti-mittu_qualityassurance-softwaretesting-productmindset-activity-7341850094868078593--tiE
+4	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+5	https://www.linkedin.com/posts/smb123_qualityengineering-testingtransformation-activity-7331194102639702017-7qEj
+6	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+7	https://www.linkedin.com/posts/ranjit-appukutti-b22350110_qualityassurance-agile-scrum-activity-7362387768599089153-4c9e
+8	https://www.linkedin.com/posts/neesha-puneriya-838126279_qualityassurance-testwithpurpose-agiletesting-activity-7357428041112842240-29c9
+9	https://www.linkedin.com/posts/lalitha-ch-21762bb9_scrum-agile-projectmanagement-activity-7405114083370278912-SgaA
+10	https://www.linkedin.com/posts/waseem-nawaz-19b30611b_agile-scrum-qualityassurance-activity-7369314001429741570-Oc-G
+
+QUERY	dev_qa_ping_pong	ambiguous_acceptance_criteria	site:linkedin.com/posts "Dev QA" "unclear acceptance criteria"	2026-07-21T14:30:17
+SERPER_QUERY	site:linkedin.com/posts Dev QA unclear acceptance criteria
+1	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+2	https://www.linkedin.com/posts/shruti-mittu_qualityassurance-softwaretesting-productmindset-activity-7341850094868078593--tiE
+3	https://www.linkedin.com/posts/kayinsolasaheedofficial_how-to-write-acceptance-criteria-that-actually-activity-7443227167737593856-VYdh
+4	https://www.linkedin.com/posts/garapati_from-velocity-to-flow-giving-qa-the-time-activity-7373773874573983745-Moge
+5	https://www.linkedin.com/posts/ranjit-appukutti-b22350110_qualityassurance-agile-scrum-activity-7362387768599089153-4c9e
+6	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+7	https://www.linkedin.com/posts/eugenecrous_a-few-weeks-ago-i-said-if-qa-is-your-final-activity-7377256408607633409-Al5Z
+8	https://www.linkedin.com/posts/ruan-amos-qa_qa-agiletesting-scrum-activity-7383659808001867777-kX8h
+9	https://www.linkedin.com/posts/favour-onyejekwe-623243228_testing-without-fully-understanding-the-acceptance-activity-7419627623309524992-Mt6x
+10	https://www.linkedin.com/posts/testinginsights-mukta-sharma_testlead-testlead-qalead-activity-7292140062702460929-jhOm
+
+QUERY	dev_qa_ping_pong	ambiguous_acceptance_criteria	site:linkedin.com/posts "QA disagreement" "ambiguous acceptance criteria"	2026-07-21T14:30:20
+SERPER_QUERY	site:linkedin.com/posts QA disagreement ambiguous acceptance criteria
+1	https://www.linkedin.com/posts/kemiller2002_one-assumption-keeps-showing-up-in-software-activity-7482094520801603584-7eMP
+2	https://www.linkedin.com/posts/waseem-nawaz-19b30611b_agile-scrum-qualityassurance-activity-7369314001429741570-Oc-G
+3	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+4	https://www.linkedin.com/posts/testinginsights-mukta-sharma_qalead-qualityassurancelead-testlead-activity-7283399717923741696-4HD-
+5	https://www.linkedin.com/posts/dineshkulkarniqa_the-requirement-document-said-one-thing-activity-7473629768899366913-vA2O
+6	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+7	https://www.linkedin.com/posts/frozeneon_qa-influence-product-decisions-much-earlier-activity-7434870459478884352-wxxX
+8	https://www.linkedin.com/posts/imnoreenfatima_clarity-alignment-measurable-activity-7238821032948621312-O7LN
+9	https://www.linkedin.com/posts/micha_thats-the-wrongest-argument-i-have-read-activity-7458262588905156608-Cz6s
+10	https://www.linkedin.com/posts/aaronevans_the-biggest-challenge-i-see-in-qa-is-not-activity-7384970502009896960--gxo
+
+QUERY	dev_qa_ping_pong	ambiguous_acceptance_criteria	site:linkedin.com/posts "QA disagreement" "unclear acceptance criteria"	2026-07-21T14:30:25
+SERPER_QUERY	site:linkedin.com/posts QA disagreement unclear acceptance criteria
+1	https://www.linkedin.com/posts/ben-f-44778426_kind-of-a-bigger-thought-but-if-you-strip-activity-7424807692428484608-fyGM
+2	https://www.linkedin.com/posts/arungaikwad-engineering-leader_engineeringleadership-softwareengineering-activity-7437471145819361281-1EKL
+3	https://www.linkedin.com/posts/iyanuoluwa-adeyemi-89a89a23b_day-69-of-pm-dairies-collaborating-with-activity-7396131495561793536-8LQK
+4	https://www.linkedin.com/posts/ruan-amos-qa_qa-qualityengineering-automation-activity-7388710995570896896-d1nX
+5	https://www.linkedin.com/posts/angelos-mavrogiannakis-0b1379b_sometimes-the-pursue-for-quality-culture-activity-7430336241881088000-UFu-
+6	https://www.linkedin.com/posts/curiouslearner_your-qa-engineers-didnt-study-computer-science-activity-7426283974794268672-0e_b
+7	https://www.linkedin.com/posts/faisalkhatri_the-real-struggles-of-software-testers-challenges-activity-7424243768003960832-fVL9
+8	https://www.linkedin.com/posts/marcelmunro_a-thought-for-qa-and-product-teams-if-we-activity-7436259104580321280-LVee
+9	https://www.linkedin.com/posts/ashika-shahjahan_agile-scrummaster-productdevelopment-activity-7386688754649976832-1vvR
+10	https://www.linkedin.com/posts/qadence-ai_most-qa-backlogs-dont-need-more-resources-activity-7412857678026211328-MXKO
+
+QUERY	dev_qa_ping_pong	ambiguous_acceptance_criteria	site:linkedin.com/posts "developer QA" "ambiguous acceptance criteria"	2026-07-21T14:30:28
+SERPER_QUERY	site:linkedin.com/posts developer QA ambiguous acceptance criteria
+1	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+2	https://www.linkedin.com/posts/shruti-mittu_qualityassurance-softwaretesting-productmindset-activity-7341850094868078593--tiE
+3	https://www.linkedin.com/posts/uday-sai-kollati-5594aa29b_acceptance-criteria-activity-7428390708346060800-MWKC
+4	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+5	https://www.linkedin.com/posts/smb123_qualityengineering-testingtransformation-activity-7331194102639702017-7qEj
+6	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+7	https://www.linkedin.com/posts/ranjit-appukutti-b22350110_qualityassurance-agile-scrum-activity-7362387768599089153-4c9e
+8	https://www.linkedin.com/posts/piyushrahate_bdd-scrummaster-agiletransformation-activity-7464935587079303168-CSqk
+9	https://www.linkedin.com/posts/lalitha-ch-21762bb9_scrum-agile-projectmanagement-activity-7405114083370278912-SgaA
+10	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+
+QUERY	dev_qa_ping_pong	ambiguous_acceptance_criteria	site:linkedin.com/posts "developer QA" "unclear acceptance criteria"	2026-07-21T14:30:31
+SERPER_QUERY	site:linkedin.com/posts developer QA unclear acceptance criteria
+1	https://www.linkedin.com/posts/mission-qa-365_softwaretesting-softwaredevelopment-agile-activity-7406703172926312448-QLSs
+2	https://www.linkedin.com/posts/shruti-mittu_qualityassurance-softwaretesting-productmindset-activity-7341850094868078593--tiE
+3	https://www.linkedin.com/posts/testinginsights-mukta-sharma_testlead-testlead-qalead-activity-7292140062702460929-jhOm
+4	https://www.linkedin.com/posts/tuhinmas_softwaredevelopment-agile-devlife-activity-7395000197375787008-PTkw
+5	https://www.linkedin.com/posts/peter-wilson-10383157_quality-qa-softwaretesting-activity-7425178040961306624-IDq6
+6	https://www.linkedin.com/posts/smb123_qualityengineering-testingtransformation-activity-7331194102639702017-7qEj
+7	https://www.linkedin.com/posts/robsarro_qateam-sprintplanning-agilepractices-activity-7340343643855093762-6opQ
+8	https://www.linkedin.com/posts/vivek-mishra-b9339717a_softwaredevelopment-qualityassurance-devops-activity-7457738520955187200-_EHo
+9	https://www.linkedin.com/posts/zheng-li-8082582_it-is-common-for-many-qa-teams-but-it-is-activity-7397632227045482497-W4NQ
+10	https://www.linkedin.com/posts/ranjit-appukutti-b22350110_qualityassurance-agile-scrum-activity-7362387768599089153-4c9e
+
+QUERY	dev_qa_ping_pong	repeated_rework	site:linkedin.com/posts "Dev QA" "rework"	2026-07-21T14:30:35
+SERPER_QUERY	site:linkedin.com/posts Dev QA rework
+1	https://www.linkedin.com/posts/jeremiah-de-leon-sqa_rework-is-one-of-the-most-expensive-forms-activity-7344031720289030145-hrUk
+2	https://www.linkedin.com/posts/jeremiah-de-leon-sqa_developers-at-most-saas-companies-spend-more-activity-7475618133966249984-VdOM
+3	https://www.linkedin.com/posts/nishil-p-70639765_devs-qas-bugs-activity-7330109254256771072-0HfX
+4	https://www.linkedin.com/posts/youssefashrafofficial_technicalprojectmanagement-ai-productmanagement-activity-7475259098645639168-s4oU
+5	https://www.linkedin.com/posts/gregmunt_ive-encountered-a-number-of-developers-that-activity-7375970408757612544-jtSl
+6	https://www.linkedin.com/posts/kolade-orimolade_who-should-use-the-dev-environment-for-testing-activity-7419336159928963072-K1nL
+7	https://www.linkedin.com/posts/higor-mesquita_how-communication-between-qa-and-devs-helps-activity-7361207378509205504-Muxj
+8	https://www.linkedin.com/posts/vijopv83_developer-vs-qa-activity-7341885495490068480-I3Ck
+9	https://www.linkedin.com/posts/ben-f-44778426_the-engineer-best-positioned-to-absolutely-activity-7428135891082047488-S65A
+10	https://www.linkedin.com/posts/ryan-nasir-a8074665_qa-doesnt-slow-teams-down-rework-does-activity-7428362481724469248-jaWi
+
+QUERY	dev_qa_ping_pong	repeated_rework	site:linkedin.com/posts "Dev QA" "returned to development"	2026-07-21T14:30:40
+SERPER_QUERY	site:linkedin.com/posts Dev QA returned to development
+1	https://www.linkedin.com/posts/chovy_qa-softwaredevelopment-engineering-activity-7364931932779933696-VM48
+2	https://www.linkedin.com/posts/gregmunt_unpopular-opinion-qa-is-destroying-software-activity-7355276570074181632-LMgB
+3	https://www.linkedin.com/posts/agolubev_devs-build-it-qa-breaks-it-rinse-repeat-activity-7338632033310543872-9kz6
+4	https://www.linkedin.com/posts/sergey-demyanenko_students-at-red-rover-school-often-ask-me-activity-7457591237412569088-Ymb6
+5	https://www.linkedin.com/posts/volhababan_why-i-went-from-developer-to-pm-back-to-qa-activity-7475891826156163072-1cgp
+6	https://www.linkedin.com/posts/nithya-vimalanathan-0411_qa-softwaretesting-quality-activity-7432557929729347584-Yrfs
+7	https://www.linkedin.com/posts/mattwatsonkc_qa-is-the-new-bottleneck-of-software-engineering-activity-7443281193422417920-cP4p
+8	https://www.linkedin.com/posts/alex-lushchenko-15b44942_qa-and-developers-not-opponents-but-activity-7330138132014698496-n6k-
+9	https://www.linkedin.com/posts/anirban-roy-769b19142_reality-of-qa-from-my-14-years-in-testing-activity-7361328001772384256-zaW0
+10	https://www.linkedin.com/posts/brandoncasci_ai-aitransformation-softwaredevelopment-activity-7475919945965465601-z2QW
+
+QUERY	dev_qa_ping_pong	repeated_rework	site:linkedin.com/posts "QA disagreement" "rework"	2026-07-21T14:30:44
+SERPER_QUERY	site:linkedin.com/posts QA disagreement rework
+1	https://www.linkedin.com/posts/nivedhini-ramesh-874b56a4_scrummaster-conflictresolution-agileleadership-activity-7408481641620242432-8ESz
+2	https://www.linkedin.com/posts/nishil-p-70639765_devs-qas-bugs-activity-7330109254256771072-0HfX
+3	https://www.linkedin.com/posts/hasnain-nizami_qavsproduction-qualityassurance-qualitycontrol-activity-7374253346498641920-EYgM
+4	https://www.linkedin.com/posts/testinginsights-mukta-sharma_qalead-qualityassurancelead-testlead-activity-7283399717923741696-4HD-
+5	https://www.linkedin.com/posts/nishil-p-70639765_qa-developers-testing-activity-7326120669694328832-CpxK
+6	https://www.linkedin.com/posts/mayank-patel-94831921b_a-qa-engineer-doesnt-disagree-with-the-developer-activity-7392933047526121473-lgEz
+7	https://www.linkedin.com/posts/volhababan_3-things-i-got-wrong-as-a-junior-qa-engineer-activity-7445395316150878208-DVKN
+8	https://www.linkedin.com/posts/chovy_qa-softwaredevelopment-engineering-activity-7364931932779933696-VM48
+9	https://www.linkedin.com/posts/aditya-moghe-74801042_softwaredevelopment-qualityassurance-collaboration-activity-7326085198465433600-kMIg
+10	https://www.linkedin.com/posts/archana-virkar_team-qa-softwaretesting-activity-7377516271820488705-l5l2
+
+QUERY	dev_qa_ping_pong	repeated_rework	site:linkedin.com/posts "QA disagreement" "returned to development"	2026-07-21T14:30:48
+SERPER_QUERY	site:linkedin.com/posts QA disagreement returned to development
+1	https://www.linkedin.com/posts/gregmunt_unpopular-opinion-qa-is-destroying-software-activity-7355276570074181632-LMgB
+2	https://www.linkedin.com/posts/alex-lushchenko-15b44942_qa-and-developers-not-opponents-but-activity-7330138132014698496-n6k-
+3	https://www.linkedin.com/posts/arungaikwad-engineering-leader_engineeringleadership-softwareengineering-activity-7437471145819361281-1EKL
+4	https://www.linkedin.com/posts/ben-f-44778426_a-word-of-caution-to-qa-professionals-arguing-activity-7429151328419090432-puSg
+5	https://www.linkedin.com/posts/hanna-anishyna-b7654b4a_i-never-thought-saying-i-work-in-qa-would-activity-7373424566687363074-r4tK
+6	https://www.linkedin.com/posts/imranhossain45_happycoding-qafirst-activity-7406383200232648704-XqjA
+7	https://www.linkedin.com/posts/jghobbs_over-the-past-two-years-the-software-qa-activity-7436800881884303360-BOVc
+8	https://www.linkedin.com/posts/avadh-bhalani-61a916201_qaengineer-softwaretesting-qualityassurance-activity-7468014968324411392-y9VD
+9	https://www.linkedin.com/posts/volhababan_this-qa-book-should-be-required-reading-activity-7475541125974552576-WwBZ
+10	https://www.linkedin.com/posts/christopher-balolong-b1b2b3270_qa-developerlife-teamwork-activity-7328211579311693824-G_am
+
+QUERY	dev_qa_ping_pong	repeated_rework	site:linkedin.com/posts "developer QA" "rework"	2026-07-21T14:30:52
+SERPER_QUERY	site:linkedin.com/posts developer QA rework
+1	https://www.linkedin.com/posts/jeremiah-de-leon-sqa_developers-at-most-saas-companies-spend-more-activity-7475618133966249984-VdOM
+2	https://www.linkedin.com/posts/jeremiah-de-leon-sqa_rework-is-one-of-the-most-expensive-forms-activity-7344031720289030145-hrUk
+3	https://www.linkedin.com/posts/nishil-p-70639765_devs-qas-bugs-activity-7330109254256771072-0HfX
+4	https://www.linkedin.com/posts/gregmunt_ive-encountered-a-number-of-developers-that-activity-7375970408757612544-jtSl
+5	https://www.linkedin.com/posts/higor-mesquita_how-communication-between-qa-and-devs-helps-activity-7361207378509205504-Muxj
+6	https://www.linkedin.com/posts/tanishq-mishra-004a921a5_softwaredevelopment-qaengineering-devvsqa-activity-7358352627195174912-kZe-
+7	https://www.linkedin.com/posts/nishil-p-70639765_qa-developers-testing-activity-7326120669694328832-CpxK
+8	https://www.linkedin.com/posts/chovy_qa-softwaredevelopment-engineering-activity-7364931932779933696-VM48
+9	https://www.linkedin.com/posts/youssefashrafofficial_technicalprojectmanagement-ai-productmanagement-activity-7475259098645639168-s4oU
+10	https://www.linkedin.com/posts/ben-f-44778426_quality-testing-software-activity-7305230586925699072-SYlw
+
+QUERY	dev_qa_ping_pong	repeated_rework	site:linkedin.com/posts "developer QA" "returned to development"	2026-07-21T14:30:56
+SERPER_QUERY	site:linkedin.com/posts developer QA returned to development
+1	https://www.linkedin.com/posts/sergey-demyanenko_students-at-red-rover-school-often-ask-me-activity-7457591237412569088-Ymb6
+2	https://www.linkedin.com/posts/agolubev_devs-build-it-qa-breaks-it-rinse-repeat-activity-7338632033310543872-9kz6
+3	https://www.linkedin.com/posts/cgregan_week-15-qa-with-claude-code-it-has-been-activity-7470222443370971138-H7D6
+4	https://www.linkedin.com/posts/kualitee_its-just-a-small-change-it-wont-affect-activity-7434894899939987456-P_uW
+5	https://www.linkedin.com/posts/raghvendra-singh-718b72209_every-few-years-someone-declares-qa-is-dead-activity-7457774611015917568-3D7C
+6	https://www.linkedin.com/posts/mattwatsonkc_qa-is-the-new-bottleneck-of-software-engineering-activity-7443281193422417920-cP4p
+7	https://www.linkedin.com/posts/dariakors_5-years-ago-i-made-a-decision-to-leave-qa-activity-7452615293241094144-z1LM
+8	https://www.linkedin.com/posts/tania-duggal-07a297220_developer-done-ready-for-testing-qa-activity-7442055493482639360-x3rD
+9	https://www.linkedin.com/posts/jasonarbon_hint-testers-should-ask-their-developers-activity-7458168401845313537-ML3l
+10	https://www.linkedin.com/posts/cgregan_week-14-qa-with-claude-code-well-folks-activity-7465428525626351616-uD9M
+
+QUERY	product_owner_rejection	subjective_approval	site:linkedin.com/posts "product owner acceptance" "subjective approval"	2026-07-21T14:31:00
+SERPER_QUERY	site:linkedin.com/posts product owner acceptance subjective approval
+1	https://www.linkedin.com/posts/rakesh-podishetty-22384432_businessanalyst-productowner-qualityassurance-activity-7297178447582220307-yocU
+2	https://www.linkedin.com/posts/sherine-greig-20b49192_difference-between-a-product-owner-and-activity-7366535705554014233--VNT
+3	https://www.linkedin.com/posts/nisha-farheen-com_businessanalysis-productmanagement-documentation-activity-7332334028584378369-Ygn3
+4	https://www.linkedin.com/posts/karthick-jagadesan-89549458_scrum-productowner-agile-activity-7398531591339253760-Etcq
+5	https://www.linkedin.com/posts/matthewthomasholliday_heres-how-i-run-uat-as-a-business-analyst-activity-7458378559108075520-56J5
+6	https://www.linkedin.com/posts/anushasingamaneni_scrummaster-agile-scruminterviewprep-activity-7398789449335353344-06Bw
+7	https://www.linkedin.com/posts/perpetuaurama_but-its-just-a-small-feature-do-we-need-activity-7348833770726113281-UBRZ
+8	https://www.linkedin.com/posts/tanvi-gohel_scrummaster-agilecoaching-userstories-activity-7406136633818886144-9s7Z
+9	https://www.linkedin.com/posts/nitishshukla_userstories-acceptancecriteria-businessanalysis-activity-7337764700471840769-Vy6a
+10	https://www.linkedin.com/posts/leonardo-jimenez-36486752_comparing-agile-roles-product-owners-and-activity-7469802934071967744-TlUO
+
+QUERY	product_owner_rejection	subjective_approval	site:linkedin.com/posts "product owner acceptance" "acceptance dispute"	2026-07-21T14:31:05
+SERPER_QUERY	site:linkedin.com/posts product owner acceptance acceptance dispute
+1	https://www.linkedin.com/posts/omar-alaa-6a187a123_customer-acceptdeliverables-projectmanager-activity-7319697579376541696-ERaD
+2	https://www.linkedin.com/posts/sarkhanhajiyev_agile-businessanalysis-dordod-activity-7368523289029287937-0jIu
+3	https://www.linkedin.com/posts/karlwiegers_16-good-practices-for-requirements-elicitation-activity-7317925140430823424-IH5u
+4	https://www.linkedin.com/posts/robert-woodcock_agile-scrummaster-processimprovement-activity-7371984807230128128-d8lx
+5	https://www.linkedin.com/posts/shweta-singh-pmp_dailypmbyte-day29-projectclosure-activity-7360619378423316481-9BpY
+6	https://www.linkedin.com/posts/abhishek-singh-763248142_productmanagement-productowner-fintechpm-activity-7429537864016900097-uT2t
+7	https://www.linkedin.com/posts/aagarwal1012_we-just-shipped-automatic-payment-retries-activity-7467534732633886720-Rj7y
+8	https://www.linkedin.com/posts/laurafredericklaw_contracts-activity-7473098432853725184-X2Fr
+9	https://www.linkedin.com/posts/ruchirshetty_when-i-first-moved-into-a-product-owner-role-activity-7438769289727406080-QqXP
+10	https://www.linkedin.com/posts/diwakarsinghbamentor_challenges-faced-by-ba-activity-7364647592250515459-GHKl
+
+QUERY	product_owner_rejection	subjective_approval	site:linkedin.com/posts "product owner rejected" "subjective approval"	2026-07-21T14:31:08
+SERPER_QUERY	site:linkedin.com/posts product owner rejected subjective approval
+1	https://www.linkedin.com/posts/abpawar136_cards-payments-beyond-the-basics-card-activity-7481148641760702464-8-8f
+2	https://www.linkedin.com/posts/gauravtak26_the-uncomfortable-truth-the-secret-to-control-activity-7384518510988656641-Za7s
+3	https://www.linkedin.com/posts/imsarraschandra_one-of-the-most-exhausting-jobs-isnt-writing-activity-7471202191060443136-3qkU
+4	https://www.linkedin.com/posts/francescagino_trust-leadership-teams-activity-7453421259910008832-2jg1
+5	https://www.linkedin.com/posts/tomfishburne_marketing-cartoon-marketoon-activity-7462140009488220160-nbn9
+6	https://www.linkedin.com/posts/mohammed-talib-hk_liquidated-damages-arent-just-about-delay-activity-7457619817496485888-CF_d
+7	https://www.linkedin.com/posts/coms-corporate-solutions_got-your-company-name-rejected-by-mca-activity-7449314619409653761-BaB5
+8	https://www.linkedin.com/posts/sahinboydas_most-projects-end-with-a-launch-and-a-sigh-activity-7465426688491905024-14WL
+9	https://www.linkedin.com/posts/frank-diekmann-0476bb5_why-ai-is-a-b-minus-student-how-it-will-activity-7469501910983614464-lGuo
+10	https://www.linkedin.com/posts/kwkramer_great-checklist-of-things-to-do-so-that-turn-activity-7424328904565223424-vEXq
+
+QUERY	product_owner_rejection	subjective_approval	site:linkedin.com/posts "product owner rejected" "acceptance dispute"	2026-07-21T14:31:11
+SERPER_QUERY	site:linkedin.com/posts product owner rejected acceptance dispute
+1	https://www.linkedin.com/posts/angelawickcbap_businessanalysis-activity-7352774305794977792-bOTr
+2	https://www.linkedin.com/posts/jasonheister_fintech-payments-activity-7415029537106911232-DVKu
+3	https://www.linkedin.com/posts/anand-bhakat-27446431_user-acceptance-testing-my-thoughts-user-activity-7398753044093497345-2_tv
+4	https://www.linkedin.com/posts/aditi-kurapa-a6264660_productowner-bankingdomain-riskmanagement-activity-7409827976525213696-vqSc
+5	https://www.linkedin.com/posts/sameer-patel-653733171_%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%9F%F0%9D%90%AE%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%AC-%F0%9D%90%84%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%A5-%F0%9D%90%93%F0%9D%90%B0%F0%9D%90%A2%F0%9D%90%A7-activity-7445000773970681856-OOTh
+6	https://www.linkedin.com/posts/alicedenenberg_are-chicken-wings-confusingly-similar-to-activity-7431701378059890688-JO1A
+7	https://www.linkedin.com/posts/jxlye_most-companies-dont-realize-how-long-it-activity-7470277021604986880-H-s_
+8	https://www.linkedin.com/posts/kplin_for-about-two-hours-this-morning-every-mastercard-activity-7483202626029871104-VdVK
+9	https://www.linkedin.com/posts/ursenzler_once-again-the-topic-of-estimation-is-very-activity-7325123492604006400-U_hj
+10	https://www.linkedin.com/posts/amy-lemberger_cyber-insurance-has-become-one-of-the-most-activity-7465327307814268929-7Gut
+
+QUERY	product_owner_rejection	subjective_approval	site:linkedin.com/posts "story not accepted" "subjective approval"	2026-07-21T14:31:13
+SERPER_QUERY	site:linkedin.com/posts story not accepted subjective approval
+1	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+2	https://www.linkedin.com/posts/tochi1_scrumtips-definitionofdone-acceptancecriteria-activity-7368609331761676288-9L25
+3	https://www.linkedin.com/posts/salwa-emerson_3-contract-clauses-i-wish-id-had-early-in-activity-7318240889376595968-ac1k
+4	https://www.linkedin.com/posts/paulboag_digitalstrategy-processdesign-uxleadership-activity-7465406463608410113-Lhqp
+5	https://www.linkedin.com/posts/vijaymitra_bankingtransformationsummit-genai-mrm-activity-7470014423450005504-CRFS
+6	https://www.linkedin.com/posts/helenpartlow_eb2niw-niwapproval-nationalinterestwaiver-activity-7414007687257939969-jFYT
+7	https://www.linkedin.com/posts/sarkhanhajiyev_agile-businessanalysis-dordod-activity-7368523289029287937-0jIu
+8	https://www.linkedin.com/posts/ryanklein1_do-story-points-actually-work-for-design-activity-7279515331981688832-JcE3
+9	https://www.linkedin.com/posts/timh-liu_pwc-has-an-acceptance-rate-of-25-harvard-activity-7446927006321205248-bWOG
+10	https://www.linkedin.com/posts/rickramos_most-content-slowdowns-are-not-a-creativity-activity-7469098598329167872-3BFN
+
+QUERY	product_owner_rejection	subjective_approval	site:linkedin.com/posts "story not accepted" "acceptance dispute"	2026-07-21T14:31:16
+SERPER_QUERY	site:linkedin.com/posts story not accepted acceptance dispute
+1	https://www.linkedin.com/posts/karen-ayat-issa-ll-m-0b793a95_when-a-dispute-isnt-really-a-dispute-activity-7371105132278714368-yYbZ
+2	https://www.linkedin.com/posts/karunakrishan_mediation-conflictresolution-disputeresolution-activity-7322979170320269313-UYqM
+3	https://www.linkedin.com/posts/mediationjudges_the-oag-is-not-accepting-direct-payment-affidavits-activity-7445168899974848512-zmVm
+4	https://www.linkedin.com/posts/stephendpalley_llms-are-amazing-but-you-cannot-automate-activity-7433186718444531712-1ITv
+5	https://www.linkedin.com/posts/matt-nakajima_if-youre-going-to-mediation-dont-accept-activity-7316077876385046530-SchN
+6	https://www.linkedin.com/posts/talha-salaria_theres-an-old-story-about-two-people-arguing-activity-7483112826799185921-v4oh
+7	https://www.linkedin.com/posts/joshuabaron_how-do-you-convince-a-client-to-accept-a-activity-7258115686428794881-s5Rz
+8	https://www.linkedin.com/posts/charlydebacker_when-i-started-out-5-years-ago-i-accepted-activity-7480149609777041408-bhab
+9	https://www.linkedin.com/posts/matt-nakajima_after-years-of-litigation-the-defense-had-activity-7313168378540531712-WYzB
+10	https://www.linkedin.com/posts/marylou-costa-72523714_i-see-a-lot-of-pr-people-on-here-sharing-activity-7440339689913405441-il7V
+
+QUERY	product_owner_rejection	late_review	site:linkedin.com/posts "product owner acceptance" "reviewed too late"	2026-07-21T14:31:20
+SERPER_QUERY	site:linkedin.com/posts product owner acceptance reviewed too late
+1	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+2	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+3	https://www.linkedin.com/posts/allenholub_my-biggest-problem-with-sprint-reviews-is-activity-7247788612908376067--mGR
+4	https://www.linkedin.com/posts/scrum-org_scrum-definitionofdone-activity-7378307652117766144-hh4J
+5	https://www.linkedin.com/posts/mridul-sharma-facilitator_agile-scrum-productmanagement-activity-7361755236811636737-r3RO
+6	https://www.linkedin.com/posts/davidavpereira_are-you-a-product-manager-or-just-a-glorified-activity-7332671288244592640-3LRt
+7	https://www.linkedin.com/posts/allenholub_the-attached-graphic-is-an-excellent-summary-activity-7369783567192629248-uZT1
+8	https://www.linkedin.com/posts/tusharzond-sm_definition-of-done-vs-acceptance-criteria-activity-7354899742981570560-A0BG
+9	https://www.linkedin.com/posts/mikewcohn_scrum-agile-userstories-activity-7409277346559635457-E7vs
+10	https://www.linkedin.com/posts/mikewcohn_when-prioritizing-a-product-backlog-consider-activity-7259972923468242945-JSkW
+
+QUERY	product_owner_rejection	late_review	site:linkedin.com/posts "product owner acceptance" "late review"	2026-07-21T14:31:23
+SERPER_QUERY	site:linkedin.com/posts product owner acceptance late review
+1	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+2	https://www.linkedin.com/posts/allenholub_my-biggest-problem-with-sprint-reviews-is-activity-7247788612908376067--mGR
+3	https://www.linkedin.com/posts/mridul-sharma-facilitator_agile-scrum-productmanagement-activity-7361755236811636737-r3RO
+4	https://www.linkedin.com/posts/chandan-kumar-scrum_scrummastery-agilecoach-productowner-activity-7477591191463796738-YF10
+5	https://www.linkedin.com/posts/mikewcohn_scrum-agile-userstories-activity-7409277346559635457-E7vs
+6	https://www.linkedin.com/posts/vinay-kumar-sadineni_sprintreview-agile-scrummaster-activity-7399665919645372416-e0G_
+7	https://www.linkedin.com/posts/joelbc_scrum-backlogrefinement-productowner-activity-7438623449201422336-SJdj
+8	https://www.linkedin.com/posts/joelbc_agile-scrum-productowner-activity-7444375425608429568-J0S8
+9	https://www.linkedin.com/posts/mikewcohn_its-been-30-years-since-the-birth-of-scrum-activity-7295843240509853697-HXKE
+10	https://www.linkedin.com/posts/stevendeneir_scrum-simplification-boostyourscrum-activity-7431954944313679872-8Z0u
+
+QUERY	product_owner_rejection	late_review	site:linkedin.com/posts "product owner rejected" "reviewed too late"	2026-07-21T14:31:26
+SERPER_QUERY	site:linkedin.com/posts product owner rejected reviewed too late
+1	https://www.linkedin.com/posts/shobhitchugh_i-got-rejected-multiple-times-before-finally-activity-7376646392704032769-Q-4o
+2	https://www.linkedin.com/posts/sstruan_why-did-my-application-get-rejected-in-minutes-activity-7270081083935805440-8aww
+3	https://www.linkedin.com/posts/rafael-hernandez_paidads-leadgeneration-activity-7475927895891173376-6ckv
+4	https://www.linkedin.com/posts/sara-fusco-ohio_jobsearch-resilience-staypositive-activity-7401720771393523713--SkU
+5	https://www.linkedin.com/posts/mudra-surana-0a7083148_productmanager-job-jobhunt-activity-7310518549905620992-99F4
+6	https://www.linkedin.com/posts/greggsalkovitch_jim-had-3-rounds-of-interviews-and-was-declined-activity-7417229011359064065-hAjb
+7	https://www.linkedin.com/posts/jeff-detweiler-5272aa9_i-got-rejected-less-than-10-minutes-after-activity-7336847621321351169-SFWu
+8	https://www.linkedin.com/posts/katrinakibben_what-does-it-mean-for-you-as-a-job-seeker-activity-7468289214183485440-bhPc
+9	https://www.linkedin.com/posts/cendrellamoubayed_if-rejection-feels-personal-youre-not-looking-activity-7381951497137278977-JKZ8
+10	https://www.linkedin.com/posts/julieraymondgeorge_a-candidate-rejected-one-of-my-roles-said-activity-7373695907713789952-hIeu
+
+QUERY	product_owner_rejection	late_review	site:linkedin.com/posts "product owner rejected" "late review"	2026-07-21T14:31:30
+SERPER_QUERY	site:linkedin.com/posts product owner rejected late review
+1	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+2	https://www.linkedin.com/posts/igor-voth-47892329_scrum-is-not-product-management-this-is-activity-7437814962636587008-2wMx
+3	https://www.linkedin.com/posts/matt-graves-pmp_3040-of-submittals-get-rejected-on-the-activity-7371162218270429184-HRWM
+4	https://www.linkedin.com/posts/rafael-hernandez_paidads-leadgeneration-activity-7475927895891173376-6ckv
+5	https://www.linkedin.com/posts/maryam-tariq-pmi-authorized-instructor-8b87051a2_the-time-pressure-is-real-i-want-to-talk-activity-7446301036463448064-Okbg
+6	https://www.linkedin.com/posts/scrum-duncan_if-youre-doing-scrum-and-you-want-to-spend-activity-7343192861443584000-ZRON
+7	https://www.linkedin.com/posts/anton-zaides_in-january-2025-we-killed-sprint-planning-activity-7451668440311906305-XxRY
+8	https://www.linkedin.com/posts/allenholub_i-keep-reading-about-things-like-detailed-activity-7355313297627230209-zWEc
+9	https://www.linkedin.com/posts/mehuang_my-favorite-type-of-engineering-manager-is-activity-7406937597098381313-Fbu0
+10	https://www.linkedin.com/posts/mikesadvice_10-things-that-will-sink-a-new-product-manager-activity-7287632606228013057-Ag0-
+
+QUERY	product_owner_rejection	late_review	site:linkedin.com/posts "story not accepted" "reviewed too late"	2026-07-21T14:31:33
+SERPER_QUERY	site:linkedin.com/posts story not accepted reviewed too late
+1	https://www.linkedin.com/posts/mmarcus23_dont-give-up-too-soon-she-called-me-on-activity-7460728304950697984-0OzW
+2	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+3	https://www.linkedin.com/posts/leeron-yahalomi-1b066819_csisthenextsale-hiring-leadership-activity-7465540092380676096-Bznm
+4	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+5	https://www.linkedin.com/posts/jeffsutherland_jeffsutherland-firstprinciples-scrumatscale-activity-7402017964742316032-dzTj
+6	https://www.linkedin.com/posts/lizreganmartin_uxresearch-uxr-agile-activity-7402081719207706624-Sz3l
+7	https://www.linkedin.com/posts/jillian-goldfarb-511b544_phd-faculty-science-activity-7266056659532173312-pex_
+8	https://www.linkedin.com/posts/dariosanchezm_i-once-submitted-a-paper-and-got-a-%F0%9D%97%A5%F0%9D%97%AE%F0%9D%97%B6-activity-7389603476726599681-Fmis
+9	https://www.linkedin.com/posts/allenholub_the-attached-graphic-is-an-excellent-summary-activity-7369783567192629248-uZT1
+10	https://www.linkedin.com/posts/uxbydesign_after-revamping-my-cv-to-be-skills-and-achievements-activity-7472263122184224768-DvHL
+
+QUERY	product_owner_rejection	late_review	site:linkedin.com/posts "story not accepted" "late review"	2026-07-21T14:31:37
+SERPER_QUERY	site:linkedin.com/posts story not accepted late review
+1	https://www.linkedin.com/posts/jason-thatcher-0329764_reviewer2-revision-mentoring-activity-7357938333454323712-K_QY
+2	https://www.linkedin.com/posts/shellye-archambeau_what-a-kind-review-i-appreciate-you-honoring-activity-7026611046949806080-rTko
+3	https://www.linkedin.com/posts/stephaniebrowncareercoach_your-team-should-never-be-blindsided-in-performance-activity-7434945761370427393-sIve
+4	https://www.linkedin.com/posts/barry-w-fitzgerald_finalising-author-lists-on-papers-need-not-activity-7447539049046642688-lx2Q
+5	https://www.linkedin.com/posts/martin-heida_a-small-story-from-academic-peer-review-that-activity-7432325309028515840-nbUN
+6	https://www.linkedin.com/posts/dave-westgarth_to-be-clear-i-dont-like-or-use-story-points-activity-7421975533183299584-ETGM
+7	https://www.linkedin.com/posts/vitalyfriedman_how-to-stop-endless-stakeholder-reviews-activity-7406278148058767360-Mkof
+8	https://www.linkedin.com/posts/daniel-gorelick-2b3518b_will-paying-reviewers-ease-the-peer-review-activity-7462500198490001408-VoAd
+9	https://www.linkedin.com/posts/jason-thatcher-0329764_publication-academicjourney-activity-7418449556830437376-zWjJ
+10	https://www.linkedin.com/posts/dave-westgarth_after-months-of-thinking-about-it-avoiding-activity-7413897781939044352-j-6x
+
+QUERY	product_owner_rejection	missed_business_intent	site:linkedin.com/posts "product owner acceptance" "business intent"	2026-07-21T14:31:40
+SERPER_QUERY	site:linkedin.com/posts product owner acceptance business intent
+1	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+2	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+3	https://www.linkedin.com/posts/claire-hartshorne_what-does-a-product-owner-do-after-being-activity-7313879085745647616-olie
+4	https://www.linkedin.com/posts/vikash-tiwari-40411a85_productowner-agilewaysofworking-customerfirst-activity-7428336683236098048-Bk_D
+5	https://www.linkedin.com/posts/patrickgiwa_a-ba-asked-me-how-do-i-become-a-product-activity-7409208760797286400-r65Q
+6	https://www.linkedin.com/posts/michaelkuesters_an-excellent-illustration-why-the-product-activity-7393584916753567744-Fuy7
+7	https://www.linkedin.com/posts/mikewcohn_scrum-agile-userstories-activity-7409277346559635457-E7vs
+8	https://www.linkedin.com/posts/tomiparvanyik_acceptance-criteria-examples-activity-7414947075458658304-JuPj
+9	https://www.linkedin.com/posts/tusharzond-sm_definition-of-done-vs-acceptance-criteria-activity-7354899742981570560-A0BG
+10	https://www.linkedin.com/posts/kayinsolasaheedofficial_businessanalyst-it-servicenow-activity-7313116993157574657-nX0A
+
+QUERY	product_owner_rejection	missed_business_intent	site:linkedin.com/posts "product owner acceptance" "product intent"	2026-07-21T14:31:43
+SERPER_QUERY	site:linkedin.com/posts product owner acceptance product intent
+1	https://www.linkedin.com/posts/claire-hartshorne_what-does-a-product-owner-do-after-being-activity-7313879085745647616-olie
+2	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+3	https://www.linkedin.com/posts/vikash-tiwari-40411a85_productowner-agilewaysofworking-customerfirst-activity-7428336683236098048-Bk_D
+4	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+5	https://www.linkedin.com/posts/freya-h-finnerty-6453a18a_agile-scrum-product-activity-7325796930385580032-Nmkk
+6	https://www.linkedin.com/posts/patrickgiwa_a-ba-asked-me-how-do-i-become-a-product-activity-7409208760797286400-r65Q
+7	https://www.linkedin.com/posts/tochi1_sprintcycle-scrummaster-acceptancecriteria-activity-7335270213627580416-WiaZ
+8	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+9	https://www.linkedin.com/posts/simone-kiernan_product-manager-vs-product-owner-same-activity-7378689206342090752-uZyc
+10	https://www.linkedin.com/posts/emilywilkinson_productowner-productmanager-stakeholderrelationships-activity-7353008357877710848-bOT6
+
+QUERY	product_owner_rejection	missed_business_intent	site:linkedin.com/posts "product owner rejected" "business intent"	2026-07-21T14:31:46
+SERPER_QUERY	site:linkedin.com/posts product owner rejected business intent
+1	https://www.linkedin.com/posts/aman-bharti-b20826aa_unpopular-opinion-product-owner-is-not-activity-7401862759132635136-nihE
+2	https://www.linkedin.com/posts/angelawickcbap_businessanalyst-businessanalysis-productmanagement-activity-7467651611952062464-kviI
+3	https://www.linkedin.com/posts/jitendrab4u_productowner-scrum-agile-activity-7348310752023166977-B-83
+4	https://www.linkedin.com/posts/lukehohmann_productmanager-productowner-agile-activity-7383853074567766018-_fs8
+5	https://www.linkedin.com/posts/odolapo5_what-doesnt-get-followed-up-on-doesnt-activity-7360553589074800641-qFcR
+6	https://www.linkedin.com/posts/rajinder-kaur14_productowner-productmanagement-agile-activity-7457318349656473600-7bwF
+7	https://www.linkedin.com/posts/etnlbck_one-year-as-a-product-owner-what-i-learned-activity-7381703318567346177-EhIX
+8	https://www.linkedin.com/posts/inrikainc_productowner-productmanagement-agile-activity-7461059397709053953-hbsy
+9	https://www.linkedin.com/posts/shivani-yadav-gcc_productmanagementuae-productownership-productleadership-activity-7467470551247306752-rYf0
+10	https://www.linkedin.com/posts/logicogs_businessanalysis-businessanalyst-bacommunity-activity-7416694253072007168-_Elh
+
+QUERY	product_owner_rejection	missed_business_intent	site:linkedin.com/posts "product owner rejected" "product intent"	2026-07-21T14:31:49
+SERPER_QUERY	site:linkedin.com/posts product owner rejected product intent
+1	https://www.linkedin.com/posts/muhammad-ahmad-50483975_owned-prioritized-collaborated-activity-7338180693304209408-6By9
+2	https://www.linkedin.com/posts/aman-bharti-b20826aa_unpopular-opinion-product-owner-is-not-activity-7401862759132635136-nihE
+3	https://www.linkedin.com/posts/komal-pasari-542b11103_productmanagement-userpainpoints-rapido-activity-7457365449039618048-qQ8v
+4	https://www.linkedin.com/posts/odolapo5_what-doesnt-get-followed-up-on-doesnt-activity-7360553589074800641-qFcR
+5	https://www.linkedin.com/posts/angelawickcbap_businessanalyst-businessanalysis-productmanagement-activity-7467651611952062464-kviI
+6	https://www.linkedin.com/posts/jitendrab4u_productowner-scrum-agile-activity-7348310752023166977-B-83
+7	https://www.linkedin.com/posts/drbartpm_productmanagement-productmanager-teamspirit-activity-7353756554908647425-yuai
+8	https://www.linkedin.com/posts/igor-voth-47892329_scrum-is-not-product-management-this-is-activity-7437814962636587008-2wMx
+9	https://www.linkedin.com/posts/shravantickoo_i-once-knew-a-guy-who-got-rejected-from-42-activity-7321153746598539265-baUP
+10	https://www.linkedin.com/posts/jimmycarroll_sometimes-the-product-owner-becomes-the-activity-7462259352972808192-TPhh
+
+QUERY	product_owner_rejection	missed_business_intent	site:linkedin.com/posts "story not accepted" "business intent"	2026-07-21T14:31:53
+SERPER_QUERY	site:linkedin.com/posts story not accepted business intent
+1	https://www.linkedin.com/posts/mikewcohn_most-teams-dont-struggle-with-user-stories-activity-7454923131321733120-8Agd
+2	https://www.linkedin.com/posts/kayinsolasaheedofficial_use-cases-and-user-stories-are-not-competitors-activity-7475492554046648320-oVLW
+3	https://www.linkedin.com/posts/mikewcohn_scrum-agile-userstories-activity-7409277346559635457-E7vs
+4	https://www.linkedin.com/posts/dankatcher_user-stories-dont-matter-anymore-there-activity-7426668072482074624-_1SZ
+5	https://www.linkedin.com/posts/diwakarsinghbamentor_user-story-activity-7364861445907357696-Md4Z
+6	https://www.linkedin.com/posts/hroriz_agile-scrum-epic-activity-7386005002559049728-i62G
+7	https://www.linkedin.com/posts/shawnwallack_how-big-should-a-user-story-be-a-rule-of-activity-7296613543037075456-LmzZ
+8	https://www.linkedin.com/posts/raghavendra-business-analyst_user-stories-step-by-step-guide-for-business-activity-7355526198975741953-m8TC
+9	https://www.linkedin.com/posts/akshit-dawar_in-scaled-agile-framework-safe-different-activity-7344924322240643073-_BxS
+10	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+
+QUERY	product_owner_rejection	missed_business_intent	site:linkedin.com/posts "story not accepted" "product intent"	2026-07-21T14:31:56
+SERPER_QUERY	site:linkedin.com/posts story not accepted product intent
+1	https://www.linkedin.com/posts/mikewcohn_how-to-use-ai-for-product-discovery-and-writing-activity-7430296130170560512-ySgJ
+2	https://www.linkedin.com/posts/dankatcher_user-stories-dont-matter-anymore-there-activity-7426668072482074624-_1SZ
+3	https://www.linkedin.com/posts/kayinsolasaheedofficial_use-cases-and-user-stories-are-not-competitors-activity-7475492554046648320-oVLW
+4	https://www.linkedin.com/posts/mikewcohn_3-story-templates-for-your-product-backlog-activity-7175506240498774016-d5mF
+5	https://www.linkedin.com/posts/hroriz_agile-scrum-epic-activity-7386005002559049728-i62G
+6	https://www.linkedin.com/posts/maarten-dalmijn_user-stories-are-extremely-simple-and-powerful-activity-7217154142841012225-NODL
+7	https://www.linkedin.com/posts/aive-uus_after-producttanks-fireside-chat-i-fell-activity-7396445821115826176-SMgn
+8	https://www.linkedin.com/posts/michael-breton-8394822_productowner-agile-userstories-activity-7435076385788006400-X0Mt
+9	https://www.linkedin.com/posts/aradhyamudgal11_productstack-clarityinexecution-productmanagement-activity-7345300273558376448-voN5
+10	https://www.linkedin.com/posts/mikewcohn_what-is-a-user-story-complete-guide-examples-activity-7335690098929242112-pyUc
+
+QUERY	outcome_gap	low_adoption	site:linkedin.com/posts "QA passed" "low adoption"	2026-07-21T14:31:59
+SERPER_QUERY	site:linkedin.com/posts QA passed low adoption
+1	https://www.linkedin.com/posts/ed-davis-2ab69227_the-we-dont-need-qa-plea-of-disruptors-activity-7363926768518369285-DEyT
+2	https://www.linkedin.com/posts/ruslandesyatnikov_do-not-tell-me-later-when-you-will-be-activity-7454921720362119169-VcRT
+3	https://www.linkedin.com/posts/revathi-chanda-syren-9758474_softwaretesting-qualityassurance-qualityengineering-activity-7472505771952455681-oRZU
+4	https://www.linkedin.com/posts/ivdavidov_what-is-agentic-qa-and-why-it-changes-everything-activity-7435006160551735296-9eJu
+5	https://www.linkedin.com/posts/amandalcurtis_i-was-in-that-room-i-watched-it-happen-activity-7450785159299153920-0eFt
+6	https://www.linkedin.com/posts/bsnvision_qualityassurance-softwaretesting-customerexperience-activity-7410144845081608192-DkKp
+7	https://www.linkedin.com/posts/faiz-mudassar-2830271a3_qualityassurance-qa-softwaretesting-activity-7458234960060096512-8UNU
+8	https://www.linkedin.com/posts/dmitri-kozlov-334a4916_hello-i-wanted-to-land-a-freelance-qa-activity-7386506617313206272-XNnI
+9	https://www.linkedin.com/posts/jekaterina-gulbinova-6188522b_ai-doesnt-threaten-qa-it-threatens-those-activity-7344995928258326528-ZyWj
+10	https://www.linkedin.com/posts/whitenetio_vapt-cybersecurity-appsecurity-activity-7449431495238385664-I1vr
+
+QUERY	outcome_gap	low_adoption	site:linkedin.com/posts "QA passed" "poor adoption"	2026-07-21T14:32:02
+SERPER_QUERY	site:linkedin.com/posts QA passed poor adoption
+1	https://www.linkedin.com/posts/bybisht_mobile-qa-testing-market-activity-7458599016818352128-5AsP
+2	https://www.linkedin.com/posts/smartbear_software-quality-in-the-ai-era-activity-7468677231616368641-jQ8u
+3	https://www.linkedin.com/posts/ben-f-44778426_i-was-sitting-over-coffee-this-morning-thinking-activity-7454500084634877952-pxhF
+4	https://www.linkedin.com/posts/heyganz_alphachromatica-chroma-technicaleducation-activity-7450491582257987584-Zdzu
+5	https://www.linkedin.com/posts/akshay-shah-438a5318b_most-qa-teams-are-using-ai-to-write-test-activity-7455869764020715520-N8X6
+6	https://www.linkedin.com/posts/mark-egan-668228149_building-an-ai-quality-assurance-tool-is-activity-7483089566023806976-bP76
+7	https://www.linkedin.com/posts/ruslandesyatnikov_do-not-tell-me-later-when-you-will-be-activity-7454921720362119169-VcRT
+8	https://www.linkedin.com/posts/igordorovskikh_the-qa-job-market-changed-its-vocabulary-activity-7459708967183835137-IR3j
+9	https://www.linkedin.com/posts/jamesdysonevolution_ai-testing-qa-activity-7462118574300631040-bItY
+10	https://www.linkedin.com/posts/oliver-martin-hirsch_practical-ways-to-test-ai-across-the-sdlc-activity-7402446546383937536-tqDW
+
+QUERY	outcome_gap	low_adoption	site:linkedin.com/posts "feature shipped" "low adoption"	2026-07-21T14:32:04
+SERPER_QUERY	site:linkedin.com/posts feature shipped low adoption
+1	https://www.linkedin.com/posts/product-leaders-hub_programmanagement-projectmanagement-leadership-activity-7471035673488056320-yYDK
+2	https://www.linkedin.com/posts/jake-mcmahon-product-ai_is-feature-bloat-killing-adoption-its-activity-7421560111632044032-rowp
+3	https://www.linkedin.com/posts/aaditya-choukade_we-shipped-an-ai-feature-nobody-used-not-activity-7457104322196312064-cKim
+4	https://www.linkedin.com/posts/sean-graham-675a054_our-team-pulled-up-session-replays-on-one-activity-7485336766569340928-Lkw1
+5	https://www.linkedin.com/posts/alexbrodsky1_the-saddest-statistic-i-saw-this-week-was-activity-7176956070764900352-2o3P
+6	https://www.linkedin.com/posts/oluwasemiloore-akoni_the-funny-thing-about-feature-adoption-it-activity-7396166564217008128-JZsH
+7	https://www.linkedin.com/posts/wiktorsobolak_i-had-a-3-conversations-last-week-with-a-activity-7454835456917078017-HMND
+8	https://www.linkedin.com/posts/champouxmaxime_in-january-we-shipped-27-features-at-well-activity-7428022508869701632-PFDH
+9	https://www.linkedin.com/posts/shawhintalebi_access-adoption-most-ai-rollout-plans-activity-7472992714062553088-svBO
+10	https://www.linkedin.com/posts/mrtylerwhite_i-used-to-think-adoption-was-a-pm-problem-activity-7409578851636420608-K4Pj
+
+QUERY	outcome_gap	low_adoption	site:linkedin.com/posts "feature shipped" "poor adoption"	2026-07-21T14:32:07
+SERPER_QUERY	site:linkedin.com/posts feature shipped poor adoption
+1	https://www.linkedin.com/posts/product-leaders-hub_programmanagement-projectmanagement-leadership-activity-7471035673488056320-yYDK
+2	https://www.linkedin.com/posts/alexbrodsky1_the-saddest-statistic-i-saw-this-week-was-activity-7176956070764900352-2o3P
+3	https://www.linkedin.com/posts/aatirar_i-used-to-think-feature-adoption-was-a-binary-activity-7458516075404533760-2qe2
+4	https://www.linkedin.com/posts/mrtylerwhite_i-used-to-think-adoption-was-a-pm-problem-activity-7409578851636420608-K4Pj
+5	https://www.linkedin.com/posts/alexander-valente-829989100_everyones-shipping-agentic-features-right-activity-7478569056820948992-fnJI
+6	https://www.linkedin.com/posts/champouxmaxime_in-january-we-shipped-27-features-at-well-activity-7428022508869701632-PFDH
+7	https://www.linkedin.com/posts/sean-graham-675a054_our-team-pulled-up-session-replays-on-one-activity-7485336766569340928-Lkw1
+8	https://www.linkedin.com/posts/goldagbonifoisaac_when-i-was-a-dev-i-thought-my-job-ended-activity-7366397003540455424-k54n
+9	https://www.linkedin.com/posts/kobelka_80-of-product-features-fail-to-drive-meaningful-activity-7427334638727241728-FTa4
+10	https://www.linkedin.com/posts/johnwradford_look-how-many-features-we-shipped-this-quarter-activity-7370739051802562560-4PfI
+
+QUERY	outcome_gap	low_adoption	site:linkedin.com/posts "acceptance criteria met" "low adoption"	2026-07-21T14:32:10
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met low adoption
+1	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+2	https://www.linkedin.com/posts/srishti-garg-8353b421a_acceptance-criteria-activity-7371022074665951232-QHMs
+3	https://www.linkedin.com/posts/rohit-ambekar-960a27295_businessanalysis-useracceptancetesting-activity-7430204695735984128-KmRJ
+4	https://www.linkedin.com/posts/anjali-tiwari-5a4608111_agile-projectmanagement-scrum-activity-7366304985124360192-HbUh
+5	https://www.linkedin.com/posts/sarkhanhajiyev_agile-businessanalysis-dordod-activity-7368523289029287937-0jIu
+6	https://www.linkedin.com/posts/mikewcohn_working-with-non-functional-requirements-activity-7330653773872148480-1Irh
+7	https://www.linkedin.com/posts/kuzmar_what-if-we-thought-of-tests-as-just-another-activity-7400185365808107520-1fH1
+8	https://www.linkedin.com/posts/naveenkumarsingh1_is-the-product-owner-accountable-for-return-activity-7369626798579441666-KhbN
+9	https://www.linkedin.com/posts/anjanascsm_the-importance-of-the-definition-of-done-activity-7310373079195492352-vHPf
+10	https://www.linkedin.com/posts/saad-iqbal-pm_projectmanagement-agile-productmanagement-activity-7473262631504711680-ftyq
+
+QUERY	outcome_gap	low_adoption	site:linkedin.com/posts "acceptance criteria met" "poor adoption"	2026-07-21T14:32:13
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met poor adoption
+1	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+2	https://www.linkedin.com/posts/oluchi-nzekwesi_dor-dod-and-acceptance-criteria-are-you-activity-7376938015895543808-q-X6
+3	https://www.linkedin.com/posts/taomar_we-once-released-a-feature-that-met-every-activity-7367873800517935104-M33J
+4	https://www.linkedin.com/posts/mikewcohn_working-with-non-functional-requirements-activity-7330653773872148480-1Irh
+5	https://www.linkedin.com/posts/rohit-ambekar-960a27295_businessanalysis-useracceptancetesting-activity-7430204695735984128-KmRJ
+6	https://www.linkedin.com/posts/janakiram-pmp_agile-scrum-productmanagement-activity-7458748343490347008-Gi5h
+7	https://www.linkedin.com/posts/mohammadsohailbusinessanalyst_most-user-stories-fail-before-development-activity-7475787512364560384-bnuU
+8	https://www.linkedin.com/posts/kuzmar_what-if-we-thought-of-tests-as-just-another-activity-7400185365808107520-1fH1
+9	https://www.linkedin.com/posts/anton-zaides_in-january-2025-we-killed-sprint-planning-activity-7451668440311906305-XxRY
+10	https://www.linkedin.com/posts/lomesh-detroja-32b125121_baposts-activity-7438061277853302784-VRrZ
+
+QUERY	outcome_gap	shipped_but_unused	site:linkedin.com/posts "QA passed" "shipped but unused"	2026-07-21T14:32:16
+SERPER_QUERY	site:linkedin.com/posts QA passed shipped but unused
+1	https://www.linkedin.com/posts/gal-vered_today-at-checksumai-we-launched-the-continuous-activity-7465416579598540801-FVjT
+2	https://www.linkedin.com/posts/rubyanakor_laravel-cleancode-backenddevelopment-activity-7394286416987328512-kNWf
+3	https://www.linkedin.com/posts/whats-ai_vibe-coding-is-not-the-problem-shipping-activity-7477345311938478080-gO9n
+4	https://www.linkedin.com/posts/dror-avrilingi-a130893_ai-systems-are-evolving-faster-than-the-quality-activity-7458510868910116866-ez2Y
+5	https://www.linkedin.com/posts/alielshayeb_qaflow-qaautomation-aiagents-activity-7432546820230344705-v3uE
+6	https://www.linkedin.com/posts/mikekamo_theres-a-title-im-seeing-more-often-recently-activity-7467171023449272320-vvG0
+7	https://www.linkedin.com/posts/altaf-attar-00442418_ecommerce-conversionrate-automationtesting-activity-7342427932243476480-KI8u
+8	https://www.linkedin.com/posts/alexander-chiou_techcareergrowth-interviewtips-behavioral-activity-7327543055614382080-C3wf
+9	https://www.linkedin.com/posts/rushikeshpatil572_qa-testing-automation-activity-7421468913286180864-PNGh
+10	https://www.linkedin.com/posts/tilman-resch_ai-codingagents-developerproductivity-activity-7431302044097024000-iXxS
+
+QUERY	outcome_gap	shipped_but_unused	site:linkedin.com/posts "QA passed" "nobody used"	2026-07-21T14:32:19
+SERPER_QUERY	site:linkedin.com/posts QA passed nobody used
+1	https://www.linkedin.com/posts/sam-complete-coding_our-cx-portal-release-process-never-used-activity-7445469220823392257-cFZW
+2	https://www.linkedin.com/posts/thekonst_theres-a-quiet-irony-happening-in-software-activity-7460056771085099008-FUTT
+3	https://www.linkedin.com/posts/factory-hq_the-tests-passed-and-the-linters-were-green-activity-7454650731485315072-6s-f
+4	https://www.linkedin.com/posts/shozabsohail_all-tests-passed-sounds-nice-right-but-activity-7351626982549241857-ubFd
+5	https://www.linkedin.com/posts/japneet-sachdeva_japneetsachdeva-activity-7434070000350679040-dJuS
+6	https://www.linkedin.com/posts/pbylina_the-1-mistake-companies-make-with-test-automation-activity-7437413296221130752-GPUw
+7	https://www.linkedin.com/posts/mattwatsonkc_nothing-is-more-annoying-than-using-a-saas-activity-7408269752021917696-e8Bx
+8	https://www.linkedin.com/posts/michal-jarczewski_year-1-in-qa-i-thought-finding-bugs-made-activity-7469376720681451520-ibWF
+9	https://www.linkedin.com/posts/xrayapp_qa-and-security-used-to-be-separate-lanes-activity-7468257271597334528-FkLd
+10	https://www.linkedin.com/posts/agolubev_user-got-tea-qa-passed-power-users-can-activity-7382487875390492672-lp8A
+
+QUERY	outcome_gap	shipped_but_unused	site:linkedin.com/posts "feature shipped" "shipped but unused"	2026-07-21T14:32:22
+SERPER_QUERY	site:linkedin.com/posts feature shipped shipped but unused
+1	https://www.linkedin.com/posts/sujanaoruganti_i-shipped-a-feature-in-2-weeks-that-sat-unused-activity-7392742662484750336-i-QK
+2	https://www.linkedin.com/posts/looop-design_digitalproducts-burnedresources-validation-activity-7438278965976293376-Jpva
+3	https://www.linkedin.com/posts/petedonell_companies-shipped-hundreds-of-ai-features-activity-7429458448410554368-uysd
+4	https://www.linkedin.com/posts/chandrananand_what-should-we-build-next-activity-7407271905570971648-2R1n
+5	https://www.linkedin.com/posts/sandeep-charan_datascience-ai-dataleadership-activity-7471075290115432448-YdQl
+6	https://www.linkedin.com/posts/ianmacdowell_this-weekend-i-shipped-an-app-ive-been-thinking-activity-7430260030416945154-L40y
+7	https://www.linkedin.com/posts/maxine-anderson_its-thursday-morning-product-shipped-last-activity-7366452844121452547-wM9U
+8	https://www.linkedin.com/posts/darrellgardiner_ive-never-shipped-a-feature-ive-been-happy-activity-7385864887899492352-JZ7C
+9	https://www.linkedin.com/posts/melissajeanperri_ai-just-made-it-possible-to-build-twice-as-activity-7472611500898070528-1GOQ
+10	https://www.linkedin.com/posts/wearecapicua_productmanagement-productvalidation-productmarketfit-activity-7452022164544872448-8c8y
+
+QUERY	outcome_gap	shipped_but_unused	site:linkedin.com/posts "feature shipped" "nobody used"	2026-07-21T14:32:26
+SERPER_QUERY	site:linkedin.com/posts feature shipped nobody used
+1	https://www.linkedin.com/posts/keithdshields_how-many-of-you-have-shipped-a-feature-nobody-activity-7471184575948537856-cNAz
+2	https://www.linkedin.com/posts/aaditya-choukade_we-shipped-an-ai-feature-nobody-used-not-activity-7457104322196312064-cKim
+3	https://www.linkedin.com/posts/frederic-vanderveken_ive-shipped-products-that-nobody-wanted-activity-7459478652767039488-lMHb
+4	https://www.linkedin.com/posts/neelayan-sikdar_i-once-shipped-3-ai-features-nobody-used-activity-7462358945723236352--qc8
+5	https://www.linkedin.com/posts/danielnoworyta_i-shipped-a-feature-without-writing-a-line-activity-7467439857099857920-NbUs
+6	https://www.linkedin.com/posts/lilianekpere_i-used-to-measure-my-week-by-how-much-i-shipped-activity-7483082974234771458-XnG4
+7	https://www.linkedin.com/posts/kovacsegrikristof_i-shipped-an-ai-tool-that-nobody-used-not-activity-7479564760280326144-dZVm
+8	https://www.linkedin.com/posts/sujanaoruganti_i-shipped-a-feature-in-2-weeks-that-sat-unused-activity-7392742662484750336-i-QK
+9	https://www.linkedin.com/posts/ajit-krishna_i-once-killed-an-ai-feature-my-team-was-excited-activity-7478100303641280513-ejcS
+10	https://www.linkedin.com/posts/sammy-verghese_i-just-shipped-my-first-feature-to-production-activity-7478365339190272001-KvH3
+
+QUERY	outcome_gap	shipped_but_unused	site:linkedin.com/posts "acceptance criteria met" "shipped but unused"	2026-07-21T14:32:29
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met shipped but unused
+1	https://www.linkedin.com/posts/diwakarsinghbamentor_ba-jira-guide-activity-7409829400856313856-C3UD
+2	https://www.linkedin.com/posts/cameronetezadi_how-to-see-in-the-dark-factory-launchdarklys-activity-7484088387574910976-Z9Lr
+3	https://www.linkedin.com/posts/alisha-sengupta-b164bb125_productmanagement-productthinking-teamconfidence-activity-7323941938179559424-JGQ_
+4	https://www.linkedin.com/posts/anand-agilecoach_types-of-status-updates-in-jira-1-to-activity-7415321776538411009-hiuH
+5	https://www.linkedin.com/posts/deshpandeji_scrummaster-agilecoach-backlogmanagment-activity-7361680844307988480-RgXz
+6	https://www.linkedin.com/posts/dave-farley-a67927_too-many-teams-write-code-that-works-but-activity-7326569822513733632-r4jD
+7	https://www.linkedin.com/posts/prathibha-p-774846b5_what-is-dor-definition-of-ready-the-activity-7391459535632228352-QYNb
+8	https://www.linkedin.com/posts/michaelkuesters_an-excellent-illustration-why-the-product-activity-7393584916753567744-Fuy7
+9	https://www.linkedin.com/posts/daviscon_claude-code-just-shipped-goal-here-is-activity-7460137861527416832-KV97
+10	https://www.linkedin.com/posts/raghavendra-business-analyst_what-metrics-do-you-use-to-track-sprint-or-activity-7393943084570615808-pxYB
+
+QUERY	outcome_gap	shipped_but_unused	site:linkedin.com/posts "acceptance criteria met" "nobody used"	2026-07-21T14:32:32
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met nobody used
+1	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+2	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+3	https://www.linkedin.com/posts/bradleyfay_acceptance-criteria-as-contract-in-aad-activity-7435447244276981760--ajw
+4	https://www.linkedin.com/posts/praful900_productmanagement-agile-scrum-activity-7442070771197370369-1EuP
+5	https://www.linkedin.com/posts/sakshi-gupta-857b85141_30daysofba-30daysofba-businessanalyst-activity-7346059823576137729-jmT_
+6	https://www.linkedin.com/posts/ethanrussell_nobody-retired-the-business-analyst-role-activity-7463331398871863297-ajmQ
+7	https://www.linkedin.com/posts/prathibha-p-774846b5_what-is-dor-definition-of-ready-the-activity-7391459535632228352-QYNb
+8	https://www.linkedin.com/posts/mohammadsohailbusinessanalyst_most-user-stories-fail-before-development-activity-7475787512364560384-bnuU
+9	https://www.linkedin.com/posts/troy-mcalpin-2a936b6_aiproductivity-productmanagement-softwaredevelopment-activity-7439720976306769920-srkK
+10	https://www.linkedin.com/posts/shruti-mittu_qualityassurance-agiletesting-userexperience-activity-7371161929572098048-aWHB
+
+QUERY	outcome_gap	users_unhappy	site:linkedin.com/posts "QA passed" "users unhappy"	2026-07-21T14:32:34
+SERPER_QUERY	site:linkedin.com/posts QA passed users unhappy
+1	https://www.linkedin.com/posts/ainarasainz_we-dont-have-a-qa-team-at-wealthsimple-activity-7483193098685284352-I6uK
+2	https://www.linkedin.com/posts/ranjit-appukutti-b22350110_ranjitappukutti-activity-7363888250517643264-U_QS
+3	https://www.linkedin.com/posts/arpitchoubey_the-7-usability-testing-metrics-every-qa-activity-7482622406298226688-WUtR
+4	https://www.linkedin.com/posts/lata-vashist_lifeinqa-qalife-buildwithquality-activity-7353351873799639040-F7Hc
+5	https://www.linkedin.com/posts/tamilarasu-v_qualityassurance-softwaretesting-qalife-activity-7345736687198642176-gdPe
+6	https://www.linkedin.com/posts/shaik-ahammad_qualityassurance-softwaretesting-qa-activity-7414180170309251075--TPO
+7	https://www.linkedin.com/posts/askui_agentictesting-qa-askui-activity-7478827515197689857-ubCd
+8	https://www.linkedin.com/posts/raghvendra-singh-718b72209_you-can-find-100-bugs-and-still-fail-as-a-activity-7325867183115268096-1lWq
+9	https://www.linkedin.com/posts/charliemarkham_the-teams-getting-agentic-development-wrong-activity-7457789452694949888-D9ZW
+10	https://www.linkedin.com/posts/ivano-mannella_essential-skills-for-qa-professionals-in-activity-7289978543789273088-W7RH
+
+QUERY	outcome_gap	users_unhappy	site:linkedin.com/posts "QA passed" "customers unhappy"	2026-07-21T14:32:38
+SERPER_QUERY	site:linkedin.com/posts QA passed customers unhappy
+1	https://www.linkedin.com/posts/vasuprathipati_as-eric-says-kill-the-qa-score-in-the-activity-7381368181246001152-ASvc
+2	https://www.linkedin.com/posts/blessing-eze-7a27b811b_i-remember-a-meeting-where-the-ceo-of-a-company-activity-7447924579567771648-eArX
+3	https://www.linkedin.com/posts/alex-vakulov-security_why-your-qa-engineer-should-be-the-most-stubborn-activity-7467969222980263936-uTVr
+4	https://www.linkedin.com/posts/liz-parry19_did-the-agent-follow-the-policy-or-did-the-activity-7477728915621367808-dJME
+5	https://www.linkedin.com/posts/jennybramble_if-i-could-wave-a-magic-wand-and-remove-a-activity-7477429043932377089-s56Q
+6	https://www.linkedin.com/posts/shazeb-khan-595559b4_qa-qualityengineering-testing-activity-7376480515006083072-m7Lr
+7	https://www.linkedin.com/posts/tamilarasu-v_qualityassurance-softwaretesting-qalife-activity-7345736687198642176-gdPe
+8	https://www.linkedin.com/posts/asorin_two-support-teams-same-company-same-customers-activity-7478402628297871360-Jm00
+9	https://www.linkedin.com/posts/mohib-s-3437b124a_salesqa-qualityassurance-sales-activity-7432802800528515072-s5Uo
+10	https://www.linkedin.com/posts/markstagi_your-customer-doesnt-need-another-yes-person-activity-7333170941901840384-rMWU
+
+QUERY	outcome_gap	users_unhappy	site:linkedin.com/posts "feature shipped" "users unhappy"	2026-07-21T14:32:42
+SERPER_QUERY	site:linkedin.com/posts feature shipped users unhappy
+1	https://www.linkedin.com/posts/bancucristianalexandru_youve-shipped-a-feature-that-works-99-of-activity-7434583417482240000-GpQf
+2	https://www.linkedin.com/posts/paulvixie_requirements-analysis-catching-requirement-activity-7465403341125099520-YY-j
+3	https://www.linkedin.com/posts/pete-carlson-056090a3_i-just-want-to-talk-to-someone-its-activity-7435002867448471553-NcLL
+4	https://www.linkedin.com/posts/mattwatsonkc_if-your-team-does-a-big-release-and-your-activity-7479516221730852864-dL8L
+5	https://www.linkedin.com/posts/mouhcine-ziane-a8a3a3320_who-is-using-your-product-right-now-decides-activity-7475827584606482432-Dc0u
+6	https://www.linkedin.com/posts/zhengyudian_founderinsights-productmanagement-artificialintelligence-activity-7467998545191747585-RKKU
+7	https://www.linkedin.com/posts/agamchaudhary_productmanagement-startuplife-buildinpublic-activity-7342774783765319680-M_lP
+8	https://www.linkedin.com/posts/jdpawar_startups-engineeringleadership-productmanagement-activity-7467444666292936704-5d-y
+9	https://www.linkedin.com/posts/dan-whelan-0830b81b_on-tuesday-i-asked-whats-the-one-skill-activity-7468058961158680576-7SPF
+10	https://www.linkedin.com/posts/sudhirvashist_entrepreneurship-aiseo-seoforsaas-activity-7309483332008820736-z3_P
+
+QUERY	outcome_gap	users_unhappy	site:linkedin.com/posts "feature shipped" "customers unhappy"	2026-07-21T14:32:45
+SERPER_QUERY	site:linkedin.com/posts feature shipped customers unhappy
+1	https://www.linkedin.com/posts/mattwatsonkc_if-your-team-does-a-big-release-and-your-activity-7479516221730852864-dL8L
+2	https://www.linkedin.com/posts/mkuphal_if-the-customer-has-to-ask-the-workflow-activity-7472657609620381697-aE8D
+3	https://www.linkedin.com/posts/toniskidmore_for-most-of-my-career-ive-talked-to-clients-activity-7473015973873291266-Virb
+4	https://www.linkedin.com/posts/amitbhatnagar1_shouldnt-we-be-customer-centric-not-product-centric-activity-7290787627790671872-Bvvd
+5	https://www.linkedin.com/posts/ashmaurya_pmf-leanstartup-productstrategy-activity-7458984164176855040-ImlA
+6	https://www.linkedin.com/posts/matthewvolm_revops-revenueoperations-customersuccess-activity-7421586476087402496--00X
+7	https://www.linkedin.com/posts/aaronhodes_yall-need-to-stop-using-a-7-10-day-shipping-activity-7422297548821905409-rglG
+8	https://www.linkedin.com/posts/sarahhum_churn-happens-its-part-of-doing-business-activity-7338973406375120898-Za_b
+9	https://www.linkedin.com/posts/learnupon_most-customers-who-churn-dont-hate-your-activity-7473015641264975872-gsNw
+10	https://www.linkedin.com/posts/jenakap_eliminate-the-feature-factory-product-activity-7392174791102771201-ac0k
+
+QUERY	outcome_gap	users_unhappy	site:linkedin.com/posts "acceptance criteria met" "users unhappy"	2026-07-21T14:32:48
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met users unhappy
+1	https://www.linkedin.com/posts/kawan-soni-352297134_productmanagement-userstories-agile-activity-7346184992886005761-lme_
+2	https://www.linkedin.com/posts/allenholub_a-user-story-the-users-story-provides-activity-7247718972278595584-ztnC
+3	https://www.linkedin.com/posts/phil-ledgerwood_scrum-activity-7311447384528404483-oh7Y
+4	https://www.linkedin.com/posts/rachit-jain-31a8aa176_businessanalyst-scrum-definitionofready-activity-7352382856649695232-4krb
+5	https://www.linkedin.com/posts/ravibhardwaj94_businessanalysis-ba-requirements-activity-7403859146099527681-aTv4
+6	https://www.linkedin.com/posts/corbincrutchley_this-mistake-may-be-costing-you-job-opportunities-activity-7388228228777373696-mZYW
+7	https://www.linkedin.com/posts/pd4b2366112_agile-scrum-definitionofdone-activity-7420916987041734657-5yWd
+8	https://www.linkedin.com/posts/anatoly-kosyakin_hardwaredevelopment-productowner-agile-activity-7320339019966406657-bQCM
+9	https://www.linkedin.com/posts/alisha-sengupta-b164bb125_productmanagement-productthinking-teamconfidence-activity-7323941938179559424-JGQ_
+10	https://www.linkedin.com/posts/bryan-finster_psa-having-a-product-roadmap-an-architectural-activity-7356670742312243200-ixlp
+
+QUERY	outcome_gap	users_unhappy	site:linkedin.com/posts "acceptance criteria met" "customers unhappy"	2026-07-21T14:32:52
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met customers unhappy
+1	https://www.linkedin.com/posts/jefftoister_quickly-defuse-upset-customers-with-the-partner-activity-7309959713612267520-jUFo
+2	https://www.linkedin.com/posts/natasuu_why-are-you-putting-acceptance-criteria-activity-7404063507874365440-4n5S
+3	https://www.linkedin.com/posts/starosotska_losing-customers-hurts-keeping-unhappy-ones-activity-7429806891477880832-XkqI
+4	https://www.linkedin.com/posts/kawan-soni-352297134_productmanagement-userstories-agile-activity-7346184992886005761-lme_
+5	https://www.linkedin.com/posts/timnewbold_most-product-teams-dont-fail-because-they-activity-7321394175000645632-UIh4
+6	https://www.linkedin.com/posts/angus-moir-37b2aa43_its-time-to-move-to-test-driven-change-activity-7289900006512181250-j7Da
+7	https://www.linkedin.com/posts/robdull_the-case-for-backlog-refinement-as-a-separate-activity-7362250171931394048-J4CB
+8	https://www.linkedin.com/posts/lisabecklesconsulting_lisabecklesconsulting-tic2026-customerjourney-activity-7482530062852943872-X84s
+9	https://www.linkedin.com/posts/allenholub_i-keep-reading-about-things-like-detailed-activity-7355313297627230209-zWEc
+10	https://www.linkedin.com/posts/barryovereem_the-disadvantages-of-a-definition-of-ready-activity-7287725962308300800-botJ
+
+QUERY	outcome_gap	no_customer_value	site:linkedin.com/posts "QA passed" "no customer value"	2026-07-21T14:32:55
+SERPER_QUERY	site:linkedin.com/posts QA passed no customer value
+1	https://www.linkedin.com/posts/bryan-finster_this-is-entirely-incorrect-if-you-have-a-activity-7376275755577741312-3dNc
+2	https://www.linkedin.com/posts/nichita-ialivciuc_qa-engineers-are-underpaid-and-part-of-that-activity-7453436873768882177-rpd9
+3	https://www.linkedin.com/posts/elena-bartash_a-good-qa-is-quiet-i-keep-seeing-this-activity-7476977708384718848-b29J
+4	https://www.linkedin.com/posts/hemantkhanolkar_qualityengineering-devops-softwaredevelopment-activity-7376159670165516289-fJ1z
+5	https://www.linkedin.com/posts/alexmarantelos_why-is-qa-for-customer-support-becoming-all-activity-7354442057555271680-UD5B
+6	https://www.linkedin.com/posts/acaisoft_customer-satisfaction-depends-on-what-happens-activity-7436839057554448384-OIGx
+7	https://www.linkedin.com/posts/billmacuk_saas-valuecreation-qualityassurance-activity-7404492017994526720-ckIr
+8	https://www.linkedin.com/posts/aatirar_ai-capability-customer-value-i-saw-this-activity-7416097812725055488-wENW
+9	https://www.linkedin.com/posts/benazshali_qualityassurance-leadership-agile-activity-7383519315574251520-S_bD
+10	https://www.linkedin.com/posts/justinmrobbins_contactcenter-qualityassurance-activity-7290892501320663041-g4IX
+
+QUERY	outcome_gap	no_customer_value	site:linkedin.com/posts "QA passed" "did not solve the problem"	2026-07-21T14:33:00
+SERPER_QUERY	site:linkedin.com/posts QA passed did not solve the problem
+1	https://www.linkedin.com/posts/ben-f-44778426_kind-of-a-bigger-thought-but-if-you-strip-activity-7424807692428484608-fyGM
+2	https://www.linkedin.com/posts/chovy_qa-softwaredevelopment-engineering-activity-7364931932779933696-VM48
+3	https://www.linkedin.com/posts/aaronevans_the-biggest-challenge-i-see-in-qa-is-not-activity-7384970502009896960--gxo
+4	https://www.linkedin.com/posts/scott-mcginn-55b7a88a_qa-qualityassurance-qualityengineering-activity-7363837219792396289-P-NJ
+5	https://www.linkedin.com/posts/ben-f-44778426_quality-software-testing-activity-7299812535552073729-f-wT
+6	https://www.linkedin.com/posts/stevenbbaumgartner_this-hits-very-close-to-home-in-my-qa-career-activity-7435861737947537408-JSav
+7	https://www.linkedin.com/posts/dhavalshreyas_founderstory-startuplife-qualityassurance-activity-7340448674348482560-V-YJ
+8	https://www.linkedin.com/posts/mattwatsonkc_you-can-ship-to-production-without-qa-and-activity-7326345468718788610-IcxV
+9	https://www.linkedin.com/posts/ferozally_qa-is-often-labelled-as-the-bottleneck-activity-7426879813061230592-PDFQ
+10	https://www.linkedin.com/posts/lavanya-adapa-4baa8567_qalife-softwaretesting-qualityassurance-activity-7359628131437105153-PI1p
+
+QUERY	outcome_gap	no_customer_value	site:linkedin.com/posts "feature shipped" "no customer value"	2026-07-21T14:33:03
+SERPER_QUERY	site:linkedin.com/posts feature shipped no customer value
+1	https://www.linkedin.com/posts/sujanaoruganti_i-shipped-a-feature-in-2-weeks-that-sat-unused-activity-7392742662484750336-i-QK
+2	https://www.linkedin.com/posts/mattwatsonkc_if-your-team-does-a-big-release-and-your-activity-7479516221730852864-dL8L
+3	https://www.linkedin.com/posts/ohadbiron_if-a-pm-tells-me-i-shipped-this-feature-activity-7342899240618053632-VdFJ
+4	https://www.linkedin.com/posts/manjit-mohanty_productmanagement-customercentric-buildwithpurpose-activity-7347218989300776962--Gau
+5	https://www.linkedin.com/posts/helio_shipping-features-isnt-the-same-as-making-activity-7374807765141114880-c-iX
+6	https://www.linkedin.com/posts/jordan-nolff-1699a029_ai-lets-product-teams-ship-faster-than-ever-activity-7459965657821126658-uBoT
+7	https://www.linkedin.com/posts/sjohnsonmarketing_spent-months-and-thousands-to-ship-a-feature-activity-7468355528591773696-gkpy
+8	https://www.linkedin.com/posts/sammy-verghese_i-just-shipped-my-first-feature-to-production-activity-7478365339190272001-KvH3
+9	https://www.linkedin.com/posts/ashmaurya_your-product-is-10x-better-and-youre-still-activity-7476990306731700224-YfX2
+10	https://www.linkedin.com/posts/frederic-vanderveken_ive-shipped-products-that-nobody-wanted-activity-7459478652767039488-lMHb
+
+QUERY	outcome_gap	no_customer_value	site:linkedin.com/posts "feature shipped" "did not solve the problem"	2026-07-21T14:33:06
+SERPER_QUERY	site:linkedin.com/posts feature shipped did not solve the problem
+1	https://www.linkedin.com/posts/sujanaoruganti_i-shipped-a-feature-in-2-weeks-that-sat-unused-activity-7392742662484750336-i-QK
+2	https://www.linkedin.com/posts/ohadbiron_if-a-pm-tells-me-i-shipped-this-feature-activity-7342899240618053632-VdFJ
+3	https://www.linkedin.com/posts/bryon-kroger_i-keep-watching-teams-celebrate-when-a-feature-activity-7480625560881143808--sG7
+4	https://www.linkedin.com/posts/mkuphal_if-the-customer-has-to-ask-the-workflow-activity-7472657609620381697-aE8D
+5	https://www.linkedin.com/posts/ant-murphy_dont-fix-discovery-fix-delivery-first-activity-7460494108571324416-lGv0
+6	https://www.linkedin.com/posts/sammy-verghese_i-just-shipped-my-first-feature-to-production-activity-7478365339190272001-KvH3
+7	https://www.linkedin.com/posts/anthonyargenziano_good-enough-is-the-most-dangerous-phrase-activity-7475575706006102016-wFTS
+8	https://www.linkedin.com/posts/arjun-sahai_we-shipped-a-feature-we-were-proud-of-three-activity-7473095747723227136-5zge
+9	https://www.linkedin.com/posts/mattwatsonkc_shipping-features-is-only-the-beginning-of-activity-7282776395804459009-v-5z
+10	https://www.linkedin.com/posts/grahammcnicoll_why-killing-a-feature-is-an-experimentation-activity-7472664407102095360-xidG
+
+QUERY	outcome_gap	no_customer_value	site:linkedin.com/posts "acceptance criteria met" "no customer value"	2026-07-21T14:33:09
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met no customer value
+1	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+2	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+3	https://www.linkedin.com/posts/tusharzond-sm_definition-of-done-vs-acceptance-criteria-activity-7354899742981570560-A0BG
+4	https://www.linkedin.com/posts/pd4b2366112_agile-scrum-acceptancecriteria-activity-7421464310197018624-B-1R
+5	https://www.linkedin.com/posts/mridul-sharma-facilitator_agile-scrum-productmanagement-activity-7361755236811636737-r3RO
+6	https://www.linkedin.com/posts/tushar-gupta-b47450bb_acceptancecriteria-scrum-agile-activity-7316677945597554688--2Lu
+7	https://www.linkedin.com/posts/derahafiyyan_agile-scrum-productdevelopment-activity-7303388484575076352-Bg2c
+8	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+9	https://www.linkedin.com/posts/praful900_productmanagement-agile-scrum-activity-7442070771197370369-1EuP
+10	https://www.linkedin.com/posts/tochi1_sprintcycle-scrummaster-acceptancecriteria-activity-7335270213627580416-WiaZ
+
+QUERY	outcome_gap	no_customer_value	site:linkedin.com/posts "acceptance criteria met" "did not solve the problem"	2026-07-21T14:33:11
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria met did not solve the problem
+1	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+2	https://www.linkedin.com/posts/sunil-dalkari-5772b3240_agile-scrum-deliveryexcellence-activity-7438223666796183553-Ff5d
+3	https://www.linkedin.com/posts/bryan-finster_psa-having-a-product-roadmap-an-architectural-activity-7356670742312243200-ixlp
+4	https://www.linkedin.com/posts/anton-zaides_in-january-2025-we-killed-sprint-planning-activity-7451668440311906305-XxRY
+5	https://www.linkedin.com/posts/anthonyargenziano_good-enough-is-the-most-dangerous-phrase-activity-7475575706006102016-wFTS
+6	https://www.linkedin.com/posts/johnpcutler_for-some-reason-whenever-i-think-about-ai-activity-7474658039845822464-xKIq
+7	https://www.linkedin.com/posts/vinay-kumar-sadineni_sprintreview-agile-scrummaster-activity-7399665919645372416-e0G_
+8	https://www.linkedin.com/posts/mohammadsohailbusinessanalyst_most-user-stories-fail-before-development-activity-7475787512364560384-bnuU
+9	https://www.linkedin.com/posts/aanshik-jasani_businessanalysis-agiledelivery-requirementsengineering-activity-7474838631766183937-qHmz
+10	https://www.linkedin.com/posts/robmyersagilecoach_i-recall-that-the-person-who-came-up-with-activity-7364296265414660097-dRuQ
+
+QUERY	implementation_intent_drift	matches_ticket_not_intent	site:linkedin.com/posts "built the wrong feature" "matches the ticket"	2026-07-21T14:33:14
+SERPER_QUERY	site:linkedin.com/posts built the wrong feature matches the ticket
+1	https://www.linkedin.com/posts/yugandhara-lad_a-client-called-me-last-month-frustrated-activity-7474681357718417408-Do3U
+2	https://www.linkedin.com/posts/miladalucozai_startups-productstrategy-competitiveadvantage-activity-7371165555099332609-Pwx0
+3	https://www.linkedin.com/posts/hetzdoron_productmanagement-customercentric-businessstrategy-activity-7475563466297143296-v0zP
+4	https://www.linkedin.com/posts/wavity_itsm-servicedesk-itsupport-activity-7472648182532071425-YAk9
+5	https://www.linkedin.com/posts/timnewbold_most-product-teams-dont-fail-because-they-activity-7321394175000645632-UIh4
+6	https://www.linkedin.com/posts/dangingiss_customerexperience-travel-activity-7397350994906566657-klK9
+7	https://www.linkedin.com/posts/maximemanseau_most-support-teams-are-stuck-in-a-ticket-closing-activity-7294762310256988160-ECFT
+8	https://www.linkedin.com/posts/thomasbierly_the-jira-ticket-was-slow-annoying-and-occasionally-activity-7448390352266346496-HxgF
+9	https://www.linkedin.com/posts/kentcdodds_you-can-be-the-fastest-ticket-closer-on-your-activity-7471563902246363137-2fkm
+10	https://www.linkedin.com/posts/rachelsonghu_we-told-our-ai-to-close-support-tickets-faster-activity-7468332506556076033-mbim
+
+QUERY	implementation_intent_drift	matches_ticket_not_intent	site:linkedin.com/posts "built the wrong feature" "business intent"	2026-07-21T14:33:16
+SERPER_QUERY	site:linkedin.com/posts built the wrong feature business intent
+1	https://www.linkedin.com/posts/shahar-shalev-5b3a30122_startup-founder-entrepreneurship-activity-7391187426809106432-3rTx
+2	https://www.linkedin.com/posts/justinmecham_i-almost-built-the-wrong-business-this-activity-7454869635675623424-_q2a
+3	https://www.linkedin.com/posts/steve-chikwiri_will-it-make-the-boat-go-faster-how-clear-activity-7468548422803939328-Qdvm
+4	https://www.linkedin.com/posts/jhaynam_starting-a-business-is-hard-re-starting-activity-7371175608544022528-ORoR
+5	https://www.linkedin.com/posts/cate-murden-7b05bb4_dear-founder-you-dont-need-another-strategy-activity-7334115107016228864-aGyZ
+6	https://www.linkedin.com/posts/roelof-otten_if-a-big-client-asks-for-a-custom-feature-activity-7318951458828128256-GkMz
+7	https://www.linkedin.com/posts/yusufmuhammed_before-building-any-product-feature-i-ask-activity-7384988824340299780-JpBI
+8	https://www.linkedin.com/posts/devlikesbizness_people-say-building-and-selling-a-business-activity-7397491515578646529-3Iwb
+9	https://www.linkedin.com/posts/bridgit-norris_5-mistakes-that-actually-built-my-business-activity-7386729421413687296--n_U
+10	https://www.linkedin.com/posts/afikby_5-years-2-startups-hard-truths-about-my-activity-7312482827466346496-C3bV
+
+QUERY	implementation_intent_drift	matches_ticket_not_intent	site:linkedin.com/posts "implementation drift" "matches the ticket"	2026-07-21T14:33:20
+SERPER_QUERY	site:linkedin.com/posts implementation drift matches the ticket
+1	https://www.linkedin.com/posts/tpitre_design-code-drift-is-one-of-those-problems-activity-7426978893422841856-cLJf
+2	https://www.linkedin.com/posts/beaumois_what-is-intent-drift-ai-agents-have-a-problem-activity-7417926666036944896-K0RY
+3	https://www.linkedin.com/posts/marcobrambilla99_every-chip-project-ive-been-part-of-had-activity-7447897643000692736-0WD8
+4	https://www.linkedin.com/posts/gokulrajaram1_productspeccontributingmd-at-main-gokulrajaram-activity-7480049454557896704-jfCD
+5	https://www.linkedin.com/posts/theagenticguy_closing-the-looppdf-activity-7445149833327443968-IZZF
+6	https://www.linkedin.com/posts/yuanshenng_i-used-to-treat-specs-mostly-as-alignment-activity-7461627204699860993-4zJe
+7	https://www.linkedin.com/posts/infolitz-software_finops-ai-llm-activity-7433247058767069185-Am4D
+8	https://www.linkedin.com/posts/brian-gustason_pe-growth-headwind-why-this-type-of-drift-activity-7401261431775576067-MU8w
+9	https://www.linkedin.com/posts/gokulrajaram1_github-gokulrajaramproductspec-open-standard-activity-7480793500649693185-9EPD
+10	https://www.linkedin.com/posts/vineettyagi1973_softwareengineering-engineeringleadership-activity-7469950152724869120-k3-Z
+
+QUERY	implementation_intent_drift	matches_ticket_not_intent	site:linkedin.com/posts "implementation drift" "business intent"	2026-07-21T14:33:22
+SERPER_QUERY	site:linkedin.com/posts implementation drift business intent
+1	https://www.linkedin.com/posts/beaumois_what-is-intent-drift-ai-agents-have-a-problem-activity-7417926666036944896-K0RY
+2	https://www.linkedin.com/posts/nkkaushik_a-must-while-adopting-agentic-sdlc-when-activity-7457943174464999425-Vx3J
+3	https://www.linkedin.com/posts/angelawickcbap_requirements-have-a-new-audience-now-activity-7461841723825041408-7OHT
+4	https://www.linkedin.com/posts/jamesopsin_an-hr-agent-picks-up-a-request-that-has-nothing-activity-7481371019535032320-OtMw
+5	https://www.linkedin.com/posts/dylansjanderson_i-think-a-lot-of-the-hype-around-ai-is-super-activity-7437848542867599360-TvgO
+6	https://www.linkedin.com/posts/gaborfulop_question-for-executives-at-companies-going-activity-7474778243342979072-RBtF
+7	https://www.linkedin.com/posts/borisbogatin_a-month-ago-i-wrote-about-the-shift-the-industry-activity-7460023808737828864-R09f
+8	https://www.linkedin.com/posts/michael-coon-68136967_quick-reality-check-for-anyone-using-claude-activity-7422280690127249408-oJLK
+9	https://www.linkedin.com/posts/stu-frost_enterpriseai-softwarearchitecture-aiengineering-activity-7457507084264214528-rBwi
+10	https://www.linkedin.com/posts/scottjorgensen_stopagentslop-stopagentslop-aiquality-activity-7387285199178534912-oQK1
+
+QUERY	implementation_intent_drift	matches_ticket_not_intent	site:linkedin.com/posts "requirements misunderstood" "matches the ticket"	2026-07-21T14:33:25
+SERPER_QUERY	site:linkedin.com/posts requirements misunderstood matches the ticket
+1	https://www.linkedin.com/posts/riny-nurhajati-2bb9a5b_this-well-known-image-in-the-it-and-software-activity-7346818270517149696-aND6
+2	https://www.linkedin.com/posts/bobvdv_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B2-%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%B2%F0%9D%98%86-%F0%9D%97%AE%F0%9D%98%80%F0%9D%97%B8%F0%9D%97%B2%F0%9D%97%B1-activity-7467596341230313472-ga4y
+3	https://www.linkedin.com/posts/srvjha02_a-feature-can-pass-every-unit-test-every-activity-7482448388576256000-cTY4
+4	https://www.linkedin.com/posts/christian-callegari-b34691285_fifa-faces-nj-ny-probe-over-fake-scarcity-activity-7466092242500239361-KaRC
+5	https://www.linkedin.com/posts/aagupta_aparna-dhinakarans-team-at-arize-ships-production-activity-7464866526601482240-NELp
+6	https://www.linkedin.com/posts/abahgat_ai-coding-agents-feel-like-magic-on-a-weekend-activity-7432060750476533761-pmZM
+7	https://www.linkedin.com/posts/zoia-potapenko_the-inner-perfectionist-is-the-most-toxic-activity-7467906096439988224-NGqI
+8	https://www.linkedin.com/posts/soneel-choraria-62669814_happy-evening-uat-user-acceptance-testing-activity-7442568830066876417-5gNN
+9	https://www.linkedin.com/posts/ricardo-torres-96075471_i-think-maybe-the-pull-request-or-merge-activity-7435502766791471105-UxfA
+10	https://www.linkedin.com/posts/parag-agrawal-101892202_code-reviews-used-to-eat-5-6-hours-of-my-activity-7476157804915953666--fOv
+
+QUERY	implementation_intent_drift	matches_ticket_not_intent	site:linkedin.com/posts "requirements misunderstood" "business intent"	2026-07-21T14:33:27
+SERPER_QUERY	site:linkedin.com/posts requirements misunderstood business intent
+1	https://www.linkedin.com/posts/diwakarsinghbamentor_one-of-the-most-misunderstood-yet-critical-activity-7405610908728635392-DQdJ
+2	https://www.linkedin.com/posts/matt-quick_the-requirements-document-has-entered-the-activity-7481179144509284352-RpWH
+3	https://www.linkedin.com/posts/nikhil-chandrakant-chavan-249281194_businessanalyst-requirementgathering-businessanalysis-activity-7418900459043766272-Go4-
+4	https://www.linkedin.com/posts/angelawickcbap_the-concept-of-a-requirement-is-no-longer-activity-7475704467217207296-I2SL
+5	https://www.linkedin.com/posts/amandahulst_should-vs-must-in-requirements-writing-activity-7381997737107582976-IoYR
+6	https://www.linkedin.com/posts/saurabh-malik-65994a37_businessanalyst-baweekly-requirements-activity-7434156399242440704-YNVP
+7	https://www.linkedin.com/posts/davetoomer_salesleadership-smbsales-fractionalvpsales-activity-7468303863268274176-4l-F
+8	https://www.linkedin.com/posts/diwakarsinghbamentor_one-of-the-most-misunderstood-yet-critical-activity-7457787319593623552-OL7_
+9	https://www.linkedin.com/posts/aprillatoyalittle_you-can-be-excellent-and-still-be-misunderstood-activity-7350885558824448002-lIyl
+10	https://www.linkedin.com/posts/oluwatosin-sarumi_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B5-%F0%9D%97%95%F0%9D%97%94-%F0%9D%97%97%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%83%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%AF%F0%9D%97%B9%F0%9D%97%B2-%F0%9D%97%9C-activity-7386072253811138561-XLsj
+
+QUERY	implementation_intent_drift	technically_complete_but_wrong	site:linkedin.com/posts "built the wrong feature" "technically complete"	2026-07-21T14:33:31
+SERPER_QUERY	site:linkedin.com/posts built the wrong feature technically complete
+1	https://www.linkedin.com/posts/sood2105_a-product-can-be-technically-complete-and-activity-7469690712951787520-I7bT
+2	https://www.linkedin.com/posts/techupr_productdevelopment-softwareengineering-agilemethodology-activity-7459607491912351745-TzUs
+3	https://www.linkedin.com/posts/raviktiwari_productstrategy-userexperience-technologyleadership-activity-7475569296094486528-AGhP
+4	https://www.linkedin.com/posts/sean-ward-a6757026b_a-feature-rich-product-and-a-revenue-generating-activity-7451983364179496960-c_ph
+5	https://www.linkedin.com/posts/prollinson_i-let-an-agent-decide-what-to-build-next-activity-7475642796947742720-J5hk
+6	https://www.linkedin.com/posts/udaya-kumar-sivagurunathan-a9593148_uxdesign-productstrategy-productmanagement-activity-7457617658629316609-tQ8z
+7	https://www.linkedin.com/posts/amol-bhosale-55929022a_built-and-managed-not-handed-off-its-activity-7474779164844195841-6mOq
+8	https://www.linkedin.com/posts/konstantina-psoma_for-five-years-ive-worked-on-every-product-activity-7456075079328641024-5a84
+9	https://www.linkedin.com/posts/joe-wilhelm_opus-46-is-broken-i-built-a-full-feature-activity-7425451959496851456-FPZ6
+10	https://www.linkedin.com/posts/wearecapicua_productstrategy-productmanagement-softwaredevelopment-activity-7458233135797948418-eiMp
+
+QUERY	implementation_intent_drift	technically_complete_but_wrong	site:linkedin.com/posts "built the wrong feature" "wrong thing"	2026-07-21T14:33:33
+SERPER_QUERY	site:linkedin.com/posts built the wrong feature wrong thing
+1	https://www.linkedin.com/posts/hetzdoron_productmanagement-customercentric-businessstrategy-activity-7475563466297143296-v0zP
+2	https://www.linkedin.com/posts/ali-amini-dev_i-once-built-the-wrong-thing-perfectly-activity-7374321353774153728-5D0i
+3	https://www.linkedin.com/posts/oliverkenyon_if-the-wrong-things-being-built-optimizing-activity-7333424474685403136-XKZ_
+4	https://www.linkedin.com/posts/josh-braun_ai-can-help-you-build-the-wrong-thing-faster-activity-7362078196902576128-VXjx
+5	https://www.linkedin.com/posts/shreyasdoshi_when-youve-built-the-wrong-product-that-activity-7072954579524452352-FIVt
+6	https://www.linkedin.com/posts/jdmeier_the-hardest-workers-often-build-the-wrong-activity-7383538187903754240-2Qhy
+7	https://www.linkedin.com/posts/jevering_stop-making-the-wrong-thing-better-ive-activity-7425932378742779904-7gzX
+8	https://www.linkedin.com/posts/tristankromer_the-most-expensive-mistake-in-building-a-activity-7479942460408868865-D73g
+9	https://www.linkedin.com/posts/shahar-shalev-5b3a30122_startup-founder-entrepreneurship-activity-7391187426809106432-3rTx
+10	https://www.linkedin.com/posts/sanket-shah-startup-enterprise-growth_founders-productdevelopment-softwaredevelopment-activity-7474708748897284098-vARV
+
+QUERY	implementation_intent_drift	technically_complete_but_wrong	site:linkedin.com/posts "implementation drift" "technically complete"	2026-07-21T14:33:36
+SERPER_QUERY	site:linkedin.com/posts implementation drift technically complete
+1	https://www.linkedin.com/posts/kmerri_implementation-drift-doesnt-feel-like-a-activity-7432403249955086336-E-9V
+2	https://www.linkedin.com/posts/upperedge-llc_erp-program-drift-the-hidden-threat-to-your-activity-7476651554356330496-JDjf
+3	https://www.linkedin.com/posts/jongor_ai-aihype-vibecoding-activity-7442781988660633600-sisb
+4	https://www.linkedin.com/posts/chellestringer_digitaltransformation-leadership-activity-7471243599997935618-hqdp
+5	https://www.linkedin.com/posts/alon-gal-utb_new-285m-drift-protocol-hack-what-looked-activity-7446425992870412288-DeLq
+6	https://www.linkedin.com/posts/heunets_if-youre-running-multi-site-deployments-activity-7470822572679544833-w7ZE
+7	https://www.linkedin.com/posts/sankarsanthanaraman_i-posted-a-diagram-on-monday-some-contacts-activity-7455103573895577600-Wyya
+8	https://www.linkedin.com/posts/laura-pointer_ai-on-bad-data-is-sprinkles-on-raw-cake-activity-7480514938956914688-rX91
+9	https://www.linkedin.com/posts/george-kyle-4285a53b_why-cant-producers-afford-to-wait-for-perfect-activity-7457353434233597954-_zSe
+10	https://www.linkedin.com/posts/daniel-lh-gordon_interrupt2026-bankingrm-scalerm-activity-7462102234974269442--9oR
+
+QUERY	implementation_intent_drift	technically_complete_but_wrong	site:linkedin.com/posts "implementation drift" "wrong thing"	2026-07-21T14:33:38
+SERPER_QUERY	site:linkedin.com/posts implementation drift wrong thing
+1	https://www.linkedin.com/posts/ruigiebilaro_why-developers-ignore-your-design-system-activity-7451987170464071680-qAWx
+2	https://www.linkedin.com/posts/sankarsanthanaraman_i-posted-a-diagram-on-monday-some-contacts-activity-7455103573895577600-Wyya
+3	https://www.linkedin.com/posts/megs-armour-8a02b153_big-bet-the-next-18-months-will-be-all-about-activity-7456962756374597632-Rfyp
+4	https://www.linkedin.com/posts/predictivehr_recognizing-when-your-ukg-implementation-activity-7456015469238706176-OQmZ
+5	https://www.linkedin.com/posts/tom-bragg-212108_how-do-you-stop-ai-from-building-the-wrong-activity-7476635691909558272-T1Ou
+6	https://www.linkedin.com/posts/atif1_definition-of-drift-activity-7475525655628066816-upcC
+7	https://www.linkedin.com/posts/amirzarkesh_aigovernance-agenticai-pathllm-activity-7460831830263582720-b0uE
+8	https://www.linkedin.com/posts/josephmbradley_leadership-ai-executiveleadership-activity-7475790645924831233-2uIp
+9	https://www.linkedin.com/posts/anishekkamal_your-ai-coding-agent-gets-worse-as-your-project-activity-7475592430965170176-LEB4
+10	https://www.linkedin.com/posts/jan-niklas-wortmann_two-hours-on-the-spec-three-minutes-for-activity-7459588734750150656-pH8R
+
+QUERY	implementation_intent_drift	technically_complete_but_wrong	site:linkedin.com/posts "requirements misunderstood" "technically complete"	2026-07-21T14:33:41
+SERPER_QUERY	site:linkedin.com/posts requirements misunderstood technically complete
+1	https://www.linkedin.com/posts/angelawickcbap_the-concept-of-a-requirement-is-no-longer-activity-7475704467217207296-I2SL
+2	https://www.linkedin.com/posts/himanict_softwareengineering-leadership-productmanagement-activity-7475600035645190144-NKx-
+3	https://www.linkedin.com/posts/karlwiegers_6-practices-every-business-analyst-should-activity-7472296961287827456-3SXO
+4	https://www.linkedin.com/posts/soneel-choraria-62669814_happy-evening-uat-user-acceptance-testing-activity-7442568830066876417-5gNN
+5	https://www.linkedin.com/posts/ravibhardwaj94_dod-ba-businessanalysis-activity-7399449740645564417-X-j0
+6	https://www.linkedin.com/posts/bertuschold_a-gdt-question-to-ponder-an-argument-i-activity-7431779610905788417-anPu
+7	https://www.linkedin.com/posts/jjbauer_i-feel-like-most-death-of-x-role-takes-activity-7449222321426300928-p1gj
+8	https://www.linkedin.com/posts/raghavendra-business-analyst_most-business-analysts-think-a-signed-off-activity-7444330108175368193--0Nm
+9	https://www.linkedin.com/posts/peritus-regulatory-consulting-ltd_medicaldevices-qms-capa-activity-7467221767925972993-q8f2
+10	https://www.linkedin.com/posts/724software_724software-softwaredelivery-offshoreteam-activity-7467832497268121601-KUUK
+
+QUERY	implementation_intent_drift	technically_complete_but_wrong	site:linkedin.com/posts "requirements misunderstood" "wrong thing"	2026-07-21T14:33:43
+SERPER_QUERY	site:linkedin.com/posts requirements misunderstood wrong thing
+1	https://www.linkedin.com/posts/arunim-samudra_one-thing-ive-been-noticing-as-i-gain-more-activity-7475593617173041152-UnJZ
+2	https://www.linkedin.com/posts/matt-quick_the-requirements-document-has-entered-the-activity-7481179144509284352-RpWH
+3	https://www.linkedin.com/posts/alphagnito-technologies_softwaredevelopment-productmanagement-businessanalysis-activity-7472872619713822720-TSB-
+4	https://www.linkedin.com/posts/tonymartinvegue_i-posted-yesterday-about-the-famous-george-activity-7430425533760573440-UqNH
+5	https://www.linkedin.com/posts/brendanschirmer_i-once-cost-my-team-3-days-of-rework-because-activity-7360658798941769728-lUat
+6	https://www.linkedin.com/posts/maarten-dalmijn_ive-seen-companies-lose-millions-because-activity-7244972564773502976--vl2
+7	https://www.linkedin.com/posts/alshalloway_shalloways-law-of-requirements-requirements-activity-7303774021551013888-1b7h
+8	https://www.linkedin.com/posts/anurag-jain-pmp_softwaretesting-qualityassurance-testingmindset-activity-7427203503514816512-CzFW
+9	https://www.linkedin.com/posts/matthewthomasholliday_how-i-elicit-functional-requirements-save-activity-7456247937078140928-UiLc
+10	https://www.linkedin.com/posts/sonam-mane-272929263_qualityassurance-uat-softwaretesting-activity-7460907319598485505-e0LK
+
+QUERY	implementation_intent_drift	engineering_interpreted_differently	site:linkedin.com/posts "built the wrong feature" "engineering interpreted"	2026-07-21T14:33:46
+SERPER_QUERY	site:linkedin.com/posts built the wrong feature engineering interpreted
+1	https://www.linkedin.com/posts/yusuf-ganiyu-b90140107_feature-engineering-matters-more-than-your-activity-7401983645345009665-sLXG
+2	https://www.linkedin.com/posts/vivek-viswanathan-phd_quant-activity-7468678320965038081-bpmI
+3	https://www.linkedin.com/posts/muhammedessa_ai-featureengineering-datascience-activity-7415061374877519872-lmxP
+4	https://www.linkedin.com/posts/cvannoy_your-engineer-just-spent-three-weeks-building-activity-7361014866448429057-vBjH
+5	https://www.linkedin.com/posts/johnvetan_lately-ive-been-reading-a-lot-of-opinions-activity-7427709137733619713-Y4-E
+6	https://www.linkedin.com/posts/floyd-may_i-recently-looked-at-an-app-built-entirely-activity-7467214549763477505-Duv9
+7	https://www.linkedin.com/posts/adrien-biarnes_i-see-more-and-more-machine-learning-engineers-activity-7350083818860486657-I6_p
+8	https://www.linkedin.com/posts/vsevolod-baev_ive-been-on-both-sides-of-product-vs-engineering-activity-7443239090810056704-BD5t
+9	https://www.linkedin.com/posts/kostaspardalis_context-engineering-is-becoming-harness-engineering-activity-7468393176299618304-YRty
+10	https://www.linkedin.com/posts/daneldad_why-not-just-use-gemini-when-scoping-activity-7430348833924104192-9tAy
+
+QUERY	implementation_intent_drift	engineering_interpreted_differently	site:linkedin.com/posts "built the wrong feature" "interpreted differently"	2026-07-21T14:33:49
+SERPER_QUERY	site:linkedin.com/posts built the wrong feature interpreted differently
+1	https://www.linkedin.com/posts/avysotski_ai-made-it-too-easy-to-build-the-wrong-thing-activity-7308131392071041024-5rIP
+2	https://www.linkedin.com/posts/shahar-shalev-5b3a30122_startup-founder-entrepreneurship-activity-7391187426809106432-3rTx
+3	https://www.linkedin.com/posts/alexanderbrandi_most-developers-are-building-the-wrong-thing-activity-7399424358747774976-bWAm
+4	https://www.linkedin.com/posts/briancasel_if-youve-ever-decided-not-to-build-something-activity-7478454940009586688-9vH9
+5	https://www.linkedin.com/posts/danielhulter_if-you-think-about-it-design-is-a-terrible-activity-7482862460518006784-moAK
+6	https://www.linkedin.com/posts/williamlowrey_a-fellow-pm-pushed-back-on-my-post-about-activity-7437272329421864960-UWXq
+7	https://www.linkedin.com/posts/malith-atapattu-36a56a84_big-misconception-in-qa-having-developers-activity-7375233672146247680-Am0L
+8	https://www.linkedin.com/posts/rafael-s-calsaverini_this-is-wrong-ive-seen-this-analogy-activity-7325272302969872385-rdLz
+9	https://www.linkedin.com/posts/brianjenney_9-things-i-wish-i-knew-before-shipping-ai-activity-7411805138450935808-UZ42
+10	https://www.linkedin.com/posts/niyasto_we-are-building-ai-products-the-way-we-built-activity-7442474968657043456-q8hJ
+
+QUERY	implementation_intent_drift	engineering_interpreted_differently	site:linkedin.com/posts "implementation drift" "engineering interpreted"	2026-07-21T14:33:52
+SERPER_QUERY	site:linkedin.com/posts implementation drift engineering interpreted
+1	https://www.linkedin.com/posts/lindahaviv_context-vs-memory-vs-harness-engineering-activity-7456006809762340864-Cryv
+2	https://www.linkedin.com/posts/stuart-winter-tear_the-ai-native-development-lifecycle-is-not-activity-7468951116240625665-c-Gz
+3	https://www.linkedin.com/posts/jarredkenny_when-planning-becomes-code-jx%C3%B8-activity-7404130754382934016-lxhn
+4	https://www.linkedin.com/posts/markholdaway_we-spend-a-lot-of-time-defining-what-systems-activity-7445474378546442242-nGKN
+5	https://www.linkedin.com/posts/marcobrambilla99_every-chip-project-ive-been-part-of-had-activity-7447897643000692736-0WD8
+6	https://www.linkedin.com/posts/jaimharlow_i-had-an-acrid-exchange-with-an-engineer-activity-7399117300752314369-aQAU
+7	https://www.linkedin.com/posts/arpitbhayani_abstraction-is-a-fundamental-principle-in-activity-7425028541618139136--ZmI
+8	https://www.linkedin.com/posts/angiejones_research-plan-implement-pattern-goose-activity-7409652106405580801-cAos
+9	https://www.linkedin.com/posts/shirshankadas_the-context-engineering-conversation-has-activity-7453137784292155392-1acA
+10	https://www.linkedin.com/posts/elin-nguyen_interpretationdrift-substrateengineering-activity-7474548901942046721-yv-_
+
+QUERY	implementation_intent_drift	engineering_interpreted_differently	site:linkedin.com/posts "implementation drift" "interpreted differently"	2026-07-21T14:33:54
+SERPER_QUERY	site:linkedin.com/posts implementation drift interpreted differently
+1	https://www.linkedin.com/posts/markholdaway_we-spend-a-lot-of-time-defining-what-systems-activity-7445474378546442242-nGKN
+2	https://www.linkedin.com/posts/kirti-pawar-b327bb1bb_softwareengineering-systemdesign-softwarearchitecture-activity-7475163374838968320-9sur
+3	https://www.linkedin.com/posts/mehulnagpurkar_knowledgegraphs-dataarchitecture-activity-7472052761182773248-BPTe
+4	https://www.linkedin.com/posts/mihsathe_epistemic-drift-a-hidden-trap-of-ai-everyone-activity-7391881992830656513-oG5R
+5	https://www.linkedin.com/posts/lincolnharris_change-management-is-boring-until-your-activity-7463252353291276288-ZW0j
+6	https://www.linkedin.com/posts/jakaverbicmiklic_ai-can-turn-your-figma-into-code-it-just-activity-7483441975803678720-Ba8c
+7	https://www.linkedin.com/posts/world-bank-development-economics_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%98%86-%F0%9D%97%AE%F0%9D%97%B1%F0%9D%97%AE%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%B6%F0%9D%98%83%F0%9D%97%B2-%F0%9D%97%B6%F0%9D%97%BA%F0%9D%97%BD%F0%9D%97%B9%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-activity-7427434508125126656-yl_h
+8	https://www.linkedin.com/posts/sankarsanthanaraman_i-posted-a-diagram-on-monday-some-contacts-activity-7455103573895577600-Wyya
+9	https://www.linkedin.com/posts/gokulrajaram1_productspecdocsvisionmd-at-main-gokulrajaram-activity-7480482209926131712-oTwG
+10	https://www.linkedin.com/posts/patrick-fillmore-ii-a7b508282_inspections-arent-there-to-slow-the-job-activity-7443250316092997632-p_lg
+
+QUERY	implementation_intent_drift	engineering_interpreted_differently	site:linkedin.com/posts "requirements misunderstood" "engineering interpreted"	2026-07-21T14:33:57
+SERPER_QUERY	site:linkedin.com/posts requirements misunderstood engineering interpreted
+1	https://www.linkedin.com/posts/chris-obermeier_ai-softwareengineering-engineeringleadership-activity-7436578603481387008-5yrz
+2	https://www.linkedin.com/posts/sunilkrao_the-metr-study-everyones-citing-says-developers-activity-7419423716050243585-qm5Z
+3	https://www.linkedin.com/posts/shiivani_productmanagement-qa-softwarequality-activity-7470814617125036032-uIFL
+4	https://www.linkedin.com/posts/sean-tan-08aa8913_mechanicalengineering-engineeringleadership-activity-7427805678167027713-01M_
+5	https://www.linkedin.com/posts/parisingh_nasa-engineer-on-agile-in-dod-ive-worked-activity-7338578650226728961-L_2j
+6	https://www.linkedin.com/posts/thomaserkens_leadershipjourney-qualitymatters-engineeringexcellence-activity-7373374775248924672-XP1g
+7	https://www.linkedin.com/posts/angelawickcbap_the-concept-of-a-requirement-is-no-longer-activity-7475704467217207296-I2SL
+8	https://www.linkedin.com/posts/ben-f-44778426_kind-of-a-bigger-thought-but-if-you-strip-activity-7424807692428484608-fyGM
+9	https://www.linkedin.com/posts/lewisdgavin_hot-take-pms-will-soon-be-talking-to-activity-7416400409402974208-CHjP
+10	https://www.linkedin.com/posts/brettmorin_seeing-a-lot-of-software-engineering-is-activity-7314792902159675393-CutP
+
+QUERY	implementation_intent_drift	engineering_interpreted_differently	site:linkedin.com/posts "requirements misunderstood" "interpreted differently"	2026-07-21T14:33:59
+SERPER_QUERY	site:linkedin.com/posts requirements misunderstood interpreted differently
+1	https://www.linkedin.com/posts/mohammed-saqib_one-thing-ive-learned-after-moving-from-activity-7449367079188873216-wU2p
+2	https://www.linkedin.com/posts/angelawickcbap_the-concept-of-a-requirement-is-no-longer-activity-7475704467217207296-I2SL
+3	https://www.linkedin.com/posts/karlwiegers_6-practices-every-business-analyst-should-activity-7472296961287827456-3SXO
+4	https://www.linkedin.com/posts/shiivani_productmanagement-qa-softwarequality-activity-7470814617125036032-uIFL
+5	https://www.linkedin.com/posts/mariovdm_people-dont-learn-to-collaborate-by-collaborating-activity-7452491684518551552-UfLu
+6	https://www.linkedin.com/posts/diwakarsinghbamentor_ever-felt-puzzled-by-the-different-documentation-activity-7305817844569591808-78BB
+7	https://www.linkedin.com/posts/ben-f-44778426_kind-of-a-bigger-thought-but-if-you-strip-activity-7424807692428484608-fyGM
+8	https://www.linkedin.com/posts/arzu-jaria-5679b1152_architecture-constructionmanagement-projectmanagement-activity-7470731741431922689-SYna
+9	https://www.linkedin.com/posts/serkansengul_geotechnicalengineering-construction-civilengineering-activity-7473569684252962816-oBdM
+10	https://www.linkedin.com/posts/bingenheimer_one-of-the-most-expensive-things-in-construction-activity-7467914840087351297-8srM
+
+QUERY	weak_acceptance_criteria	two_interpretations	site:linkedin.com/posts "acceptance criteria" "two interpretations"	2026-07-21T14:34:01
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria two interpretations
+1	https://www.linkedin.com/posts/tushar-gupta-b47450bb_acceptancecriteria-scrum-agile-activity-7316677945597554688--2Lu
+2	https://www.linkedin.com/posts/wimkerkhoff_why-tire-kicking-topleft-guarantees-youll-activity-7349136076613054465-QFM5
+3	https://www.linkedin.com/posts/michaelpilaeten_last-week-a-fellow-tester-asked-me-an-intriguing-activity-7432014805793927168-j1vs
+4	https://www.linkedin.com/posts/chris-hall-5870768_1iso27001-myths-47-you-must-always-activity-7397218999899459584-XoIf
+5	https://www.linkedin.com/posts/sonyandrews_repost-requirementsenineering-doors-activity-7395302060029534208-jRo2
+6	https://www.linkedin.com/posts/marko-cetkovic-b846a15_the-biggest-shift-in-software-development-activity-7464638936422977537-0ijf
+7	https://www.linkedin.com/posts/mohsen-heydarbozorg-452bb065_api1104-rt-weldinginspection-activity-7411696670658367489-PcFg
+8	https://www.linkedin.com/posts/michael-breton-8394822_productowner-agile-userstories-activity-7435076385788006400-X0Mt
+9	https://www.linkedin.com/posts/osadalakmal_project-management-for-software-engineers-activity-7266136020042092544-QJGP
+10	https://www.linkedin.com/posts/pharmacores_pharma-qualitycontrol-methoddevelopment-activity-7442941472620036096-qEX5
+
+QUERY	weak_acceptance_criteria	two_interpretations	site:linkedin.com/posts "acceptance criteria" "different interpretations"	2026-07-21T14:34:04
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria different interpretations
+1	https://www.linkedin.com/posts/oluwatosin-sarumi_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B0%F0%9D%97%B2%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B0%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%AE-activity-7482679414812610560-opzZ
+2	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+3	https://www.linkedin.com/posts/navaneethan-p-mba_businessanalysis-businessanalyst-acceptancecriteria-activity-7473577854904082432-2-qW
+4	https://www.linkedin.com/posts/bhardwajsaloni_uat-brd-businessanalyst-activity-7464939692711370752-jYg7
+5	https://www.linkedin.com/posts/tushar-gupta-b47450bb_acceptancecriteria-scrum-agile-activity-7316677945597554688--2Lu
+6	https://www.linkedin.com/posts/sortsites_be-the-pm-who-writes-user-logs-in-you-activity-7450233986737602560-s5y7
+7	https://www.linkedin.com/posts/michaelpilaeten_last-week-a-fellow-tester-asked-me-an-intriguing-activity-7432014805793927168-j1vs
+8	https://www.linkedin.com/posts/jesalshah19_complete-guide-to-writing-user-stories-as-activity-7470370352808992768-b5J_
+9	https://www.linkedin.com/posts/neha-sharma-815804111_what-is-definition-of-done-dod-in-agile-activity-7420401589468942336-k-AE
+10	https://www.linkedin.com/posts/lisa-g-slagle_businessanalysis-productmanagement-agile-activity-7467232713809268736-6tlj
+
+QUERY	weak_acceptance_criteria	two_interpretations	site:linkedin.com/posts "weak acceptance criteria" "two interpretations"	2026-07-21T14:34:06
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria two interpretations
+1	https://www.linkedin.com/posts/jason-thatcher-0329764_academicjourney-activity-7315538949676916736-896C
+2	https://www.linkedin.com/posts/diogoverissimo_recently-for-the-first-time-i-had-a-paper-activity-7396583268344668160-WFEl
+3	https://www.linkedin.com/posts/prof-john-dumay-54718419_you-also-get-rejected-because-most-prisma-activity-7471722061330153473-WiV1
+4	https://www.linkedin.com/posts/ozbilgin_your-feelings-do-not-make-a-decent-review-activity-7457762253744787457-nXyZ
+5	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+6	https://www.linkedin.com/posts/bran-knowles_i-hope-this-helps-anyone-coping-with-the-activity-7354433782558388224-4lHu
+7	https://www.linkedin.com/posts/muhammad-ajmal-soomro_pharmaqc-analyticalchemistry-qualitycontrol-activity-7416864256400371712-1Vtp
+8	https://www.linkedin.com/posts/marko-cetkovic-b846a15_the-biggest-shift-in-software-development-activity-7464638936422977537-0ijf
+9	https://www.linkedin.com/posts/lucamoraphd_one-of-the-warning-signs-of-weakness-in-a-activity-7420744711021187072-Slr1
+10	https://www.linkedin.com/posts/eckhard-jokisch_one-paragraph-of-iso-a-thousand-sops-activity-7439737946020163586-nEj8
+
+QUERY	weak_acceptance_criteria	two_interpretations	site:linkedin.com/posts "weak acceptance criteria" "different interpretations"	2026-07-21T14:34:09
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria different interpretations
+1	https://www.linkedin.com/posts/bhardwajsaloni_uat-brd-businessanalyst-activity-7464939692711370752-jYg7
+2	https://www.linkedin.com/posts/raghavendra-business-analyst_one-of-the-easiest-ways-to-spot-a-weak-user-activity-7483830542824615936-Y_-0
+3	https://www.linkedin.com/posts/sortsites_agile-user-stories-are-not-the-problem-activity-7440503359708598273-Nls1
+4	https://www.linkedin.com/posts/sortsites_most-clear-requirements-are-not-clear-at-activity-7440834549900787712-N9Um
+5	https://www.linkedin.com/posts/sukrati-singh-319756198_productowner-userstories-acceptancecriteria-activity-7470876811321573376-Lt8k
+6	https://www.linkedin.com/posts/lisa-g-slagle_businessanalysis-productmanagement-agile-activity-7467232713809268736-6tlj
+7	https://www.linkedin.com/posts/wimdecoutere_babeyond-fantasy2reality-softwaretesting-activity-7460976267169849344-bwUx
+8	https://www.linkedin.com/posts/dimitri-ngassa_3-years-ago-i-walked-into-a-sprint-review-activity-7456999981476978689-N0nk
+9	https://www.linkedin.com/posts/yash-gawand_businessanalysis-qa-softwaredevelopment-activity-7459836735007408128-xh8H
+10	https://www.linkedin.com/posts/ayansadhu016_uat-businessanalysis-testing-activity-7456208153660223488-5r6F
+
+QUERY	weak_acceptance_criteria	two_interpretations	site:linkedin.com/posts "ambiguous acceptance criteria" "two interpretations"	2026-07-21T14:34:12
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria two interpretations
+1	https://www.linkedin.com/posts/mankultech_businessanalysis-requirements-agile-activity-7465720469116211200-8dCt
+2	https://www.linkedin.com/posts/marko-cetkovic-b846a15_the-biggest-shift-in-software-development-activity-7464638936422977537-0ijf
+3	https://www.linkedin.com/posts/yash-gawand_businessanalysis-qa-softwaredevelopment-activity-7459836735007408128-xh8H
+4	https://www.linkedin.com/posts/nileshr_bidirectional-traceabilityis-the-ability-activity-7431910756633309184-ZElr
+5	https://www.linkedin.com/posts/dimitri-ngassa_3-years-ago-i-walked-into-a-sprint-review-activity-7456999981476978689-N0nk
+6	https://www.linkedin.com/posts/beth-jokhio-a2457782_venting-a-bit-here-but-i-failed-a-couple-activity-7324109954762625024-h2sQ
+7	https://www.linkedin.com/posts/frankseiferth_claudecode-agenticai-sdlc-activity-7422332349566279680-n2sd
+8	https://www.linkedin.com/posts/kayinsolasaheedofficial_verifying-requirements-and-validating-them-activity-7439964286489186306-bkya
+9	https://www.linkedin.com/posts/igoework_consulting-clientwork-projectmanagement-activity-7437314082371801088-ys-Q
+10	https://www.linkedin.com/posts/gdandtbasics_whats-the-deal-with-surface-interpretation-activity-7429979169985384448-E4db
+
+QUERY	weak_acceptance_criteria	two_interpretations	site:linkedin.com/posts "ambiguous acceptance criteria" "different interpretations"	2026-07-21T14:34:14
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria different interpretations
+1	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+2	https://www.linkedin.com/posts/mankultech_businessanalysis-requirements-agile-activity-7465720469116211200-8dCt
+3	https://www.linkedin.com/posts/sortsites_just-add-more-detail-to-the-requirements-activity-7447301651629273091-tbrp
+4	https://www.linkedin.com/posts/navaneethan-p-mba_businessanalysis-businessanalyst-acceptancecriteria-activity-7473577854904082432-2-qW
+5	https://www.linkedin.com/posts/zuber-shaikh-b8a57a93_businessanalyst-useracceptancetesting-activity-7459844204697985024-vml4
+6	https://www.linkedin.com/posts/yash-gawand_businessanalysis-qa-softwaredevelopment-activity-7459836735007408128-xh8H
+7	https://www.linkedin.com/posts/wimdecoutere_babeyond-fantasy2reality-softwaretesting-activity-7460976267169849344-bwUx
+8	https://www.linkedin.com/posts/sortsites_most-clear-requirements-are-not-clear-at-activity-7440834549900787712-N9Um
+9	https://www.linkedin.com/posts/neelu-singh-6929b2145_businessanalyst-uat-agile-activity-7458561677547155456-3z1p
+10	https://www.linkedin.com/posts/dimitri-ngassa_3-years-ago-i-walked-into-a-sprint-review-activity-7456999981476978689-N0nk
+
+QUERY	weak_acceptance_criteria	missing_business_rules	site:linkedin.com/posts "acceptance criteria" "missing business rules"	2026-07-21T14:34:16
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria missing business rules
+1	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+2	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+3	https://www.linkedin.com/posts/chavindarashmika_businessanalyst-softwaredevelopment-agileba-activity-7474914128789262336-NFCN
+4	https://www.linkedin.com/posts/diwakarsinghbamentor_most-business-analysts-use-ai-to-write-user-activity-7483736988613828608-nhF1
+5	https://www.linkedin.com/posts/martinhinshelwood_stop-putting-acceptance-criteria-on-the-definition-activity-7411457346914344960-NvGB
+6	https://www.linkedin.com/posts/aanshik-jasani_businessanalysis-agiledelivery-requirementsengineering-activity-7474838631766183937-qHmz
+7	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-uat-useracceptancetesting-activity-7465392375071227906-cayJ
+8	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+9	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+10	https://www.linkedin.com/posts/karlwiegers_whats-requirements-management-all-about-activity-7403897214449954816-MxCy
+
+QUERY	weak_acceptance_criteria	missing_business_rules	site:linkedin.com/posts "acceptance criteria" "business rules"	2026-07-21T14:34:19
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria business rules
+1	https://www.linkedin.com/posts/john-ferguson-smart_for-over-two-decades-ive-been-writing-acceptance-activity-7095667781009907712-AcTN
+2	https://www.linkedin.com/posts/john-ferguson-smart_for-over-two-decades-ive-been-writing-acceptance-activity-7150824145063215105-8I4U
+3	https://www.linkedin.com/posts/karlwiegers_whats-requirements-management-all-about-activity-7403897214449954816-MxCy
+4	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+5	https://www.linkedin.com/posts/sakshi-gupta-857b85141_30daysofba-30daysofba-businessanalyst-activity-7346059823576137729-jmT_
+6	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+7	https://www.linkedin.com/posts/raghavendra-n08081993_whats-your-method-for-writing-effective-activity-7391066647102570496-NbLh
+8	https://www.linkedin.com/posts/diwakarsinghbamentor_user-acceptance-testing-uat-is-critical-activity-7322092765620690944-3Sqk
+9	https://www.linkedin.com/posts/oluwatosin-sarumi_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B0%F0%9D%97%B2%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B0%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%AE-activity-7482679414812610560-opzZ
+10	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+
+QUERY	weak_acceptance_criteria	missing_business_rules	site:linkedin.com/posts "weak acceptance criteria" "missing business rules"	2026-07-21T14:34:22
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria missing business rules
+1	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+2	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+3	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-uat-useracceptancetesting-activity-7465392375071227906-cayJ
+4	https://www.linkedin.com/posts/chavindarashmika_businessanalyst-softwaredevelopment-agileba-activity-7474914128789262336-NFCN
+5	https://www.linkedin.com/posts/mohammadsohailbusinessanalyst_one-of-the-biggest-mistakes-business-analysts-activity-7472495349170032640-uxap
+6	https://www.linkedin.com/posts/aanshik-jasani_businessanalysis-agiledelivery-requirementsengineering-activity-7474838631766183937-qHmz
+7	https://www.linkedin.com/posts/rohini-kittur-517041279_requirementsgathering-acceptancecriteria-activity-7424115199793655808-umHf
+8	https://www.linkedin.com/posts/karlwiegers_whats-requirements-management-all-about-activity-7403897214449954816-MxCy
+9	https://www.linkedin.com/posts/orentoledano_just-yesterday-in-a-call-3-people-from-the-activity-7475830362762448896-js5S
+10	https://www.linkedin.com/posts/roopammundada_businessanalysis-businessanalyst-stakeholdermanagement-activity-7406989053629300736-vUGC
+
+QUERY	weak_acceptance_criteria	missing_business_rules	site:linkedin.com/posts "weak acceptance criteria" "business rules"	2026-07-21T14:34:25
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria business rules
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+3	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+4	https://www.linkedin.com/posts/rohini-kittur-517041279_requirementsgathering-acceptancecriteria-activity-7424115199793655808-umHf
+5	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-uat-useracceptancetesting-activity-7465392375071227906-cayJ
+6	https://www.linkedin.com/posts/karlwiegers_whats-requirements-management-all-about-activity-7403897214449954816-MxCy
+7	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+8	https://www.linkedin.com/posts/diwakarsinghbamentor_user-story-activity-7421939860741128194-MpYv
+9	https://www.linkedin.com/posts/angelawickcbap_clear-acceptance-criteria-reduces-rework-activity-7413696987696435200-0uj_
+10	https://www.linkedin.com/posts/aanshik-jasani_businessanalysis-agiledelivery-requirementsengineering-activity-7474838631766183937-qHmz
+
+QUERY	weak_acceptance_criteria	missing_business_rules	site:linkedin.com/posts "ambiguous acceptance criteria" "missing business rules"	2026-07-21T14:34:28
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria missing business rules
+1	https://www.linkedin.com/posts/chavindarashmika_businessanalyst-softwaredevelopment-agileba-activity-7474914128789262336-NFCN
+2	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+3	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+4	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+5	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-qualityassurance-softwaretesting-activity-7466835924736421889-TE2g
+6	https://www.linkedin.com/posts/veermahesh-dhaninkula_businessanalyst-businessanalysis-apis-activity-7479768722329677824-2sgg
+7	https://www.linkedin.com/posts/revathi-chanda-syren-9758474_qualityassurance-softwaretesting-qualityengineering-activity-7475767001190150145-J3vM
+8	https://www.linkedin.com/posts/zuber-shaikh-b8a57a93_businessanalyst-useracceptancetesting-activity-7459844204697985024-vml4
+9	https://www.linkedin.com/posts/nanabarkul29_requirementanalysis-manualtesting-softwaretesting-activity-7483069713347108864-usUJ
+10	https://www.linkedin.com/posts/ann-jos_the-gap-between-requirements-and-reality-activity-7461868359127678976-JDHp
+
+QUERY	weak_acceptance_criteria	missing_business_rules	site:linkedin.com/posts "ambiguous acceptance criteria" "business rules"	2026-07-21T14:34:31
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria business rules
+1	https://www.linkedin.com/posts/chavindarashmika_businessanalyst-softwaredevelopment-agileba-activity-7474914128789262336-NFCN
+2	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+3	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+4	https://www.linkedin.com/posts/mankultech_businessanalysis-requirements-agile-activity-7465720469116211200-8dCt
+5	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+6	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+7	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+8	https://www.linkedin.com/posts/diwakarsinghbamentor_one-of-the-most-misunderstood-yet-critical-activity-7405610908728635392-DQdJ
+9	https://www.linkedin.com/posts/srishti-garg-8353b421a_businessanalysis-definitionofdone-acceptancecriteria-activity-7408707860303446016-m8t-
+10	https://www.linkedin.com/posts/roger-bukuru-901250b8_done-is-one-of-the-most-dangerous-words-in-activity-7468681836756533248-iYCP
+
+QUERY	weak_acceptance_criteria	not_testable	site:linkedin.com/posts "acceptance criteria" "not testable"	2026-07-21T14:34:34
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria not testable
+1	https://www.linkedin.com/posts/tomiparvanyik_acceptance-criteria-examples-activity-7414947075458658304-JuPj
+2	https://www.linkedin.com/posts/sortsites_acceptance-criteria-dont-fix-bad-user-stories-activity-7441465546392469504-hatT
+3	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+4	https://www.linkedin.com/posts/galangaulia_how-to-write-testable-acceptance-criteria-activity-7469282854401912832-FJdJ
+5	https://www.linkedin.com/posts/jaytillery_ac-acceptance-criteria-should-be-testable-activity-7416910636355489793-vYOe
+6	https://www.linkedin.com/posts/bryan-finster_psa-having-a-product-roadmap-an-architectural-activity-7356670742312243200-ixlp
+7	https://www.linkedin.com/posts/mikewcohn_most-teams-dont-struggle-with-user-stories-activity-7454923131321733120-8Agd
+8	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+9	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+10	https://www.linkedin.com/posts/marcus-myers-cx-msi-energy-training-coaching_owners-ai-data-activity-7455823169312985088-Dmdz
+
+QUERY	weak_acceptance_criteria	not_testable	site:linkedin.com/posts "acceptance criteria" "QA assumptions"	2026-07-21T14:34:37
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria QA assumptions
+1	https://www.linkedin.com/posts/john-ferguson-smart_bdd-agiletesting-testautomation-activity-7309927994792292354-mCuw
+2	https://www.linkedin.com/posts/cycle-labs_acceptance-criteria-vs-acceptance-testing-activity-7414417986767482881-Vj82
+3	https://www.linkedin.com/posts/balayeth_acceptance-criteria-the-hidden-key-to-activity-7371765840746176512-YyWu
+4	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+5	https://www.linkedin.com/posts/soumya-bag-7b8240a0_acceptance-criteria-the-backbone-of-done-activity-7422870617391181824-cYhw
+6	https://www.linkedin.com/posts/sakshi-gupta-857b85141_30daysofba-30daysofba-businessanalyst-activity-7346059823576137729-jmT_
+7	https://www.linkedin.com/posts/kayinsolasaheedofficial_how-to-write-acceptance-criteria-that-actually-activity-7443227167737593856-VYdh
+8	https://www.linkedin.com/posts/rckehoe_i-saw-someone-on-here-ask-do-we-still-need-activity-7351245477570338816-q3uH
+9	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+10	https://www.linkedin.com/posts/john-ferguson-smart_agile-bdd-productdevelopment-activity-7452753772860305408-uepD
+
+QUERY	weak_acceptance_criteria	not_testable	site:linkedin.com/posts "weak acceptance criteria" "not testable"	2026-07-21T14:34:40
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria not testable
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/sortsites_acceptance-criteria-dont-fix-bad-user-stories-activity-7441181837697228800-Idnz
+3	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+4	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+5	https://www.linkedin.com/posts/igarkhipov_practical-ways-to-test-an-idea-before-building-activity-7397381977571676160-rHfW
+6	https://www.linkedin.com/posts/gokulrajaram1_github-gokulrajaramproductspec-open-standard-activity-7482969749870538752-kxTO
+7	https://www.linkedin.com/posts/raghavendra-n08081993_how-i-write-acceptance-criteria-without-activity-7434198346858426368-xH04
+8	https://www.linkedin.com/posts/diwakarsinghbamentor_user-story-activity-7421939860741128194-MpYv
+9	https://www.linkedin.com/posts/martinhinshelwood_ive-been-working-through-a-shift-towards-activity-7445861057568428032-Mkr8
+10	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+
+QUERY	weak_acceptance_criteria	not_testable	site:linkedin.com/posts "weak acceptance criteria" "QA assumptions"	2026-07-21T14:34:43
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria QA assumptions
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/stevengranese_productdiscovery-productoperatingmodel-activity-7470452214235488256-I1Io
+3	https://www.linkedin.com/posts/vikasrajurkar_projectmanagement-programmanagement-qualityengineering-activity-7346761975231623169-0aH9
+4	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+5	https://www.linkedin.com/posts/raghavendra-business-analyst_one-of-the-easiest-ways-to-spot-a-weak-user-activity-7483830542824615936-Y_-0
+6	https://www.linkedin.com/posts/angelawickcbap_clear-acceptance-criteria-reduces-rework-activity-7413696987696435200-0uj_
+7	https://www.linkedin.com/posts/rahul-kamat-85b9994a_good-qa-doesnt-ask-does-it-work-it-activity-7420684295482101760-iWwA
+8	https://www.linkedin.com/posts/joelbc_gorillamoments-scrummaster-productowner-activity-7320438746078679040-spjm
+9	https://www.linkedin.com/posts/john-gottlieb_after-nearly-20-years-in-qa-ive-noticed-activity-7470510315730907137-AZkv
+10	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+
+QUERY	weak_acceptance_criteria	not_testable	site:linkedin.com/posts "ambiguous acceptance criteria" "not testable"	2026-07-21T14:34:46
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria not testable
+1	https://www.linkedin.com/posts/tomiparvanyik_acceptance-criteria-examples-activity-7414947075458658304-JuPj
+2	https://www.linkedin.com/posts/sortsites_just-add-more-detail-to-the-requirements-activity-7447301651629273091-tbrp
+3	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+4	https://www.linkedin.com/posts/sortsites_how-i-turn-a-vague-requirement-into-something-activity-7441159192314462208-zShm
+5	https://www.linkedin.com/posts/jenthai_ill-be-the-first-to-put-my-hand-up-and-say-activity-7431903547748737024-g270
+6	https://www.linkedin.com/posts/raghavendra-n08081993_acceptance-criteria-the-what-why-and-how-activity-7367488770956288001-8i5e
+7	https://www.linkedin.com/posts/kayinsolasaheedofficial_how-to-write-acceptance-criteria-that-actually-activity-7443227167737593856-VYdh
+8	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+9	https://www.linkedin.com/posts/marcus-myers-cx-msi-energy-training-coaching_owners-ai-data-activity-7455823169312985088-Dmdz
+10	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+
+QUERY	weak_acceptance_criteria	not_testable	site:linkedin.com/posts "ambiguous acceptance criteria" "QA assumptions"	2026-07-21T14:34:49
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria QA assumptions
+1	https://www.linkedin.com/posts/tom-barrett-0164a18_one-of-the-biggest-sources-of-friction-in-activity-7429890522879721472-EOOD
+2	https://www.linkedin.com/posts/devleandrorodrigo_businessanalysis-requirementsanalysis-acceptancecriteria-activity-7475178405169369088-oO0D
+3	https://www.linkedin.com/posts/diwakarsinghbamentor_are-you-making-these-mistakes-while-writing-activity-7301249445663244290-HYja
+4	https://www.linkedin.com/posts/ayushi-malviya93_businessanalyst-businessanalysis-acceptancecriteria-activity-7480130987201413120-ZDHo
+5	https://www.linkedin.com/posts/kayinsolasaheedofficial_how-to-write-acceptance-criteria-that-actually-activity-7443227167737593856-VYdh
+6	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+7	https://www.linkedin.com/posts/rahul-kamat-85b9994a_good-qa-doesnt-ask-does-it-work-it-activity-7420684295482101760-iWwA
+8	https://www.linkedin.com/posts/dhivyabharathi-devarajan-3300a8128_qa-requirementsanalysis-shiftleft-activity-7361086855288643585-LSPA
+9	https://www.linkedin.com/posts/kemiller2002_one-assumption-keeps-showing-up-in-software-activity-7482094520801603584-7eMP
+10	https://www.linkedin.com/posts/vikasrajurkar_projectmanagement-programmanagement-qualityengineering-activity-7346761975231623169-0aH9
+
+QUERY	weak_acceptance_criteria	failed_uat	site:linkedin.com/posts "acceptance criteria" "failed UAT"	2026-07-21T14:34:52
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria failed UAT
+1	https://www.linkedin.com/posts/navin-sundarababu-a617b439_businessanalysis-systemdesign-uat-activity-7422209692619431936-NvGN
+2	https://www.linkedin.com/posts/kayinsolasaheedofficial_how-to-write-acceptance-criteria-that-actually-activity-7443227167737593856-VYdh
+3	https://www.linkedin.com/posts/diwakarsinghbamentor_user-acceptance-testing-uat-is-critical-activity-7322092765620690944-3Sqk
+4	https://www.linkedin.com/posts/namishasharma_businessanalysis-uat-digitaltransformation-activity-7353463378448637954-MFGS
+5	https://www.linkedin.com/posts/souurabhgoyall24_uat-quality-projectmanagement-activity-7380555287075774464-N-eS
+6	https://www.linkedin.com/posts/abdalrhman-allam-mba-pmi-pba-pmp-psm1-aws-ml-azure-ai-56361314_uat-productmanagement-softwaretesting-activity-7314284361984491520-Q3Ov
+7	https://www.linkedin.com/posts/muhammadwaqas1072_useracceptancetesting-enterpriseimplementation-activity-7323641563819995136-eFf1
+8	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+9	https://www.linkedin.com/posts/karim-velani-77b27987_opentowork-jobsearch-uat-activity-7322872097318285312-r6GB
+10	https://www.linkedin.com/posts/mauvacampbell_as-bas-if-youre-not-testing-before-uat-activity-7356084421390675968-yi3a
+
+QUERY	weak_acceptance_criteria	failed_uat	site:linkedin.com/posts "acceptance criteria" "rejected during UAT"	2026-07-21T14:34:56
+SERPER_QUERY	site:linkedin.com/posts acceptance criteria rejected during UAT
+1	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-uat-useracceptancetesting-activity-7465392375071227906-cayJ
+2	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+3	https://www.linkedin.com/posts/alizat_uat-softwaredevelopment-productmanagement-activity-7395377739144376320-p9PC
+4	https://www.linkedin.com/posts/kayinsolasaheedofficial_how-to-write-acceptance-criteria-that-actually-activity-7443227167737593856-VYdh
+5	https://www.linkedin.com/posts/edetetim_uat-softwaretesting-businessanalysis-activity-7413818600077234176-GWRl
+6	https://www.linkedin.com/posts/akshay-pardeshi-296b52307_businessanalyst-uat-softwaretesting-activity-7456904191622602752-b_Ro
+7	https://www.linkedin.com/posts/medrio_user-acceptance-testing-uat-is-your-last-activity-7319051340964352000-ei4V
+8	https://www.linkedin.com/posts/diwakarsinghbamentor_uat-test-plan-activity-7402919648318431233-IliB
+9	https://www.linkedin.com/posts/raghavendra-business-analyst_most-uat-test-cases-do-not-fail-they-pass-activity-7457315666317053952-Svra
+10	https://www.linkedin.com/posts/asha-maru_businessanalyst-acceptancecriteria-userstories-activity-7482439329961680896-lnfp
+
+QUERY	weak_acceptance_criteria	failed_uat	site:linkedin.com/posts "weak acceptance criteria" "failed UAT"	2026-07-21T14:35:01
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria failed UAT
+1	https://www.linkedin.com/posts/navin-sundarababu-a617b439_businessanalysis-systemdesign-uat-activity-7422209692619431936-NvGN
+2	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+3	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-uat-useracceptancetesting-activity-7465392375071227906-cayJ
+4	https://www.linkedin.com/posts/matthewthomasholliday_heres-how-i-run-uat-as-a-business-analyst-activity-7441720931099717632-s5rb
+5	https://www.linkedin.com/posts/sivaprasad-m-465b10108_uat-useracceptancetesting-qualityassurance-activity-7346527584882462722-g9n9
+6	https://www.linkedin.com/posts/mathieuahlstrom_ah-user-acceptance-testing-that-sacred-activity-7414946523836370944-heVA
+7	https://www.linkedin.com/posts/soneel-choraria-62669814_happy-evening-uat-user-acceptance-testing-activity-7442568830066876417-5gNN
+8	https://www.linkedin.com/posts/oluwatosin-sarumi_%F0%9D%97%A8%F0%9D%97%94%F0%9D%97%A7-%F0%9D%97%B6%F0%9D%98%80-%F0%9D%97%BB%F0%9D%97%BC%F0%9D%98%81-%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%98%81%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-activity-7472901273235853312-ql1M
+9	https://www.linkedin.com/posts/dishi-gogia_qualityassurance-uat-softwaretesting-activity-7450662221396828160-HY7Y
+10	https://www.linkedin.com/posts/matthewthomasholliday_uat-playbook-activity-7424318343416823808-AvzK
+
+QUERY	weak_acceptance_criteria	failed_uat	site:linkedin.com/posts "weak acceptance criteria" "rejected during UAT"	2026-07-21T14:35:06
+SERPER_QUERY	site:linkedin.com/posts weak acceptance criteria rejected during UAT
+1	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+2	https://www.linkedin.com/posts/arun-paulose-9130a699_businessanalyst-uat-useracceptancetesting-activity-7465392375071227906-cayJ
+3	https://www.linkedin.com/posts/ivomenendez_uat-projectmanagement-productmanagement-activity-7430233812758044672-uFK4
+4	https://www.linkedin.com/posts/akshay-pardeshi-296b52307_businessanalyst-uat-softwaretesting-activity-7456904191622602752-b_Ro
+5	https://www.linkedin.com/posts/faqtic-factorial-hr_the-fastest-way-to-derail-a-new-hr-system-activity-7388854385402884096-wis9
+6	https://www.linkedin.com/posts/drbartpm_productmanagement-productmanager-qa-activity-7475492547503779840-9wP3
+7	https://www.linkedin.com/posts/matthewthomasholliday_how-business-analysts-support-the-delivery-activity-7464943215356366848-xdAJ
+8	https://www.linkedin.com/posts/sagarr-mainnd-19911942_businessanalysis-acceptancecriteria-uat-activity-7409797596715843584-2sMC
+9	https://www.linkedin.com/posts/ravi-basetti-779a4228_post-title-common-ba-interview-questions-activity-7457414794803908608-Dfx5
+10	https://www.linkedin.com/posts/venkatesh-kolluri9_how-to-ask-better-questions-during-requirements-activity-7474675539337863168-s0yp
+
+QUERY	weak_acceptance_criteria	failed_uat	site:linkedin.com/posts "ambiguous acceptance criteria" "failed UAT"	2026-07-21T14:35:10
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria failed UAT
+ERROR	ConnectionError: HTTPSConnectionPool(host='google.serper.dev', port=443): Max retries exceeded with url: /search (Caused by NewConnectionError("HTTPSConnection(host='google.serper.dev', port=443): Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network"))
+
+QUERY	weak_acceptance_criteria	failed_uat	site:linkedin.com/posts "ambiguous acceptance criteria" "rejected during UAT"	2026-07-21T14:44:18
+SERPER_QUERY	site:linkedin.com/posts ambiguous acceptance criteria rejected during UAT
+ERROR	ConnectionError: HTTPSConnectionPool(host='google.serper.dev', port=443): Max retries exceeded with url: /search (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+
+QUERY	late_validation	rejected_at_sprint_review	site:linkedin.com/posts "product validation" "rejected at sprint review"	2026-07-21T14:44:43
+SERPER_QUERY	site:linkedin.com/posts product validation rejected at sprint review
+1	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+2	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+3	https://www.linkedin.com/posts/mohammad-javaid-hamid-a2090636_pmp-question-21-your-team-is-working-on-activity-7362228037997780993-r_Qb
+4	https://www.linkedin.com/posts/praveen-mor_scrum-agile-sprintreview-activity-7396392967780929536-4RVg
+5	https://www.linkedin.com/posts/ant-murphy_want-more-time-for-strategy-and-discovery-activity-7473540056490737664-cn8_
+6	https://www.linkedin.com/posts/coach-juveria-javed_%3F%3F-%3F%3F%3F-%3F%3F%3F-%3F%3F%3F%3F%3F%3F-%3F%3F%3F-activity-7464889995317764097-kqqF
+7	https://www.linkedin.com/posts/anandspandey_picture-this-a-sprint-review-that-felt-like-activity-7448947901835165697-yn5_
+8	https://www.linkedin.com/posts/allenholub_i-keep-reading-about-things-like-detailed-activity-7355313297627230209-zWEc
+9	https://www.linkedin.com/posts/scrum-duncan_if-youre-doing-scrum-and-you-want-to-spend-activity-7343192861443584000-ZRON
+10	https://www.linkedin.com/posts/barryovereem_stop-writing-proposals-start-selling-activity-7327571194805645313-xx21
+
+QUERY	late_validation	rejected_at_sprint_review	site:linkedin.com/posts "product validation" "sprint review surprise"	2026-07-21T14:44:53
+SERPER_QUERY	site:linkedin.com/posts product validation sprint review surprise
+1	https://www.linkedin.com/posts/stephenwoolston_agile-scrum-activity-7353665426356068352-xkJd
+2	https://www.linkedin.com/posts/shawnwallack_youre-doing-the-sprint-review-all-wrong-activity-7276263390681993217-yS66
+3	https://www.linkedin.com/posts/ant-murphy_want-more-time-for-strategy-and-discovery-activity-7473540056490737664-cn8_
+4	https://www.linkedin.com/posts/joelbc_gorillamoments-agile-scrum-activity-7308487552016007169-vLZ-
+5	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+6	https://www.linkedin.com/posts/mikelloydagility_its-wild-to-me-that-the-primary-push-back-activity-7311745206050050048-m34Q
+7	https://www.linkedin.com/posts/buckle_in-sprint-reviews-im-mostly-listening-for-activity-7417549351348047872-cSt6
+8	https://www.linkedin.com/posts/gmorein_agile-scrum-sprintreview-activity-7454517719342940160-hhMg
+9	https://www.linkedin.com/posts/adriankodja_story-points-are-fake-math-designed-to-make-activity-7376950147592916992-z6ei
+10	https://www.linkedin.com/posts/dave-westgarth_trigger-warning-scrum-is-not-enough-that-activity-7473673344555507712-6tu_
+
+QUERY	late_validation	rejected_at_sprint_review	site:linkedin.com/posts "product owner review" "rejected at sprint review"	2026-07-21T14:44:59
+SERPER_QUERY	site:linkedin.com/posts product owner review rejected at sprint review
+1	https://www.linkedin.com/posts/maarten-dalmijn_a-b-c-and-d-are-wrong-if-youre-in-a-situation-activity-7429054532384358400-iqPM
+2	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+3	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+4	https://www.linkedin.com/posts/romanpichler_productmanagement-productdiscovery-productdelivery-activity-7353389709680615424-NkZZ
+5	https://www.linkedin.com/posts/mikewcohn_its-been-30-years-since-the-birth-of-scrum-activity-7295843240509853697-HXKE
+6	https://www.linkedin.com/posts/mohammad-javaid-hamid-a2090636_pmp-question-21-your-team-is-working-on-activity-7362228037997780993-r_Qb
+7	https://www.linkedin.com/posts/yasamanzarezadeh_agile-scrum-sprintreview-activity-7310743110806888448-tC55
+8	https://www.linkedin.com/posts/shawnwallack_how-to-turn-a-sprint-demo-into-a-proper-sprint-activity-7458112148620263426-NDim
+9	https://www.linkedin.com/posts/ameralipmp_scrum-is-most-used-project-management-framework-activity-7354042741837758465-b6lY
+10	https://www.linkedin.com/posts/mikewcohn_sprint-review-more-than-just-a-demo-activity-7115810641956786177-PL4W
+
+QUERY	late_validation	rejected_at_sprint_review	site:linkedin.com/posts "product owner review" "sprint review surprise"	2026-07-21T14:45:03
+SERPER_QUERY	site:linkedin.com/posts product owner review sprint review surprise
+1	https://www.linkedin.com/posts/vinay-kumar-sadineni_sprintreview-agile-scrummaster-activity-7399665919645372416-e0G_
+2	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+3	https://www.linkedin.com/posts/stephenwoolston_agile-scrum-activity-7353665426356068352-xkJd
+4	https://www.linkedin.com/posts/alshalloway_are-you-struggling-with-the-product-owner-activity-7434047668613545985-__Ji
+5	https://www.linkedin.com/posts/shawnwallack_youre-doing-the-sprint-review-all-wrong-activity-7276263390681993217-yS66
+6	https://www.linkedin.com/posts/jac-hughes_this-might-make-some-peoples-heads-explode-activity-7337741884062130176-Ful4
+7	https://www.linkedin.com/posts/joel-riddle_i-keep-seeing-posts-claiming-scrum-is-outdated-activity-7396324333167599616-gbLP
+8	https://www.linkedin.com/posts/ant-murphy_want-more-time-for-strategy-and-discovery-activity-7473540056490737664-cn8_
+9	https://www.linkedin.com/posts/naveenkumarsingh1_is-the-product-owner-accountable-for-return-activity-7369626798579441666-KhbN
+10	https://www.linkedin.com/posts/dave-westgarth_over-the-past-week-since-launching-technical-activity-7434923448713318400-PWyf
+
+QUERY	late_validation	rejected_at_sprint_review	site:linkedin.com/posts "story acceptance" "rejected at sprint review"	2026-07-21T14:45:09
+SERPER_QUERY	site:linkedin.com/posts story acceptance rejected at sprint review
+1	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+2	https://www.linkedin.com/posts/chandan-kumar-scrum_%F0%9D%90%90%F0%9D%90%80-%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%92%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%A3%F0%9D%90%9E%F0%9D%90%9C%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7-activity-7452603383808466944-S4PY
+3	https://www.linkedin.com/posts/chandan-kumar-5069267_%3F%3F-%3F%3F-%3F%3F%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F%3F%3F-activity-7296143676731179008-RJJO
+4	https://www.linkedin.com/posts/mohammad-javaid-hamid-a2090636_pmp-question-21-your-team-is-working-on-activity-7362228037997780993-r_Qb
+5	https://www.linkedin.com/posts/vinay-kumar-sadineni_sprintreview-agile-scrummaster-activity-7399665919645372416-e0G_
+6	https://www.linkedin.com/posts/oluwatosin-sarumi_%F0%9D%97%A7%F0%9D%97%B5%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%97%B0%F0%9D%97%B0%F0%9D%97%B2%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B0%F0%9D%97%BF%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%AE-activity-7482679414812610560-opzZ
+7	https://www.linkedin.com/posts/akshita-aggarwal-a82bbb62_sprint-review-the-most-misunderstood-scrum-activity-7378349290798325760-dPvq
+8	https://www.linkedin.com/posts/maarten-dalmijn_a-b-c-and-d-are-wrong-if-youre-in-a-situation-activity-7429054532384358400-iqPM
+9	https://www.linkedin.com/posts/priyanka-gautam13_day-16-scrum-master-interview-qa-question-activity-7396376568589291520--k1O
+10	https://www.linkedin.com/posts/rajesh-kadam-business-analyst-coach_the-checklist-every-ba-uses-to-confirm-acceptance-activity-7432635596432543744-aol3
+
+QUERY	late_validation	rejected_at_sprint_review	site:linkedin.com/posts "story acceptance" "sprint review surprise"	2026-07-21T14:45:17
+SERPER_QUERY	site:linkedin.com/posts story acceptance sprint review surprise
+1	https://www.linkedin.com/posts/vinay-kumar-sadineni_sprintreview-agile-scrummaster-activity-7399665919645372416-e0G_
+2	https://www.linkedin.com/posts/peter-macharia-b6294a150_pmp-projectmanagementprofessional-activity-7428747320256532480-GaYD
+3	https://www.linkedin.com/posts/bbrakenhoff_refinement-scrum-agile-activity-7402270208272531456-YoQ7
+4	https://www.linkedin.com/posts/miriam-schulze-8867a1144_sprint-scrum-activity-7289915190907666432-uRNT
+5	https://www.linkedin.com/posts/joelbc_gorillamoments-agile-scrum-activity-7308487552016007169-vLZ-
+6	https://www.linkedin.com/posts/mayuri-satpute_scrummaster-agilejourney-leadership-activity-7381946587683569664-SU06
+7	https://www.linkedin.com/posts/aia-ashraf_softwaredelivery-engineeringleadership-techculture-activity-7401877945209851904-deGf
+8	https://www.linkedin.com/posts/osama-jaber-b856a362_acp-delivery-domain-your-team-has-completed-activity-7421978273955553280-Ur3L
+9	https://www.linkedin.com/posts/shawnwallack_youre-doing-the-sprint-review-all-wrong-activity-7276263390681993217-yS66
+10	https://www.linkedin.com/posts/kiran-kannure-scrum-master_agile-scrum-definitionofdone-activity-7403641322601000963-FElC
+
+QUERY	late_validation	final_demo_rework	site:linkedin.com/posts "product validation" "final demo"	2026-07-21T14:45:22
+SERPER_QUERY	site:linkedin.com/posts product validation final demo
