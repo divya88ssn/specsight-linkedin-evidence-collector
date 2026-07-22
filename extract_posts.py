@@ -18,51 +18,48 @@ from playwright.sync_api import (
 )
 
 
+# LinkedIn post URLs expected in urls.txt.
 LINKEDIN_POST_RE = re.compile(
     r"https?://(?:www\.)?linkedin\.com/posts/[^\s?#]+",
     re.IGNORECASE,
 )
 
+# Extracts the LinkedIn activity ID when it is present in the URL.
 ACTIVITY_ID_RE = re.compile(r"activity-(\d+)")
 
 # Expected collection-run folder format:
 # runs/20260722_104530/
 RUN_DIR_RE = re.compile(r"^\d{8}_\d{6}$")
 
-EXTRACTOR_VERSION = "1.0"
-
 
 @dataclass
 class PostRecord:
-    source_collection_run_id: str
-    source_urls_file: str
-    extraction_run_id: str
+    """
+    Minimal raw extraction record.
+
+    Classification fields such as failure mode, workflow stage, and business
+    impact should be added later in a separate classification pipeline.
+    """
 
     post_id: str
     url: str
 
     author: str | None
-    headline: str | None
-    company: str | None
     published_date: str | None
-
-    likes: int | None
-    comments: int | None
-
     post_text: str | None
-    hashtags: list[str]
-    images: list[str]
 
-    page_title: str | None
-
+    source_collection_run_id: str
     extracted_at: str
+
     extraction_status: str
     extraction_error: str | None
-    extractor_version: str
 
 
 def utc_now_iso() -> str:
-    """Return the current UTC timestamp in ISO-8601 format."""
+    """
+    Return the current UTC timestamp in ISO-8601 format.
+    """
+
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
@@ -70,8 +67,9 @@ def normalize_url(url: str) -> str | None:
     """
     Find and normalize a LinkedIn post URL.
 
-    Tracking parameters, query strings, and fragments are removed.
+    Query parameters, tracking parameters, and URL fragments are removed.
     """
+
     match = LINKEDIN_POST_RE.search(url.strip())
 
     if not match:
@@ -88,26 +86,34 @@ def normalize_url(url: str) -> str | None:
 
 def stable_post_id(url: str) -> str:
     """
-    Return a stable post identifier.
+    Create a stable identifier for the LinkedIn post.
 
-    Uses the LinkedIn activity ID when available. Otherwise, it creates a
-    deterministic hash from the normalized URL.
+    The activity ID is used when available. Otherwise, a deterministic hash
+    is generated from the normalized URL.
     """
-    match = ACTIVITY_ID_RE.search(url)
 
-    if match:
-        return f"linkedin_{match.group(1)}"
+    activity_match = ACTIVITY_ID_RE.search(url)
 
-    digest = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
-    return f"linkedin_{digest}"
+    if activity_match:
+        return f"linkedin_{activity_match.group(1)}"
+
+    url_hash = hashlib.sha1(
+        url.encode("utf-8")
+    ).hexdigest()[:16]
+
+    return f"linkedin_{url_hash}"
 
 
 def find_latest_run(runs_dir: Path) -> Path:
     """
-    Find the newest timestamped folder under runs/.
+    Find the latest timestamped collection folder under runs/.
 
-    Only folders containing urls.txt are considered valid collection runs.
+    A directory is considered a valid collection run only when:
+
+    1. Its name follows YYYYMMDD_HHMMSS.
+    2. It contains urls.txt.
     """
+
     if not runs_dir.exists():
         raise FileNotFoundError(
             f"Runs directory not found: {runs_dir.resolve()}"
@@ -123,23 +129,25 @@ def find_latest_run(runs_dir: Path) -> Path:
 
     if not candidates:
         raise FileNotFoundError(
-            "No timestamped run folder containing urls.txt was found under "
-            f"{runs_dir.resolve()}"
+            "No timestamped collection folder containing urls.txt "
+            f"was found under {runs_dir.resolve()}"
         )
 
-    # Because folder names use YYYYMMDD_HHMMSS, lexical ordering is also
+    # Folder names use YYYYMMDD_HHMMSS, so lexical ordering is also
     # chronological ordering.
-    latest_run = max(candidates, key=lambda path: path.name)
-
-    return latest_run
+    return max(
+        candidates,
+        key=lambda path: path.name,
+    )
 
 
 def load_urls(urls_path: Path) -> list[str]:
     """
-    Read unique LinkedIn post URLs from urls.txt.
+    Load unique LinkedIn post URLs from urls.txt.
 
-    The order of first appearance is preserved.
+    Duplicate URLs are removed while preserving their original order.
     """
+
     if not urls_path.exists():
         raise FileNotFoundError(
             f"URL file not found: {urls_path.resolve()}"
@@ -156,9 +164,11 @@ def load_urls(urls_path: Path) -> list[str]:
     for raw_line in lines:
         candidate = normalize_url(raw_line)
 
-        # Allows limited compatibility with tab-separated lines.
+        # Provides limited support for tab-separated lines.
         if not candidate and "\t" in raw_line:
-            candidate = normalize_url(raw_line.split("\t")[-1])
+            candidate = normalize_url(
+                raw_line.split("\t")[-1]
+            )
 
         if candidate and candidate not in seen:
             seen.add(candidate)
@@ -166,37 +176,51 @@ def load_urls(urls_path: Path) -> list[str]:
 
     if not urls:
         raise ValueError(
-            f"No LinkedIn post URLs found in {urls_path.resolve()}"
+            "No LinkedIn post URLs were found in "
+            f"{urls_path.resolve()}"
         )
 
     return urls
 
 
 def clean_text(value: str | None) -> str | None:
-    """Collapse repeated whitespace and return None for empty values."""
+    """
+    Remove repeated whitespace and return None for empty values.
+    """
+
     if value is None:
         return None
 
-    cleaned = re.sub(r"\s+", " ", value).strip()
+    cleaned = re.sub(
+        r"\s+",
+        " ",
+        value,
+    ).strip()
 
     return cleaned or None
 
 
-def first_text(page: Page, selectors: list[str]) -> str | None:
+def first_text(
+    page: Page,
+    selectors: list[str],
+) -> str | None:
     """
     Return text from the first selector that produces a non-empty value.
     """
+
     for selector in selectors:
         try:
             locator = page.locator(selector).first
 
-            if locator.count() > 0:
-                value = clean_text(
-                    locator.inner_text(timeout=1800)
-                )
+            if locator.count() == 0:
+                continue
 
-                if value:
-                    return value
+            value = clean_text(
+                locator.inner_text(timeout=1800)
+            )
+
+            if value:
+                return value
 
         except Exception:
             continue
@@ -204,7 +228,7 @@ def first_text(page: Page, selectors: list[str]) -> str | None:
     return None
 
 
-def first_attr(
+def first_attribute(
     page: Page,
     selectors: list[str],
     attribute: str,
@@ -212,20 +236,23 @@ def first_attr(
     """
     Return an attribute from the first matching selector.
     """
+
     for selector in selectors:
         try:
             locator = page.locator(selector).first
 
-            if locator.count() > 0:
-                value = clean_text(
-                    locator.get_attribute(
-                        attribute,
-                        timeout=1800,
-                    )
-                )
+            if locator.count() == 0:
+                continue
 
-                if value:
-                    return value
+            value = clean_text(
+                locator.get_attribute(
+                    attribute,
+                    timeout=1800,
+                )
+            )
+
+            if value:
+                return value
 
         except Exception:
             continue
@@ -233,125 +260,15 @@ def first_attr(
     return None
 
 
-def parse_count(text: str | None) -> int | None:
-    """
-    Parse engagement counts such as:
-
-    1,234
-    1.2K
-    4M
-    15 comments
-    """
-    if not text:
-        return None
-
-    match = re.search(
-        r"(\d[\d,.]*)(?:\s*)([KMB])?",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    if not match:
-        return None
-
-    number = match.group(1).replace(",", "")
-    suffix = (match.group(2) or "").upper()
-
-    try:
-        value = float(number)
-    except ValueError:
-        return None
-
-    multipliers = {
-        "": 1,
-        "K": 1_000,
-        "M": 1_000_000,
-        "B": 1_000_000_000,
-    }
-
-    return int(value * multipliers[suffix])
-
-
-def extract_hashtags(post_text: str | None) -> list[str]:
-    """Extract unique lowercase hashtags from the post text."""
-    if not post_text:
-        return []
-
-    seen: set[str] = set()
-    hashtags: list[str] = []
-
-    matches = re.findall(
-        r"(?<!\w)#([A-Za-z0-9_]+)",
-        post_text,
-    )
-
-    for match in matches:
-        tag = match.lower()
-
-        if tag not in seen:
-            seen.add(tag)
-            hashtags.append(tag)
-
-    return hashtags
-
-
-def extract_images(page: Page) -> list[str]:
-    """
-    Extract non-avatar images found inside likely post containers.
-    """
-    selectors = [
-        "article img",
-        "div.feed-shared-update-v2 img",
-        "div.update-components-image img",
-    ]
-
-    seen: set[str] = set()
-    images: list[str] = []
-
-    for selector in selectors:
-        try:
-            locator = page.locator(selector)
-            count = min(locator.count(), 30)
-
-            for index in range(count):
-                image = locator.nth(index)
-
-                src = image.get_attribute("src")
-                alt = (image.get_attribute("alt") or "").lower()
-
-                if not src:
-                    continue
-
-                if src.startswith("data:"):
-                    continue
-
-                if any(
-                    phrase in alt
-                    for phrase in (
-                        "profile photo",
-                        "profile picture",
-                        "avatar",
-                    )
-                ):
-                    continue
-
-                if src not in seen:
-                    seen.add(src)
-                    images.append(src)
-
-        except Exception:
-            continue
-
-    return images
-
-
 def expand_post(page: Page) -> None:
     """
-    Click LinkedIn's post-expansion control when present.
+    Click LinkedIn's post-expansion button when one is available.
     """
+
     selectors = [
         "button:has-text('see more')",
         "button:has-text('…more')",
+        "button:has-text('more')",
         "button[aria-label*='see more' i]",
     ]
 
@@ -359,7 +276,10 @@ def expand_post(page: Page) -> None:
         try:
             locator = page.locator(selector).first
 
-            if locator.count() > 0 and locator.is_visible():
+            if (
+                locator.count() > 0
+                and locator.is_visible()
+            ):
                 locator.click(timeout=1500)
                 page.wait_for_timeout(500)
                 return
@@ -370,8 +290,9 @@ def expand_post(page: Page) -> None:
 
 def login_wall_detected(page: Page) -> bool:
     """
-    Detect common LinkedIn login walls, auth walls, and checkpoints.
+    Detect common LinkedIn login walls, authentication walls, and checkpoints.
     """
+
     current_url = page.url.lower()
 
     blocked_url_tokens = (
@@ -381,29 +302,40 @@ def login_wall_detected(page: Page) -> bool:
         "/uas/login",
     )
 
-    if any(token in current_url for token in blocked_url_tokens):
+    if any(
+        token in current_url
+        for token in blocked_url_tokens
+    ):
         return True
 
     try:
         body_text = page.locator("body").inner_text(
             timeout=3000
         ).lower()
+
     except Exception:
         return False
 
-    return "sign in" in body_text and "join now" in body_text
+    login_language_present = (
+        "sign in" in body_text
+        and "join now" in body_text
+    )
+
+    return login_language_present
 
 
-def create_context(
+def create_browser_context(
     playwright,
     profile_dir: Path,
     headless: bool,
 ) -> BrowserContext:
     """
-    Create a persistent Chromium browser context.
+    Create a persistent Chromium context.
 
-    The profile directory stores the LinkedIn login session between runs.
+    The persistent profile allows the LinkedIn login session to be reused
+    across extraction runs.
     """
+
     profile_dir.mkdir(
         parents=True,
         exist_ok=True,
@@ -423,40 +355,28 @@ def create_context(
     )
 
 
-def make_empty_record(
+def create_failed_record(
     *,
     url: str,
     source_collection_run_id: str,
-    source_urls_file: Path,
-    extraction_run_id: str,
     extracted_at: str,
     status: str,
-    error: str | None,
-    page_title: str | None = None,
+    error: str,
 ) -> PostRecord:
     """
-    Create a record for a failed, blocked, or timed-out extraction.
+    Create a minimal record for a failed or blocked extraction.
     """
+
     return PostRecord(
-        source_collection_run_id=source_collection_run_id,
-        source_urls_file=str(source_urls_file),
-        extraction_run_id=extraction_run_id,
         post_id=stable_post_id(url),
         url=url,
         author=None,
-        headline=None,
-        company=None,
         published_date=None,
-        likes=None,
-        comments=None,
         post_text=None,
-        hashtags=[],
-        images=[],
-        page_title=page_title,
+        source_collection_run_id=source_collection_run_id,
         extracted_at=extracted_at,
         extraction_status=status,
         extraction_error=error,
-        extractor_version=EXTRACTOR_VERSION,
     )
 
 
@@ -465,13 +385,12 @@ def extract_post(
     *,
     url: str,
     source_collection_run_id: str,
-    source_urls_file: Path,
-    extraction_run_id: str,
     timeout_ms: int,
 ) -> PostRecord:
     """
-    Visit and extract one LinkedIn post.
+    Visit one LinkedIn post and extract its essential content.
     """
+
     extracted_at = utc_now_iso()
 
     try:
@@ -484,63 +403,34 @@ def extract_post(
         page.wait_for_timeout(2500)
 
         if login_wall_detected(page):
-            return make_empty_record(
+            return create_failed_record(
                 url=url,
                 source_collection_run_id=source_collection_run_id,
-                source_urls_file=source_urls_file,
-                extraction_run_id=extraction_run_id,
                 extracted_at=extracted_at,
                 status="login_required",
                 error="LinkedIn login wall detected",
-                page_title=clean_text(page.title()),
             )
 
         expand_post(page)
-
-        page_title = clean_text(page.title())
 
         author = first_text(
             page,
             [
                 ".update-components-actor__name",
                 ".feed-shared-actor__name",
-                "article a[href*='/in/'] span[aria-hidden='true']",
+                (
+                    "article a[href*='/in/'] "
+                    "span[aria-hidden='true']"
+                ),
                 "a[href*='/in/'] span[aria-hidden='true']",
             ],
         )
 
-        company = first_text(
-            page,
-            [
-                ".update-components-actor__description",
-                ".feed-shared-actor__description",
-                ".update-components-actor__sub-description",
-            ],
-        )
-
-        post_text = first_text(
-            page,
-            [
-                ".update-components-text",
-                ".feed-shared-update-v2__description",
-                ".feed-shared-inline-show-more-text",
-                "article div[dir='ltr']",
-            ],
-        )
-
-        headline = None
-
-        if post_text:
-            headline = post_text[:177].rstrip()
-
-            if len(post_text) > 177:
-                headline += "..."
-
         published_date = (
-            first_attr(
+            first_attribute(
                 page,
-                ["time"],
-                "datetime",
+                selectors=["time"],
+                attribute="datetime",
             )
             or first_text(
                 page,
@@ -558,73 +448,52 @@ def extract_post(
             )
         )
 
-        likes_text = first_text(
+        post_text = first_text(
             page,
             [
-                "button[aria-label*='reaction' i]",
-                ".social-details-social-counts__reactions-count",
-                "span[aria-label*='reaction' i]",
+                ".update-components-text",
+                ".feed-shared-update-v2__description",
+                ".feed-shared-inline-show-more-text",
+                "article div[dir='ltr']",
             ],
         )
-
-        comments_text = first_text(
-            page,
-            [
-                "button[aria-label*='comment' i]",
-                ".social-details-social-counts__comments",
-                "span[aria-label*='comment' i]",
-            ],
-        )
-
-        likes = parse_count(likes_text)
-        comments = parse_count(comments_text)
 
         if post_text:
-            status = "success"
-            error = None
+            extraction_status = "success"
+            extraction_error = None
+
         else:
-            status = "partial"
-            error = "Post text selector did not match"
+            extraction_status = "partial"
+            extraction_error = (
+                "LinkedIn page loaded, but the post-text "
+                "selector did not match"
+            )
 
         return PostRecord(
-            source_collection_run_id=source_collection_run_id,
-            source_urls_file=str(source_urls_file),
-            extraction_run_id=extraction_run_id,
             post_id=stable_post_id(url),
             url=url,
             author=author,
-            headline=headline,
-            company=company,
             published_date=published_date,
-            likes=likes,
-            comments=comments,
             post_text=post_text,
-            hashtags=extract_hashtags(post_text),
-            images=extract_images(page),
-            page_title=page_title,
+            source_collection_run_id=source_collection_run_id,
             extracted_at=extracted_at,
-            extraction_status=status,
-            extraction_error=error,
-            extractor_version=EXTRACTOR_VERSION,
+            extraction_status=extraction_status,
+            extraction_error=extraction_error,
         )
 
     except PlaywrightTimeoutError as exc:
-        return make_empty_record(
+        return create_failed_record(
             url=url,
             source_collection_run_id=source_collection_run_id,
-            source_urls_file=source_urls_file,
-            extraction_run_id=extraction_run_id,
             extracted_at=extracted_at,
             status="timeout",
             error=str(exc),
         )
 
     except Exception as exc:
-        return make_empty_record(
+        return create_failed_record(
             url=url,
             source_collection_run_id=source_collection_run_id,
-            source_urls_file=source_urls_file,
-            extraction_run_id=extraction_run_id,
             extracted_at=extracted_at,
             status="error",
             error=f"{type(exc).__name__}: {exc}",
@@ -635,7 +504,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
             "Read urls.txt from the latest runs/<timestamp>/ folder, "
-            "extract LinkedIn posts, and write a new timestamped JSONL file."
+            "extract essential LinkedIn post content, and write a new "
+            "timestamped JSONL file."
         )
     )
 
@@ -652,8 +522,8 @@ def main() -> None:
         "--data-dir",
         default="data",
         help=(
-            "Directory where extracted_posts_<timestamp>.jsonl is written. "
-            "Default: data"
+            "Directory where the timestamped extraction output "
+            "will be written. Default: data"
         ),
     )
 
@@ -661,7 +531,8 @@ def main() -> None:
         "--profile-dir",
         default=".linkedin-browser-profile",
         help=(
-            "Persistent Chromium profile used to retain LinkedIn login."
+            "Persistent Chromium profile used to retain "
+            "the LinkedIn login session."
         ),
     )
 
@@ -669,7 +540,7 @@ def main() -> None:
         "--delay",
         type=float,
         default=4.0,
-        help="Seconds to wait between LinkedIn post visits.",
+        help="Number of seconds to wait between LinkedIn post visits.",
     )
 
     parser.add_argument(
@@ -683,38 +554,47 @@ def main() -> None:
         "--limit",
         type=int,
         default=0,
-        help="Process only N URLs. Use 0 to process all URLs.",
+        help=(
+            "Process only the first N URLs. "
+            "Use 0 to process every URL."
+        ),
     )
 
     parser.add_argument(
         "--headless",
         action="store_true",
-        help="Run Chromium without displaying the browser window.",
+        help="Run Chromium without showing the browser window.",
     )
 
     parser.add_argument(
         "--login-only",
         action="store_true",
         help=(
-            "Open LinkedIn for interactive login and exit after Enter "
-            "is pressed."
+            "Open LinkedIn for interactive login and exit "
+            "after Enter is pressed."
         ),
     )
 
     args = parser.parse_args()
 
     if args.delay < 0:
-        raise ValueError("--delay cannot be negative")
+        raise ValueError(
+            "--delay cannot be negative"
+        )
 
     if args.timeout < 1:
-        raise ValueError("--timeout must be at least 1 second")
+        raise ValueError(
+            "--timeout must be at least 1 second"
+        )
 
     if args.limit < 0:
-        raise ValueError("--limit cannot be negative")
+        raise ValueError(
+            "--limit cannot be negative"
+        )
 
     if args.login_only and args.headless:
         raise ValueError(
-            "--login-only cannot be used together with --headless"
+            "--login-only cannot be combined with --headless"
         )
 
     runs_dir = Path(args.runs_dir)
@@ -722,7 +602,7 @@ def main() -> None:
     profile_dir = Path(args.profile_dir)
 
     with sync_playwright() as playwright:
-        context = create_context(
+        context = create_browser_context(
             playwright,
             profile_dir=profile_dir,
             headless=args.headless,
@@ -751,29 +631,19 @@ def main() -> None:
 
                 return
 
-            # ---------------------------------------------------------
-            # INPUT SELECTION
-            #
-            # This is the section that reads from runs/.
-            # ---------------------------------------------------------
-
+            # Find:
+            # runs/<latest_timestamp>/
             latest_run = find_latest_run(runs_dir)
 
-            # Reads:
+            # Read:
             # runs/<latest_timestamp>/urls.txt
             urls_path = latest_run / "urls.txt"
-
-            # Loads and deduplicates URLs from that file.
             urls = load_urls(urls_path)
 
             if args.limit > 0:
-                urls = urls[: args.limit]
+                urls = urls[:args.limit]
 
-            # ---------------------------------------------------------
-            # OUTPUT CREATION
-            # ---------------------------------------------------------
-
-            extraction_run_id = datetime.now(
+            extraction_timestamp = datetime.now(
                 timezone.utc
             ).strftime("%Y%m%d_%H%M%S")
 
@@ -782,15 +652,17 @@ def main() -> None:
                 exist_ok=True,
             )
 
+            # Create:
+            # data/extracted_posts_<timestamp>.jsonl
             output_path = (
                 data_dir
-                / f"extracted_posts_{extraction_run_id}.jsonl"
+                / f"extracted_posts_{extraction_timestamp}.jsonl"
             )
 
             print()
-            print(f"Latest collection run: {latest_run.name}")
+            print(f"Collection run: {latest_run.name}")
             print(f"Input file: {urls_path.resolve()}")
-            print(f"Unique URLs: {len(urls)}")
+            print(f"Unique LinkedIn URLs: {len(urls)}")
             print(f"Output file: {output_path.resolve()}")
             print()
 
@@ -798,8 +670,8 @@ def main() -> None:
             partial_count = 0
             failed_count = 0
 
-            # "w" creates a new file for every extraction run.
-            # It does not append to a previous extraction file.
+            # Write mode creates a separate output file for every
+            # extraction execution.
             with output_path.open(
                 "w",
                 encoding="utf-8",
@@ -808,14 +680,14 @@ def main() -> None:
                     urls,
                     start=1,
                 ):
-                    print(f"[{index}/{len(urls)}] {url}")
+                    print(
+                        f"[{index}/{len(urls)}] {url}"
+                    )
 
                     record = extract_post(
                         page,
                         url=url,
                         source_collection_run_id=latest_run.name,
-                        source_urls_file=urls_path,
-                        extraction_run_id=extraction_run_id,
                         timeout_ms=args.timeout * 1000,
                     )
 
