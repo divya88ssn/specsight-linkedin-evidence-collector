@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
 import re
 import time
 from dataclasses import asdict, dataclass
@@ -33,10 +32,6 @@ RUN_DIR_RE = re.compile(r"^\d{8}_\d{6}$")
 
 @dataclass
 class PostRecord:
-    """
-    Minimal LinkedIn post extraction record.
-    """
-
     post_id: str
     url: str
 
@@ -52,18 +47,12 @@ class PostRecord:
 
 
 def utc_now_iso() -> str:
-    """
-    Return the current UTC timestamp in ISO-8601 format.
-    """
-
-    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+    return datetime.now(timezone.utc).isoformat(
+        timespec="seconds"
+    )
 
 
 def clean_text(value: str | None) -> str | None:
-    """
-    Collapse repeated whitespace and convert blank strings to None.
-    """
-
     if value is None:
         return None
 
@@ -72,32 +61,28 @@ def clean_text(value: str | None) -> str | None:
     return cleaned or None
 
 
-def normalize_url(url: str) -> str | None:
-    """
-    Find and normalize a LinkedIn post URL.
-
-    Query parameters and fragments are removed.
-    """
-
-    match = LINKEDIN_POST_RE.search(url.strip())
+def normalize_url(raw_value: str) -> str | None:
+    match = LINKEDIN_POST_RE.search(raw_value.strip())
 
     if not match:
         return None
 
-    value = match.group(0).rstrip("/.,);]}>\"'")
+    value = match.group(0).rstrip(
+        "/.,);]}>\"'"
+    )
+
     parsed = urlparse(value)
 
     if "/posts/" not in parsed.path:
         return None
 
-    return f"https://www.linkedin.com{parsed.path.rstrip('/')}"
+    return (
+        f"https://www.linkedin.com"
+        f"{parsed.path.rstrip('/')}"
+    )
 
 
 def stable_post_id(url: str) -> str:
-    """
-    Create a stable identifier for a LinkedIn post.
-    """
-
     activity_match = ACTIVITY_ID_RE.search(url)
 
     if activity_match:
@@ -111,18 +96,10 @@ def stable_post_id(url: str) -> str:
 
 
 def find_latest_run(runs_dir: Path) -> Path:
-    """
-    Find the latest timestamped folder under runs/.
-
-    A folder is valid only when:
-
-    1. Its name matches YYYYMMDD_HHMMSS.
-    2. It contains urls.txt.
-    """
-
     if not runs_dir.exists():
         raise FileNotFoundError(
-            f"Runs directory not found: {runs_dir.resolve()}"
+            f"Runs directory not found: "
+            f"{runs_dir.resolve()}"
         )
 
     candidates = [
@@ -135,7 +112,7 @@ def find_latest_run(runs_dir: Path) -> Path:
 
     if not candidates:
         raise FileNotFoundError(
-            "No timestamped collection folder containing urls.txt "
+            "No timestamped run containing urls.txt "
             f"was found under {runs_dir.resolve()}"
         )
 
@@ -146,15 +123,10 @@ def find_latest_run(runs_dir: Path) -> Path:
 
 
 def load_urls(urls_path: Path) -> list[str]:
-    """
-    Read and deduplicate LinkedIn post URLs from urls.txt.
-
-    The original order is preserved.
-    """
-
     if not urls_path.exists():
         raise FileNotFoundError(
-            f"URL file not found: {urls_path.resolve()}"
+            f"URL file not found: "
+            f"{urls_path.resolve()}"
         )
 
     seen: set[str] = set()
@@ -168,7 +140,6 @@ def load_urls(urls_path: Path) -> list[str]:
     for raw_line in lines:
         candidate = normalize_url(raw_line)
 
-        # Limited support for tab-separated source files.
         if not candidate and "\t" in raw_line:
             candidate = normalize_url(
                 raw_line.split("\t")[-1]
@@ -191,10 +162,6 @@ def first_text(
     page: Page,
     selectors: list[str],
 ) -> str | None:
-    """
-    Return text from the first selector with a non-empty value.
-    """
-
     for selector in selectors:
         try:
             locator = page.locator(selector).first
@@ -202,12 +169,12 @@ def first_text(
             if locator.count() == 0:
                 continue
 
-            value = clean_text(
+            text = clean_text(
                 locator.inner_text(timeout=1800)
             )
 
-            if value:
-                return value
+            if text:
+                return text
 
         except Exception:
             continue
@@ -220,10 +187,6 @@ def first_attribute(
     selectors: list[str],
     attribute: str,
 ) -> str | None:
-    """
-    Return an attribute from the first matching selector.
-    """
-
     for selector in selectors:
         try:
             locator = page.locator(selector).first
@@ -253,9 +216,10 @@ def create_browser_context(
     headless: bool,
 ) -> BrowserContext:
     """
-    Create a persistent Chromium context.
+    Launch exactly one persistent browser context.
 
-    Cookies and session data are retained in profile_dir.
+    Cookies and authentication data are saved under
+    .linkedin-browser-profile and reused by future runs.
     """
 
     profile_dir.mkdir(
@@ -274,56 +238,52 @@ def create_browser_context(
     )
 
 
-def login_wall_detected(page: Page) -> bool:
-    """
-    Detect common LinkedIn login and authentication pages.
-    """
-
+def authentication_page_detected(
+    page: Page,
+) -> bool:
     current_url = page.url.lower()
 
-    blocked_url_tokens = (
+    authentication_url_tokens = (
         "/login",
         "/checkpoint/",
         "/authwall",
         "/uas/login",
     )
 
-    if any(
+    return any(
         token in current_url
-        for token in blocked_url_tokens
-    ):
+        for token in authentication_url_tokens
+    )
+
+
+def login_wall_detected(
+    page: Page,
+) -> bool:
+    if authentication_page_detected(page):
         return True
 
     try:
-        body_text = page.locator("body").inner_text(
+        body_text = page.locator(
+            "body"
+        ).inner_text(
             timeout=3000
         ).lower()
 
     except Exception:
         return False
 
-    return (
+    explicit_login_wall = (
         "sign in" in body_text
         and "join now" in body_text
     )
 
+    return explicit_login_wall
 
-def linkedin_session_is_authenticated(page: Page) -> bool:
-    """
-    Determine whether LinkedIn considers the current session authenticated.
-    """
 
-    current_url = page.url.lower()
-
-    if any(
-        token in current_url
-        for token in (
-            "/login",
-            "/checkpoint/",
-            "/authwall",
-            "/uas/login",
-        )
-    ):
+def linkedin_session_is_authenticated(
+    page: Page,
+) -> bool:
+    if authentication_page_detected(page):
         return False
 
     authenticated_selectors = [
@@ -331,7 +291,7 @@ def linkedin_session_is_authenticated(page: Page) -> bool:
         "header.global-nav",
         "a[href*='/feed/']",
         "a[href*='/mynetwork/']",
-        "a[href*='/in/']",
+        "button[aria-label*='Me']",
     ]
 
     for selector in authenticated_selectors:
@@ -350,27 +310,24 @@ def linkedin_session_is_authenticated(page: Page) -> bool:
     return not login_wall_detected(page)
 
 
-def wait_for_manual_verification(
+def ensure_linkedin_session(
     page: Page,
+    *,
     timeout_ms: int,
+    headless: bool,
 ) -> None:
     """
-    Pause when LinkedIn requests MFA, CAPTCHA, or identity verification.
+    Verify LinkedIn authentication before reading urls.txt.
 
-    The script does not attempt to bypass LinkedIn security controls.
+    When the persistent profile is not authenticated, the script waits
+    while the user completes login and MFA in the single Playwright
+    browser window.
+
+    This happens once before extraction begins.
     """
 
-    print()
     print(
-        "LinkedIn requested additional verification, MFA, "
-        "or a security check."
-    )
-    print(
-        "Complete the verification in the opened browser window."
-    )
-
-    input(
-        "Press Enter after the LinkedIn verification is complete..."
+        "Step 1: Checking LinkedIn authentication..."
     )
 
     try:
@@ -380,162 +337,80 @@ def wait_for_manual_verification(
             timeout=timeout_ms,
         )
 
-        page.wait_for_timeout(2000)
-
-    except PlaywrightTimeoutError:
-        pass
-
-    if not linkedin_session_is_authenticated(page):
-        raise RuntimeError(
-            "LinkedIn authentication is still incomplete after "
-            "manual verification."
-        )
-
-
-def login_to_linkedin(
-    page: Page,
-    timeout_ms: int,
-) -> None:
-    """
-    Authenticate with LinkedIn before reading or mining any URLs.
-
-    Credentials are loaded from:
-
-        LINKEDIN_USERNAME
-        LINKEDIN_PASSWORD
-
-    LINKEDIN_EMAIL is also accepted as a fallback for the username.
-    """
-
-    username = (
-        os.getenv("LINKEDIN_USERNAME")
-        or os.getenv("LINKEDIN_EMAIL")
-    )
-
-    password = os.getenv("LINKEDIN_PASSWORD")
-
-    if not username:
-        raise RuntimeError(
-            "Missing LinkedIn username. Set the "
-            "LINKEDIN_USERNAME environment variable."
-        )
-
-    if not password:
-        raise RuntimeError(
-            "Missing LinkedIn password. Set the "
-            "LINKEDIN_PASSWORD environment variable."
-        )
-
-    print("Step 1: Authenticating with LinkedIn...")
-
-    # Check whether the persistent browser profile already has
-    # an authenticated LinkedIn session.
-    try:
-        page.goto(
-            "https://www.linkedin.com/feed/",
-            wait_until="domcontentloaded",
-            timeout=timeout_ms,
-        )
-
-        page.wait_for_timeout(2000)
-
-    except PlaywrightTimeoutError:
-        pass
-
-    if linkedin_session_is_authenticated(page):
-        print(
-            "LinkedIn session is already authenticated. "
-            "No new login was required."
-        )
-        return
-
-    print("No active LinkedIn session found. Signing in...")
-
-    page.goto(
-        "https://www.linkedin.com/login",
-        wait_until="domcontentloaded",
-        timeout=timeout_ms,
-    )
-
-    username_input = page.locator(
-        "input#username, input[name='session_key']"
-    ).first
-
-    password_input = page.locator(
-        "input#password, input[name='session_password']"
-    ).first
-
-    submit_button = page.locator(
-        "button[type='submit']"
-    ).first
-
-    username_input.wait_for(
-        state="visible",
-        timeout=timeout_ms,
-    )
-
-    password_input.wait_for(
-        state="visible",
-        timeout=timeout_ms,
-    )
-
-    username_input.fill(username)
-    password_input.fill(password)
-
-    submit_button.click()
-
-    try:
-        page.wait_for_load_state(
-            "domcontentloaded",
-            timeout=timeout_ms,
-        )
     except PlaywrightTimeoutError:
         pass
 
     page.wait_for_timeout(2500)
 
-    current_url = page.url.lower()
-
-    if "/checkpoint/" in current_url:
-        wait_for_manual_verification(
-            page,
-            timeout_ms,
-        )
-        print("LinkedIn authentication completed.")
-        return
-
     if linkedin_session_is_authenticated(page):
-        print("LinkedIn authentication completed.")
+        print(
+            "LinkedIn session is already authenticated."
+        )
         return
 
-    # LinkedIn may show an inline credential error rather than navigating.
-    credential_error = first_text(
-        page,
-        [
-            "#error-for-username",
-            "#error-for-password",
-            ".alert-content",
-            ".form__label--error",
-            "[role='alert']",
-        ],
+    if headless:
+        raise RuntimeError(
+            "LinkedIn authentication is required, but the "
+            "browser is running in headless mode. Run without "
+            "--headless, complete login once, and then retry."
+        )
+
+    print()
+    print(
+        "LinkedIn authentication is required."
+    )
+    print(
+        "Use the Playwright browser window that just opened."
+    )
+    print(
+        "Complete LinkedIn login, MFA, CAPTCHA, or any "
+        "security verification."
+    )
+    print(
+        "Wait until your LinkedIn feed is visible."
+    )
+    print()
+
+    try:
+        page.goto(
+            "https://www.linkedin.com/login",
+            wait_until="domcontentloaded",
+            timeout=timeout_ms,
+        )
+
+    except PlaywrightTimeoutError:
+        pass
+
+    input(
+        "After the LinkedIn feed is visible, return to "
+        "PowerShell and press Enter..."
     )
 
-    if credential_error:
-        raise RuntimeError(
-            f"LinkedIn login failed: {credential_error}"
+    try:
+        page.goto(
+            "https://www.linkedin.com/feed/",
+            wait_until="domcontentloaded",
+            timeout=timeout_ms,
         )
 
-    raise RuntimeError(
-        "LinkedIn login did not complete. Check the credentials "
-        "or complete any security prompt shown in the browser."
+    except PlaywrightTimeoutError:
+        pass
+
+    page.wait_for_timeout(2500)
+
+    if not linkedin_session_is_authenticated(page):
+        raise RuntimeError(
+            "LinkedIn authentication could not be confirmed. "
+            "Make sure the feed is visible before pressing Enter."
+        )
+
+    print(
+        "LinkedIn authentication completed. "
+        "The session was saved in the persistent profile."
     )
 
 
 def expand_post(page: Page) -> None:
-    """
-    Expand truncated LinkedIn post text when possible.
-    """
-
     selectors = [
         "button:has-text('see more')",
         "button:has-text('…more')",
@@ -566,17 +441,15 @@ def create_failed_record(
     status: str,
     error: str,
 ) -> PostRecord:
-    """
-    Create a minimal record for a failed extraction.
-    """
-
     return PostRecord(
         post_id=stable_post_id(url),
         url=url,
         author=None,
         published_date=None,
         post_text=None,
-        source_collection_run_id=source_collection_run_id,
+        source_collection_run_id=(
+            source_collection_run_id
+        ),
         extracted_at=extracted_at,
         extraction_status=status,
         extraction_error=error,
@@ -591,7 +464,10 @@ def extract_post(
     timeout_ms: int,
 ) -> PostRecord:
     """
-    Visit one LinkedIn post and extract essential content.
+    Navigate the existing browser tab to one post.
+
+    This function does not create a browser, context, page, or login
+    session. Every URL is visited in the same authenticated tab.
     """
 
     extracted_at = utc_now_iso()
@@ -608,12 +484,14 @@ def extract_post(
         if login_wall_detected(page):
             return create_failed_record(
                 url=url,
-                source_collection_run_id=source_collection_run_id,
+                source_collection_run_id=(
+                    source_collection_run_id
+                ),
                 extracted_at=extracted_at,
                 status="login_required",
                 error=(
-                    "LinkedIn returned a login or authentication wall "
-                    "after the initial authentication step."
+                    "LinkedIn returned an authentication "
+                    "wall during extraction."
                 ),
             )
 
@@ -628,7 +506,10 @@ def extract_post(
                     "article a[href*='/in/'] "
                     "span[aria-hidden='true']"
                 ),
-                "a[href*='/in/'] span[aria-hidden='true']",
+                (
+                    "a[href*='/in/'] "
+                    "span[aria-hidden='true']"
+                ),
             ],
         )
 
@@ -642,11 +523,13 @@ def extract_post(
                 page,
                 [
                     (
-                        ".update-components-actor__sub-description "
+                        ".update-components-actor__"
+                        "sub-description "
                         "span[aria-hidden='true']"
                     ),
                     (
-                        ".feed-shared-actor__sub-description "
+                        ".feed-shared-actor__"
+                        "sub-description "
                         "span[aria-hidden='true']"
                     ),
                     "time",
@@ -658,21 +541,27 @@ def extract_post(
             page,
             [
                 ".update-components-text",
-                ".feed-shared-update-v2__description",
-                ".feed-shared-inline-show-more-text",
+                (
+                    ".feed-shared-update-v2__"
+                    "description"
+                ),
+                (
+                    ".feed-shared-inline-"
+                    "show-more-text"
+                ),
                 "article div[dir='ltr']",
             ],
         )
 
         if post_text:
-            extraction_status = "success"
-            extraction_error = None
+            status = "success"
+            error = None
 
         else:
-            extraction_status = "partial"
-            extraction_error = (
+            status = "partial"
+            error = (
                 "The page loaded, but no post text matched "
-                "the configured LinkedIn selectors."
+                "the configured selectors."
             )
 
         return PostRecord(
@@ -681,16 +570,20 @@ def extract_post(
             author=author,
             published_date=published_date,
             post_text=post_text,
-            source_collection_run_id=source_collection_run_id,
+            source_collection_run_id=(
+                source_collection_run_id
+            ),
             extracted_at=extracted_at,
-            extraction_status=extraction_status,
-            extraction_error=extraction_error,
+            extraction_status=status,
+            extraction_error=error,
         )
 
     except PlaywrightTimeoutError as exc:
         return create_failed_record(
             url=url,
-            source_collection_run_id=source_collection_run_id,
+            source_collection_run_id=(
+                source_collection_run_id
+            ),
             extracted_at=extracted_at,
             status="timeout",
             error=str(exc),
@@ -699,7 +592,9 @@ def extract_post(
     except Exception as exc:
         return create_failed_record(
             url=url,
-            source_collection_run_id=source_collection_run_id,
+            source_collection_run_id=(
+                source_collection_run_id
+            ),
             extracted_at=extracted_at,
             status="error",
             error=f"{type(exc).__name__}: {exc}",
@@ -709,9 +604,10 @@ def extract_post(
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Authenticate with LinkedIn first, read urls.txt from the "
-            "latest runs/<timestamp>/ folder, extract essential post "
-            "content, and write a new timestamped JSONL file."
+            "Authenticate once with LinkedIn, read urls.txt "
+            "from the latest runs/<timestamp>/ folder, and "
+            "write essential post content to a timestamped "
+            "JSONL file."
         )
     )
 
@@ -719,8 +615,8 @@ def main() -> None:
         "--runs-dir",
         default="runs",
         help=(
-            "Directory containing timestamped collection runs. "
-            "Default: runs"
+            "Directory containing timestamped collection "
+            "runs. Default: runs"
         ),
     )
 
@@ -728,7 +624,7 @@ def main() -> None:
         "--data-dir",
         default="data",
         help=(
-            "Directory where extraction output is written. "
+            "Directory for extraction output. "
             "Default: data"
         ),
     )
@@ -737,23 +633,29 @@ def main() -> None:
         "--profile-dir",
         default=".linkedin-browser-profile",
         help=(
-            "Persistent Chromium profile used to retain "
-            "the LinkedIn session."
+            "Persistent Playwright browser profile. "
+            "Default: .linkedin-browser-profile"
         ),
     )
 
     parser.add_argument(
         "--delay",
         type=float,
-        default=4.0,
-        help="Seconds to wait between post visits.",
+        default=8.0,
+        help=(
+            "Seconds to wait between post visits. "
+            "Default: 8"
+        ),
     )
 
     parser.add_argument(
         "--timeout",
         type=int,
         default=45,
-        help="Navigation and login timeout in seconds.",
+        help=(
+            "Navigation timeout in seconds. "
+            "Default: 45"
+        ),
     )
 
     parser.add_argument(
@@ -761,8 +663,8 @@ def main() -> None:
         type=int,
         default=0,
         help=(
-            "Process only the first N URLs. "
-            "Use 0 to process all URLs."
+            "Process the first N URLs. "
+            "Use 0 for all URLs."
         ),
     )
 
@@ -770,8 +672,8 @@ def main() -> None:
         "--headless",
         action="store_true",
         help=(
-            "Run Chromium without displaying the browser. "
-            "Do not use this for the first login or when MFA may occur."
+            "Run without a visible browser. Use only after "
+            "a visible run has saved an authenticated session."
         ),
     )
 
@@ -796,14 +698,17 @@ def main() -> None:
     data_dir = Path(args.data_dir)
     profile_dir = Path(args.profile_dir)
 
-    with sync_playwright() as playwright:
-        context = create_browser_context(
-            playwright,
-            profile_dir=profile_dir,
-            headless=args.headless,
-        )
+    context: BrowserContext | None = None
 
-        try:
+    try:
+        with sync_playwright() as playwright:
+            context = create_browser_context(
+                playwright,
+                profile_dir=profile_dir,
+                headless=args.headless,
+            )
+
+            # Exactly one page is created and reused for all URLs.
             page = (
                 context.pages[0]
                 if context.pages
@@ -812,43 +717,47 @@ def main() -> None:
 
             timeout_ms = args.timeout * 1000
 
-            # =========================================================
-            # STEP 1: LOGIN FIRST
-            #
-            # No run folder or urls.txt file is read until this succeeds.
-            # =========================================================
+            # ==================================================
+            # STEP 1: LOGIN BEFORE READING OR MINING ANY URLS
+            # ==================================================
 
-            login_to_linkedin(
+            ensure_linkedin_session(
                 page,
                 timeout_ms=timeout_ms,
+                headless=args.headless,
             )
 
-            # =========================================================
+            # ==================================================
             # STEP 2: FIND THE LATEST COLLECTION RUN
-            # =========================================================
+            # ==================================================
 
-            print("Step 2: Locating the latest collection run...")
+            print(
+                "Step 2: Locating the latest "
+                "collection run..."
+            )
 
-            latest_run = find_latest_run(runs_dir)
+            latest_run = find_latest_run(
+                runs_dir
+            )
 
-            # Reads:
-            # runs/<latest_timestamp>/urls.txt
             urls_path = latest_run / "urls.txt"
 
-            # =========================================================
+            # ==================================================
             # STEP 3: LOAD AND DEDUPLICATE URLS
-            # =========================================================
+            # ==================================================
 
-            print("Step 3: Loading and deduplicating post URLs...")
+            print(
+                "Step 3: Loading and deduplicating URLs..."
+            )
 
             urls = load_urls(urls_path)
 
             if args.limit > 0:
                 urls = urls[:args.limit]
 
-            # =========================================================
-            # STEP 4: CREATE A NEW EXTRACTION OUTPUT
-            # =========================================================
+            # ==================================================
+            # STEP 4: CREATE A NEW EXTRACTION FILE
+            # ==================================================
 
             extraction_timestamp = datetime.now(
                 timezone.utc
@@ -861,21 +770,36 @@ def main() -> None:
 
             output_path = (
                 data_dir
-                / f"extracted_posts_{extraction_timestamp}.jsonl"
+                / (
+                    "extracted_posts_"
+                    f"{extraction_timestamp}.jsonl"
+                )
             )
 
             print()
-            print(f"Collection run: {latest_run.name}")
-            print(f"Input file: {urls_path.resolve()}")
-            print(f"URLs to process: {len(urls)}")
-            print(f"Output file: {output_path.resolve()}")
+            print(
+                f"Collection run: {latest_run.name}"
+            )
+            print(
+                f"Input file: {urls_path.resolve()}"
+            )
+            print(
+                f"URLs to process: {len(urls)}"
+            )
+            print(
+                f"Output file: {output_path.resolve()}"
+            )
+            print(
+                "One browser and one tab will be reused "
+                "for the entire run."
+            )
             print()
 
             success_count = 0
             partial_count = 0
             failed_count = 0
+            stopped_for_authentication = False
 
-            # "w" creates a fresh output file for each execution.
             with output_path.open(
                 "w",
                 encoding="utf-8",
@@ -891,7 +815,9 @@ def main() -> None:
                     record = extract_post(
                         page,
                         url=url,
-                        source_collection_run_id=latest_run.name,
+                        source_collection_run_id=(
+                            latest_run.name
+                        ),
                         timeout_ms=timeout_ms,
                     )
 
@@ -910,27 +836,87 @@ def main() -> None:
                         f"{record.author or 'unknown author'}"
                     )
 
-                    if record.extraction_status == "success":
+                    if (
+                        record.extraction_status
+                        == "success"
+                    ):
                         success_count += 1
 
-                    elif record.extraction_status == "partial":
+                    elif (
+                        record.extraction_status
+                        == "partial"
+                    ):
                         partial_count += 1
 
                     else:
                         failed_count += 1
 
+                    # Do not continue writing hundreds of
+                    # login_required records.
+                    if (
+                        record.extraction_status
+                        == "login_required"
+                    ):
+                        stopped_for_authentication = True
+
+                        print()
+                        print(
+                            "LinkedIn authentication was "
+                            "lost or challenged."
+                        )
+                        print(
+                            "The extraction has been stopped "
+                            "instead of continuing through "
+                            "the remaining URLs."
+                        )
+                        print(
+                            "Run the script visibly again to "
+                            "restore the saved session."
+                        )
+
+                        break
+
                     if index < len(urls):
                         time.sleep(args.delay)
 
             print()
-            print("Extraction complete")
-            print(f"Successful: {success_count}")
-            print(f"Partial: {partial_count}")
-            print(f"Failed or blocked: {failed_count}")
-            print(f"Saved to: {output_path.resolve()}")
+            print("Extraction finished")
+            print(
+                f"Successful: {success_count}"
+            )
+            print(
+                f"Partial: {partial_count}"
+            )
+            print(
+                f"Failed or blocked: {failed_count}"
+            )
+            print(
+                f"Saved to: {output_path.resolve()}"
+            )
 
-        finally:
-            context.close()
+            if stopped_for_authentication:
+                print(
+                    "Status: stopped because LinkedIn "
+                    "requested authentication."
+                )
+
+    except KeyboardInterrupt:
+        print()
+        print(
+            "Extraction interrupted by the user."
+        )
+        print(
+            "Any records already written remain saved."
+        )
+
+    finally:
+        if context is not None:
+            try:
+                context.close()
+            except Exception:
+                # Avoid secondary shutdown errors masking the
+                # original exception or Ctrl+C.
+                pass
 
 
 if __name__ == "__main__":
