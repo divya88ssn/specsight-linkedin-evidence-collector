@@ -226,9 +226,10 @@ def create_browser_context(
         parents=True,
         exist_ok=True,
     )
-
+        
     return playwright.chromium.launch_persistent_context(
         user_data_dir=str(profile_dir),
+        channel="chrome",
         headless=headless,
         viewport={
             "width": 1440,
@@ -236,7 +237,6 @@ def create_browser_context(
         },
         locale="en-US",
     )
-
 
 def authentication_page_detected(
     page: Page,
