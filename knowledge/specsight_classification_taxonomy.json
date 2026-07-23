@@ -1,0 +1,1094 @@
+{
+  "taxonomy_name": "Specsight Classification Taxonomy",
+  "version": "1.0",
+  "purpose": "Classify LinkedIn evidence about product-management workflows, pains, failure modes, ICP signals, JTBD, and buying triggers, then map only credible portions to documented Specsight capabilities.",
+  "source_governance": {
+    "product_truth": {
+      "source_file": "specsight_product_taxonomy.json",
+      "rule": "All product claims and mappings must use capability and product-area identifiers defined in this file."
+    },
+    "market_research": [
+      "ICP_JTBD_Outreach_Buying Trigger_july 17 2026.pptx",
+      "Discovery_Refinement_and_Verification_adjustment_july 19 2026 Part1.docx",
+      "Discovery & Validation_july 19 2026 part 2.docx",
+      "Implementation Validation & Product Validation july 19 2026_part 1.docx",
+      "Implementation Validation & Product Validation July 19 2026_part 2.docx",
+      "Implementation Validation & Product Validation July 19 2026_part 3.docx",
+      "Product OS_Defn of done and Acceptance Criteria_part1.docx",
+      "Product OS_Defn of done and Acceptance Criteria_part2.docx"
+    ],
+    "external_assumptions": "None added. Market interpretations are limited to the uploaded GTM research."
+  },
+  "derivation_model": {
+    "product_layer": "Documented Specsight product areas and capabilities from specsight_product_taxonomy.json.",
+    "market_layer": "Workflow, pain, failure-mode, ICP, JTBD, and trigger concepts synthesised from the uploaded GTM research.",
+    "mapping_layer": "Explicit relevance and boundary rules connecting market concepts to documented product capabilities without adding new product claims."
+  },
+  "workflow_stages": {
+    "discovery": {
+      "name": "Discovery",
+      "question": "What customer problem or opportunity should be addressed?",
+      "typical_artifacts": [
+        "customer research",
+        "interviews",
+        "analytics",
+        "JTBD"
+      ],
+      "specsight_fit": "low",
+      "fit_note": "The product taxonomy does not establish customer discovery, strategy, prioritisation, or roadmap capabilities."
+    },
+    "requirements_and_planning": {
+      "name": "Requirements and planning",
+      "question": "What behaviour is intended, and is there shared understanding before implementation?",
+      "typical_artifacts": [
+        "PRD",
+        "user stories",
+        "acceptance criteria",
+        "Figma",
+        "Jira"
+      ],
+      "specsight_fit": "adjacent",
+      "fit_note": "Specsight can represent and enrich implemented product behaviour, but the product docs do not claim requirements management or automatic intent-versus-implementation comparison."
+    },
+    "backlog_refinement": {
+      "name": "Backlog refinement",
+      "question": "Is there enough shared understanding and confidence to implement responsibly?",
+      "typical_artifacts": [
+        "refined stories",
+        "acceptance criteria",
+        "examples",
+        "dependencies",
+        "refinement notes"
+      ],
+      "specsight_fit": "adjacent",
+      "fit_note": "Current behaviour visibility, scenarios, flows, dependencies, and annotations may support refinement, but Specsight is not documented as a backlog-management tool."
+    },
+    "sprint_execution": {
+      "name": "Sprint execution and continuous collaboration",
+      "question": "How is evolving implementation kept aligned with product intent while work is in progress?",
+      "typical_artifacts": [
+        "Jira updates",
+        "pull requests",
+        "Slack",
+        "mid-sprint demos",
+        "clarifications"
+      ],
+      "specsight_fit": "medium",
+      "fit_note": "Automatic syncing, scenarios, annotations, maps, and change history can improve visibility after relevant code changes are released to the watched branch; the docs do not claim live in-progress code review or requirement validation."
+    },
+    "implementation_verification": {
+      "name": "Implementation verification and product acceptance",
+      "question": "Did the implementation exhibit the agreed customer and business behaviour?",
+      "typical_artifacts": [
+        "acceptance criteria",
+        "demo script",
+        "story walkthrough",
+        "test evidence",
+        "staging build"
+      ],
+      "specsight_fit": "medium",
+      "fit_note": "Behaviour scenarios, flows, questions, change history, and exports can support review. The docs do not claim automated acceptance-criteria verification, test execution, or formal sign-off."
+    },
+    "sprint_review": {
+      "name": "Sprint review and stakeholder learning",
+      "question": "What changed, what was learned, and how should the backlog adapt?",
+      "typical_artifacts": [
+        "demo",
+        "completed increment",
+        "stakeholder feedback",
+        "backlog updates"
+      ],
+      "specsight_fit": "high",
+      "fit_note": "Current behaviour, flows, change history, Ask Specsight, and digests can reduce reconstruction of what changed and make stakeholder discussion more evidence-informed."
+    },
+    "uat_and_release_readiness": {
+      "name": "UAT and release readiness",
+      "question": "Is there sufficient business, quality, and operational evidence to release?",
+      "typical_artifacts": [
+        "UAT results",
+        "QA reports",
+        "release checklist",
+        "known defects",
+        "go/no-go decision"
+      ],
+      "specsight_fit": "adjacent",
+      "fit_note": "Specsight can contribute behavioural context, history, scenarios, and portable artifacts, but the product docs do not claim test-result aggregation, readiness scoring, or release approval."
+    },
+    "release_communication": {
+      "name": "Release communication",
+      "question": "How are meaningful product-behaviour changes communicated to stakeholders?",
+      "typical_artifacts": [
+        "release notes",
+        "stakeholder updates",
+        "enablement documents",
+        "executive summaries"
+      ],
+      "specsight_fit": "high",
+      "fit_note": "Changelog, digests, Ask Specsight, and exports directly support product-change visibility and distribution."
+    },
+    "production_investigation": {
+      "name": "Production investigation",
+      "question": "What changed in the product and which represented behaviours or feature relationships may be relevant to an issue?",
+      "typical_artifacts": [
+        "support tickets",
+        "logs",
+        "analytics",
+        "incident reports",
+        "release history"
+      ],
+      "specsight_fit": "medium",
+      "fit_note": "Specsight can supply behavioural change history, flows, relationships, and self-service explanations. It does not claim runtime observability, telemetry correlation, incident root-cause analysis, or customer-outcome measurement."
+    },
+    "post_release_learning": {
+      "name": "Post-release learning and reprioritisation",
+      "question": "What did customers experience and what should change next?",
+      "typical_artifacts": [
+        "analytics",
+        "feedback",
+        "support themes",
+        "incident reviews",
+        "roadmap decisions"
+      ],
+      "specsight_fit": "low",
+      "fit_note": "The documented product does not connect production analytics or customer outcomes back to requirements or roadmap decisions."
+    },
+    "onboarding_and_knowledge_transfer": {
+      "name": "Onboarding and product knowledge transfer",
+      "question": "How can a new or adjacent stakeholder understand how the product works today without relying on tribal knowledge?",
+      "typical_artifacts": [
+        "shadowing",
+        "wikis",
+        "Slack history",
+        "architecture overviews",
+        "demos"
+      ],
+      "specsight_fit": "high",
+      "fit_note": "Plain-language scenarios, feature maps, Ask Specsight, annotations, history, and exports directly support product understanding."
+    }
+  },
+  "market_pain_points": {
+    "ambiguous_or_incomplete_acceptance_criteria": {
+      "name": "Ambiguous or incomplete acceptance criteria",
+      "description": "Stories permit multiple reasonable interpretations, omit business rules or edge cases, or cannot be tested without assumptions.",
+      "workflow_stages": [
+        "requirements_and_planning",
+        "backlog_refinement",
+        "implementation_verification"
+      ],
+      "signals": [
+        "unclear acceptance criteria",
+        "two valid interpretations",
+        "QA had to assume",
+        "UAT rejected a delivered story",
+        "requirements were not testable"
+      ],
+      "market_source_topics": [
+        "weak acceptance criteria",
+        "Dev-QA ping pong",
+        "UAT rejection",
+        "AI confidently builds the wrong interpretation"
+      ],
+      "specsight_relevance": "adjacent",
+      "relevant_capabilities": [
+        "scenario_level_behavioural_decomposition",
+        "context_action_outcome_clarity",
+        "happy_path_edge_case_and_error_visibility",
+        "human_review_and_correction"
+      ],
+      "boundary": "Do not claim Specsight writes, approves, or objectively validates acceptance criteria."
+    },
+    "shared_understanding_decays_during_implementation": {
+      "name": "Shared understanding decays during implementation",
+      "description": "Customer intent is repeatedly translated across stories, code, demos, tests, and release artifacts, introducing assumptions and context loss.",
+      "workflow_stages": [
+        "backlog_refinement",
+        "sprint_execution",
+        "implementation_verification"
+      ],
+      "signals": [
+        "implementation drift",
+        "business intent got lost",
+        "engineers interpreted it differently",
+        "one more thing at the end",
+        "requirements changed during the sprint"
+      ],
+      "market_source_topics": [
+        "continuous collaboration",
+        "continuous refinement",
+        "story clarification",
+        "scope negotiation"
+      ],
+      "specsight_relevance": "medium",
+      "relevant_capabilities": [
+        "behaviour_level_product_representation",
+        "human_context_enrichment",
+        "scenario_level_collaboration",
+        "decision_rationale_capture",
+        "continuous_product_behaviour_visibility"
+      ],
+      "boundary": "Do not claim automatic comparison of intent and implementation; that is a GTM hypothesis not documented product functionality."
+    },
+    "pm_reconstructs_what_engineering_built": {
+      "name": "PM reconstructs what engineering built",
+      "description": "Product depends on demos, Jira, pull requests, Slack, and engineering explanations to understand implemented behaviour and changes.",
+      "workflow_stages": [
+        "sprint_execution",
+        "implementation_verification",
+        "sprint_review"
+      ],
+      "signals": [
+        "what actually changed",
+        "engineering has to explain the feature",
+        "PM reads pull requests",
+        "demo is the first time product sees it"
+      ],
+      "market_source_topics": [
+        "context reconstruction tax",
+        "implementation knowledge trapped in code and demos"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "plain_language_accessibility",
+        "self_service_product_knowledge_access",
+        "source_backed_product_explanations",
+        "added_changed_and_removed_behaviour_visibility",
+        "feature_level_flow_visualisation"
+      ],
+      "boundary": "Ground claims in represented product behaviour, not complete technical implementation details."
+    },
+    "happy_path_demos_hide_edge_cases": {
+      "name": "Happy-path demos hide edge cases and nuances",
+      "description": "A demo shows the main UI path but does not reveal blocked actions, retries, permissions, validation rules, errors, or cross-feature implications.",
+      "workflow_stages": [
+        "implementation_verification",
+        "sprint_review",
+        "uat_and_release_readiness"
+      ],
+      "signals": [
+        "demo only showed the happy path",
+        "edge case was missed",
+        "permissions behaved differently",
+        "retry or cancellation was not covered"
+      ],
+      "market_source_topics": [
+        "end-to-end workflow review",
+        "business logic and edge-case validation"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "happy_path_edge_case_and_error_visibility",
+        "scenario_level_behavioural_decomposition",
+        "user_journey_and_system_flow_comprehension",
+        "cross_feature_relationship_mapping"
+      ],
+      "boundary": "Scenario visibility is not proof that the edge case was tested or works correctly at runtime."
+    },
+    "subjective_or_late_product_acceptance": {
+      "name": "Subjective or late product acceptance",
+      "description": "Product reviews work only after engineering says it is done, without agreed scenarios or evidence, leading to rejection and rework.",
+      "workflow_stages": [
+        "sprint_execution",
+        "implementation_verification"
+      ],
+      "signals": [
+        "PO rejected completed work",
+        "late review",
+        "I thought you meant",
+        "no agreed demo script",
+        "acceptance became subjective"
+      ],
+      "market_source_topics": [
+        "incremental validation",
+        "mid-sprint demos",
+        "objective evidence",
+        "standardised review checklist"
+      ],
+      "specsight_relevance": "adjacent",
+      "relevant_capabilities": [
+        "scenario_level_behavioural_decomposition",
+        "context_action_outcome_clarity",
+        "scenario_level_collaboration",
+        "linked_evidence_attachment",
+        "portable_product_specification"
+      ],
+      "boundary": "Do not classify Specsight as a formal acceptance workflow, approval system, or test-evidence repository."
+    },
+    "fragmented_release_evidence": {
+      "name": "Fragmented release evidence",
+      "description": "PM must assemble QA status, engineering updates, acceptance criteria, known defects, support readiness, and release changes from many systems.",
+      "workflow_stages": [
+        "uat_and_release_readiness",
+        "release_communication"
+      ],
+      "signals": [
+        "go/no-go meeting takes hours",
+        "evidence lives in five tools",
+        "chasing test results",
+        "release meeting is getting longer"
+      ],
+      "market_source_topics": [
+        "meeting-based release decisions",
+        "context reconstruction during release readiness"
+      ],
+      "specsight_relevance": "adjacent",
+      "relevant_capabilities": [
+        "product_behaviour_change_history",
+        "time_bounded_change_summarisation",
+        "shareable_product_updates",
+        "portable_product_specification",
+        "existing_workflow_interoperability"
+      ],
+      "boundary": "Specsight does not document test status, operational readiness, feature flags, monitoring, rollback plans, or go/no-go approval."
+    },
+    "release_changes_are_hard_to_communicate": {
+      "name": "Release changes are hard to communicate",
+      "description": "Stakeholders need a concise explanation of added, changed, or removed product behaviour, but PMs manually rewrite technical activity into product language.",
+      "workflow_stages": [
+        "release_communication",
+        "sprint_review"
+      ],
+      "signals": [
+        "manual release notes",
+        "support asks what changed",
+        "leadership needs a summary",
+        "engineering changes are hard to translate"
+      ],
+      "market_source_topics": [
+        "behavioural summaries",
+        "stakeholder-ready change communication"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "added_changed_and_removed_behaviour_visibility",
+        "change_synthesis",
+        "behaviour_change_communication",
+        "scheduled_product_change_reporting",
+        "shareable_product_updates",
+        "multi_format_distribution"
+      ],
+      "boundary": "Do not equate a Specsight digest with marketing release notes, legal notice, or customer enablement without human review."
+    },
+    "product_documentation_drift": {
+      "name": "Product-behaviour documentation drifts from released code",
+      "description": "Separate product documentation becomes stale because releases continue while manual updates are forgotten or delayed.",
+      "workflow_stages": [
+        "sprint_execution",
+        "release_communication",
+        "onboarding_and_knowledge_transfer"
+      ],
+      "signals": [
+        "docs are always stale",
+        "nobody updates the wiki",
+        "PRD no longer matches the product",
+        "release changed behaviour but documentation did not"
+      ],
+      "market_source_topics": [
+        "living behavioural model",
+        "repository as implementation truth"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "release_triggered_specification_maintenance",
+        "code_to_specification_alignment",
+        "documentation_drift_reduction",
+        "continuous_product_behaviour_visibility",
+        "change_history_accumulation"
+      ],
+      "boundary": "Use product-behaviour documentation, not all organisational or technical documentation."
+    },
+    "feature_dependencies_and_blast_radius_are_unclear": {
+      "name": "Feature dependencies and blast radius are unclear",
+      "description": "Teams review features as isolated tickets and miss connected journeys, dependencies, or downstream product areas affected by a change.",
+      "workflow_stages": [
+        "requirements_and_planning",
+        "backlog_refinement",
+        "sprint_review",
+        "production_investigation"
+      ],
+      "signals": [
+        "unexpected downstream effect",
+        "cross-team dependency surfaced late",
+        "change broke another journey",
+        "nobody saw the connection"
+      ],
+      "market_source_topics": [
+        "customer workflows",
+        "cross-functional dependencies",
+        "implementation nuance"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "product_wide_structural_visibility",
+        "cross_feature_relationship_mapping",
+        "dependency_awareness",
+        "change_blast_radius_awareness",
+        "user_journey_and_system_flow_comprehension"
+      ],
+      "boundary": "Feature relationships are not guaranteed technical architecture, service dependency, data lineage, or impact analysis."
+    },
+    "product_knowledge_is_tribal": {
+      "name": "Product knowledge is tribal",
+      "description": "Understanding how the product works is concentrated in experienced engineers, PMs, or long-tenured employees and transferred through meetings or shadowing.",
+      "workflow_stages": [
+        "onboarding_and_knowledge_transfer",
+        "sprint_execution",
+        "production_investigation"
+      ],
+      "signals": [
+        "only one person knows",
+        "new PM onboarding takes months",
+        "Slack is the source of truth",
+        "engineers answer the same questions repeatedly"
+      ],
+      "market_source_topics": [
+        "slow onboarding",
+        "engineering interruption",
+        "persistent product knowledge"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "plain_language_accessibility",
+        "natural_language_product_inquiry",
+        "specification_grounded_answers",
+        "source_backed_product_explanations",
+        "self_service_product_knowledge_access",
+        "shared_organisational_visibility"
+      ],
+      "boundary": "Answers are limited to context represented in Specsight and do not include undocumented strategy or external facts."
+    },
+    "historical_product_context_is_lost": {
+      "name": "Historical product context is lost",
+      "description": "Teams cannot reconstruct when product behaviour changed, whether a release affected it, or why a caveat or decision exists.",
+      "workflow_stages": [
+        "release_communication",
+        "production_investigation",
+        "onboarding_and_knowledge_transfer"
+      ],
+      "signals": [
+        "when did this change",
+        "which release introduced it",
+        "why does this behaviour exist",
+        "we cannot reconstruct the history"
+      ],
+      "market_source_topics": [
+        "change traceability",
+        "rebuilding context from scratch"
+      ],
+      "specsight_relevance": "high",
+      "relevant_capabilities": [
+        "product_behaviour_change_history",
+        "release_to_specification_traceability",
+        "feature_and_scenario_level_history",
+        "historical_reconstruction",
+        "decision_rationale_capture",
+        "historical_product_inquiry"
+      ],
+      "boundary": "Do not claim complete engineering auditability or causal root-cause analysis."
+    },
+    "production_issue_context_is_fragmented": {
+      "name": "Production issue context is fragmented",
+      "description": "Product must correlate support reports, analytics, incidents, and releases to understand a customer problem, often rebuilding product context from scratch.",
+      "workflow_stages": [
+        "production_investigation",
+        "post_release_learning"
+      ],
+      "signals": [
+        "production investigation is slow",
+        "which release changed this",
+        "support asks product to explain",
+        "customer issue cannot be mapped to a workflow"
+      ],
+      "market_source_topics": [
+        "reality drift",
+        "production context reconstruction"
+      ],
+      "specsight_relevance": "medium",
+      "relevant_capabilities": [
+        "historical_product_inquiry",
+        "release_to_specification_traceability",
+        "change_blast_radius_awareness",
+        "cross_feature_relationship_mapping",
+        "source_backed_product_explanations"
+      ],
+      "boundary": "Specsight can provide product context but does not ingest telemetry, support tickets, or analytics according to the product docs."
+    },
+    "validated_functionality_does_not_equal_customer_value": {
+      "name": "Validated functionality does not equal customer value",
+      "description": "Acceptance criteria and QA may pass while users behave differently, fail to adopt the feature, or do not receive the intended outcome.",
+      "workflow_stages": [
+        "sprint_review",
+        "uat_and_release_readiness",
+        "post_release_learning"
+      ],
+      "signals": [
+        "QA passed but users are unhappy",
+        "acceptance criteria met but feature is not useful",
+        "adoption is low",
+        "outcome was not achieved"
+      ],
+      "market_source_topics": [
+        "AC is not user value",
+        "product validation versus outcome validation"
+      ],
+      "specsight_relevance": "none",
+      "relevant_capabilities": [],
+      "boundary": "The product docs do not establish analytics, experimentation, adoption measurement, customer feedback synthesis, or outcome validation."
+    }
+  },
+  "failure_modes": {
+    "story_reopened_after_delivery": {
+      "name": "Story reopened after delivery",
+      "description": "A delivered or tested story is rejected because expected behaviour was ambiguous, incomplete, or interpreted differently.",
+      "linked_pain_points": [
+        "ambiguous_or_incomplete_acceptance_criteria",
+        "subjective_or_late_product_acceptance"
+      ],
+      "observable_evidence": [
+        "reopened ticket",
+        "UAT rejection",
+        "PO rejection",
+        "late clarification"
+      ],
+      "likely_root_causes": [
+        "weak acceptance criteria",
+        "late product review",
+        "no agreed evidence or demo scenarios"
+      ]
+    },
+    "dev_qa_ping_pong": {
+      "name": "Dev-QA ping pong",
+      "description": "Work repeatedly moves between development and QA because expected behaviour admits multiple interpretations.",
+      "linked_pain_points": [
+        "ambiguous_or_incomplete_acceptance_criteria"
+      ],
+      "observable_evidence": [
+        "Dev to QA to Dev",
+        "test interpretation dispute",
+        "repeated rework"
+      ],
+      "likely_root_causes": [
+        "ambiguous intent",
+        "edge cases not agreed",
+        "testability not established"
+      ]
+    },
+    "sprint_planning_becomes_live_discovery": {
+      "name": "Sprint planning becomes live discovery",
+      "description": "The team first discovers major requirements, dependencies, or business rules when it is expected to commit to the sprint.",
+      "linked_pain_points": [
+        "shared_understanding_decays_during_implementation",
+        "ambiguous_or_incomplete_acceptance_criteria"
+      ],
+      "observable_evidence": [
+        "planning runs long",
+        "engineers see story for first time",
+        "work cannot be estimated"
+      ],
+      "likely_root_causes": [
+        "insufficient continuous refinement",
+        "dependencies and examples not clarified"
+      ]
+    },
+    "day_three_blocker_or_spillover": {
+      "name": "Mid-sprint blocker or story spillover",
+      "description": "Developers or QA become blocked after implementation starts because missing rules, dependencies, or edge cases surface late.",
+      "linked_pain_points": [
+        "shared_understanding_decays_during_implementation",
+        "ambiguous_or_incomplete_acceptance_criteria"
+      ],
+      "observable_evidence": [
+        "developer blocked",
+        "QA idle",
+        "story pushed to next sprint",
+        "velocity drops"
+      ],
+      "likely_root_causes": [
+        "skipped refinement",
+        "unclear acceptance criteria",
+        "late discovery"
+      ]
+    },
+    "implementation_drift": {
+      "name": "Implementation drift",
+      "description": "Subtle deviations, undocumented assumptions, and technical compromises accumulate between intended and implemented behaviour.",
+      "linked_pain_points": [
+        "shared_understanding_decays_during_implementation",
+        "pm_reconstructs_what_engineering_built"
+      ],
+      "observable_evidence": [
+        "demo differs from expectation",
+        "business rule changed in implementation",
+        "undocumented compromise"
+      ],
+      "likely_root_causes": [
+        "many translation steps",
+        "implementation decisions not reflected back into product context"
+      ]
+    },
+    "validation_drift": {
+      "name": "Validation drift",
+      "description": "QA verifies the implemented function but misses original business intent or complete customer workflows.",
+      "linked_pain_points": [
+        "happy_path_demos_hide_edge_cases",
+        "fragmented_release_evidence"
+      ],
+      "observable_evidence": [
+        "tests pass but workflow fails",
+        "customer journey not covered",
+        "UAT finds missed behaviour"
+      ],
+      "likely_root_causes": [
+        "tests derived narrowly from implementation",
+        "business context lost across handoffs"
+      ]
+    },
+    "reality_drift": {
+      "name": "Reality drift",
+      "description": "Real customers and production environments expose behaviours or scenarios not represented in pre-release validation.",
+      "linked_pain_points": [
+        "validated_functionality_does_not_equal_customer_value",
+        "production_issue_context_is_fragmented"
+      ],
+      "observable_evidence": [
+        "production-only issue",
+        "unexpected customer behaviour",
+        "low adoption despite passing UAT"
+      ],
+      "likely_root_causes": [
+        "validation covers expected behaviour, not real-world outcomes"
+      ]
+    },
+    "learning_drift": {
+      "name": "Learning drift",
+      "description": "Production learnings remain scattered and are incompletely translated into the next iteration of requirements.",
+      "linked_pain_points": [
+        "production_issue_context_is_fragmented",
+        "validated_functionality_does_not_equal_customer_value"
+      ],
+      "observable_evidence": [
+        "same context rebuilt repeatedly",
+        "support insight lost",
+        "roadmap decision lacks traceability"
+      ],
+      "likely_root_causes": [
+        "no persistent link across production observations, product intent, and future work"
+      ]
+    },
+    "long_or_surprising_sprint_review": {
+      "name": "Long or surprising sprint review",
+      "description": "Sprint Review becomes the first point where Product or stakeholders understand implementation details or discover important deviations.",
+      "linked_pain_points": [
+        "pm_reconstructs_what_engineering_built",
+        "happy_path_demos_hide_edge_cases"
+      ],
+      "observable_evidence": [
+        "review runs long",
+        "surprises in demo",
+        "many follow-up questions",
+        "acceptance happens in Sprint Review"
+      ],
+      "likely_root_causes": [
+        "late visibility",
+        "reconstruction of changes during the meeting"
+      ]
+    },
+    "meeting_based_release_decision": {
+      "name": "Meeting-based release decision",
+      "description": "A go/no-go decision depends on manually assembling and interpreting fragmented information during a meeting.",
+      "linked_pain_points": [
+        "fragmented_release_evidence"
+      ],
+      "observable_evidence": [
+        "release meeting gets longer",
+        "status reconciliation",
+        "evidence unavailable in advance"
+      ],
+      "likely_root_causes": [
+        "cross-functional evidence fragmentation",
+        "no shared behavioural view"
+      ]
+    },
+    "slow_product_onboarding": {
+      "name": "Slow product onboarding",
+      "description": "New PMs or adjacent teams require months of shadowing, meetings, and repeated explanations to understand product behaviour.",
+      "linked_pain_points": [
+        "product_knowledge_is_tribal",
+        "historical_product_context_is_lost"
+      ],
+      "observable_evidence": [
+        "months to onboard",
+        "depends on one expert",
+        "questions repeated across teams"
+      ],
+      "likely_root_causes": [
+        "tribal knowledge",
+        "stale or fragmented documentation",
+        "missing behavioural history"
+      ]
+    },
+    "engineering_interruption_load": {
+      "name": "Engineering interruption load",
+      "description": "Engineers repeatedly translate code and product behaviour for Product, Support, Sales, QA, or Leadership.",
+      "linked_pain_points": [
+        "pm_reconstructs_what_engineering_built",
+        "product_knowledge_is_tribal"
+      ],
+      "observable_evidence": [
+        "same question asked repeatedly",
+        "engineers explain every release",
+        "support escalates to engineering for product behaviour"
+      ],
+      "likely_root_causes": [
+        "product behaviour accessible only through code or experts"
+      ]
+    },
+    "stale_product_artifacts": {
+      "name": "Stale product artifacts",
+      "description": "PRDs, wikis, or behaviour documents no longer match the released product.",
+      "linked_pain_points": [
+        "product_documentation_drift"
+      ],
+      "observable_evidence": [
+        "stale wiki",
+        "PRD differs from product",
+        "manual update missed"
+      ],
+      "likely_root_causes": [
+        "manual maintenance",
+        "release cadence exceeds documentation capacity"
+      ]
+    }
+  },
+  "personas": {
+    "primary_champion": {
+      "role": "Senior Product Manager, Group Product Manager, or product lead",
+      "job_context": "Responsible for customer outcomes across continuously changing product areas but unable to personally track every implementation detail.",
+      "core_jtbd": "Maintain shared understanding of evolving product behaviour so I can make confident product decisions without repeatedly reconstructing context.",
+      "recurring_workflows": [
+        "backlog_refinement",
+        "implementation_verification",
+        "sprint_review",
+        "uat_and_release_readiness",
+        "release_communication",
+        "production_investigation"
+      ],
+      "pain_point_ids": [
+        "pm_reconstructs_what_engineering_built",
+        "shared_understanding_decays_during_implementation",
+        "fragmented_release_evidence",
+        "historical_product_context_is_lost"
+      ]
+    },
+    "economic_buyer_or_sponsor": {
+      "role": "Head of Product, VP Product, or product leadership",
+      "job_context": "Accountable for product-team leverage, cross-team alignment, delivery confidence, and decision quality as the organisation scales.",
+      "core_jtbd": "Reduce the recurring context-reconstruction tax across product teams and make product behaviour easier to understand across the organisation.",
+      "recurring_workflows": [
+        "sprint_review",
+        "release_communication",
+        "onboarding_and_knowledge_transfer"
+      ],
+      "pain_point_ids": [
+        "product_knowledge_is_tribal",
+        "release_changes_are_hard_to_communicate",
+        "engineering_interruption_load"
+      ]
+    },
+    "important_collaborators": {
+      "roles": [
+        "Engineering Manager or Tech Lead",
+        "QA or Test Engineering",
+        "Product Operations",
+        "Customer Success or Support"
+      ],
+      "job_context": "Contribute implementation, validation, coordination, or customer context and benefit from a shared behavioural view.",
+      "note": "The research positions Product as the champion; these roles are collaborators or secondary users rather than the default buyer."
+    }
+  },
+  "ideal_customer_profile": {
+    "company_profile": "Product-led SaaS companies shipping continuously with multiple engineering teams or product squads.",
+    "strong_fit_characteristics": [
+      "ships every sprint or faster",
+      "multiple engineering squads or cross-functional dependencies",
+      "several PMs or product areas",
+      "cross-functional release process",
+      "growing customer base and support volume",
+      "Product Ops or another coordination function exists",
+      "product knowledge is distributed across code, Jira, Slack, demos, release notes, and people"
+    ],
+    "observable_scaling_signals": [
+      "PMs are becoming translators rather than strategists",
+      "engineering repeatedly explains product behaviour",
+      "Sprint Reviews or release meetings are getting longer",
+      "Support or Customer Success repeatedly asks Product what changed",
+      "new PM onboarding is slow",
+      "Slack behaves like the product source of truth"
+    ],
+    "weak_fit_characteristics": [
+      "very small team where one or two people hold complete product context",
+      "low release frequency",
+      "no meaningful cost from cross-team knowledge fragmentation",
+      "primary need is discovery, prioritisation, analytics, experimentation, or project management"
+    ]
+  },
+  "jobs_to_be_done": {
+    "primary_jtbd": {
+      "statement": "When multiple teams continuously change the product, help me maintain a decision-ready understanding of how the product behaves today and how that behaviour changed, so I can make product decisions without repeatedly reconstructing context from engineers, demos, Jira, Slack, and release artifacts.",
+      "supported_by_research": true,
+      "product_boundary": "Decision-ready is a market framing. The documented product contributes current behavioural representation, self-service knowledge, relationships, history, summaries, and exports; it does not provide every input required for a product decision."
+    },
+    "functional_jobs": [
+      "Understand current product behaviour in plain language.",
+      "See normal paths, edge cases, errors, and connected feature flows.",
+      "Understand what represented behaviour changed across releases.",
+      "Ask product questions without routing every inquiry through engineering.",
+      "Preserve rationale, caveats, and links next to the relevant scenario.",
+      "Share product behaviour and change summaries with stakeholders."
+    ],
+    "emotional_jobs": [
+      "Feel confident entering Sprint Review or a stakeholder discussion.",
+      "Reduce anxiety caused by incomplete understanding of implemented behaviour.",
+      "Avoid being surprised by product changes or hidden edge cases."
+    ],
+    "social_jobs": [
+      "Provide credible, source-backed explanations to stakeholders.",
+      "Reduce the perception that Product is merely a translator between teams.",
+      "Help adjacent teams become more self-sufficient."
+    ]
+  },
+  "buying_triggers": {
+    "sprint_reviews_are_getting_longer": {
+      "name": "Sprint Reviews are getting longer or contain surprises",
+      "observable_signal": "Product first reconstructs what changed during the review.",
+      "linked_failure_modes": [
+        "long_or_surprising_sprint_review"
+      ],
+      "linked_pain_points": [
+        "pm_reconstructs_what_engineering_built",
+        "happy_path_demos_hide_edge_cases"
+      ],
+      "credible_product_areas": [
+        "features_and_scenarios",
+        "ask_specsight",
+        "changelog",
+        "feature_map"
+      ]
+    },
+    "engineering_constantly_explains_features": {
+      "name": "Engineering constantly explains product behaviour",
+      "observable_signal": "Questions from Product, QA, Support, or Leadership repeatedly require an engineer to translate code into product language.",
+      "linked_failure_modes": [
+        "engineering_interruption_load"
+      ],
+      "linked_pain_points": [
+        "product_knowledge_is_tribal",
+        "pm_reconstructs_what_engineering_built"
+      ],
+      "credible_product_areas": [
+        "features_and_scenarios",
+        "ask_specsight",
+        "feature_map"
+      ]
+    },
+    "release_meetings_are_getting_longer": {
+      "name": "Release-readiness meetings are getting longer",
+      "observable_signal": "Teams reconcile changes and evidence during the meeting rather than reviewing shared context beforehand.",
+      "linked_failure_modes": [
+        "meeting_based_release_decision"
+      ],
+      "linked_pain_points": [
+        "fragmented_release_evidence",
+        "release_changes_are_hard_to_communicate"
+      ],
+      "credible_product_areas": [
+        "changelog",
+        "digests",
+        "export_the_spec"
+      ],
+      "boundary": "Position Specsight as behavioural context, not a complete release-readiness or evidence-management system."
+    },
+    "product_onboarding_takes_months": {
+      "name": "New PM or team onboarding takes months",
+      "observable_signal": "Product behaviour is learned through shadowing, Slack, meetings, and long-tenured employees.",
+      "linked_failure_modes": [
+        "slow_product_onboarding"
+      ],
+      "linked_pain_points": [
+        "product_knowledge_is_tribal",
+        "historical_product_context_is_lost"
+      ],
+      "credible_product_areas": [
+        "features_and_scenarios",
+        "ask_specsight",
+        "annotations",
+        "changelog",
+        "feature_map"
+      ]
+    },
+    "support_repeatedly_asks_what_changed": {
+      "name": "Support or Customer Success repeatedly asks what changed",
+      "observable_signal": "Customer-facing teams lack a current, plain-language view of released product behaviour.",
+      "linked_failure_modes": [
+        "engineering_interruption_load"
+      ],
+      "linked_pain_points": [
+        "release_changes_are_hard_to_communicate",
+        "product_knowledge_is_tribal"
+      ],
+      "credible_product_areas": [
+        "ask_specsight",
+        "changelog",
+        "digests",
+        "export_the_spec"
+      ]
+    },
+    "stale_docs_after_frequent_releases": {
+      "name": "Product documentation is stale after frequent releases",
+      "observable_signal": "The organisation no longer trusts manually maintained behaviour documentation.",
+      "linked_failure_modes": [
+        "stale_product_artifacts"
+      ],
+      "linked_pain_points": [
+        "product_documentation_drift"
+      ],
+      "credible_product_areas": [
+        "automatic_syncing",
+        "features_and_scenarios",
+        "changelog"
+      ]
+    },
+    "customer_issue_investigations_are_slow": {
+      "name": "Customer issue investigations are slow",
+      "observable_signal": "Product repeatedly asks which behaviour changed, which feature areas connect, and which release is relevant.",
+      "linked_failure_modes": [
+        "learning_drift"
+      ],
+      "linked_pain_points": [
+        "production_issue_context_is_fragmented",
+        "historical_product_context_is_lost"
+      ],
+      "credible_product_areas": [
+        "ask_specsight",
+        "changelog",
+        "feature_map"
+      ],
+      "boundary": "Do not position Specsight as production observability, telemetry correlation, or automated root-cause analysis."
+    },
+    "multiple_squads_shipping_continuously": {
+      "name": "Multiple squads are shipping continuously",
+      "observable_signal": "No PM can personally maintain current knowledge of every feature, dependency, and behavioural change.",
+      "linked_failure_modes": [
+        "engineering_interruption_load",
+        "stale_product_artifacts",
+        "long_or_surprising_sprint_review"
+      ],
+      "linked_pain_points": [
+        "pm_reconstructs_what_engineering_built",
+        "feature_dependencies_and_blast_radius_are_unclear",
+        "product_knowledge_is_tribal"
+      ],
+      "credible_product_areas": [
+        "automatic_syncing",
+        "features_and_scenarios",
+        "ask_specsight",
+        "changelog",
+        "feature_map",
+        "digests"
+      ]
+    }
+  },
+  "classification_rules": {
+    "unit_of_analysis": "One LinkedIn post.",
+    "evidence_first_sequence": [
+      "Extract explicit workflow stage, pain, failure, consequence, role, and trigger language from the post.",
+      "Classify market concepts using only controlled identifiers in this taxonomy.",
+      "Assess Specsight relevance independently from the existence of a PM pain point.",
+      "Map to product capabilities only when the post describes a need those documented capabilities credibly address.",
+      "Return none when the fit depends on undocumented functionality."
+    ],
+    "relevance_scale": {
+      "direct": "The post explicitly describes a problem closely matched by a documented Specsight capability, such as stale product-behaviour documentation, lack of plain-language product understanding, difficulty seeing feature flows, or difficulty knowing what behaviour changed.",
+      "indirect": "Specsight can materially support the workflow, but the post centres on a broader operating-model issue such as refinement, acceptance, release readiness, or production investigation.",
+      "adjacent": "The post provides useful market context, but Specsight addresses only one supporting information gap rather than the main problem.",
+      "none": "The post centres on capabilities not documented for Specsight, or the connection would require speculative product claims."
+    },
+    "confidence_scale": {
+      "high": "The post contains explicit language matching the selected pain point, workflow stage, or failure mode.",
+      "medium": "The classification is a reasonable inference supported by multiple details.",
+      "low": "The mapping relies on sparse or ambiguous language and should be reviewed."
+    },
+    "multi_label_policy": {
+      "primary": "Choose the single most central workflow stage, pain point, failure mode, and buying trigger when present.",
+      "secondary": "Allow up to three secondary labels only when independently supported by the post.",
+      "product_mapping": "Allow multiple product capabilities and product areas because one problem may span representation, knowledge access, history, relationships, or communication."
+    },
+    "no_force_fit_rules": [
+      "Do not map generic Agile, leadership, collaboration, velocity, or delivery advice to Specsight unless the post contains a specific product-context or behaviour-visibility gap.",
+      "Do not claim Specsight validates acceptance criteria, executes tests, proves correctness, approves releases, or measures customer outcomes.",
+      "Do not claim automatic comparison of requirements, intent, implementation, validation, and production unless such functionality is added to the authoritative product taxonomy later.",
+      "Do not classify general PRD writing, discovery, prioritisation, roadmap planning, analytics, experimentation, incident monitoring, or project tracking as direct Specsight fit.",
+      "When a post is about user value or adoption despite correct implementation, use specsight_relevance none unless it also contains a separate supported product-context problem."
+    ],
+    "quote_policy": "Evidence quotes must be exact substrings from the LinkedIn post and should be short enough to support the chosen classification without reproducing the post.",
+    "missing_information_policy": "Use null or empty arrays rather than inventing a buyer, trigger, failure mode, or product mapping."
+  },
+  "classifier_output_schema": {
+    "post_id": "string",
+    "url": "string",
+    "primary_workflow_stage": "workflow_stage_id or null",
+    "secondary_workflow_stages": [
+      "workflow_stage_id"
+    ],
+    "primary_pain_point": "pain_point_id or null",
+    "secondary_pain_points": [
+      "pain_point_id"
+    ],
+    "failure_modes": [
+      "failure_mode_id"
+    ],
+    "root_causes": [
+      "short evidence-grounded phrases"
+    ],
+    "business_consequences": [
+      "short evidence-grounded phrases"
+    ],
+    "persona_relevance": [
+      "primary_champion | economic_buyer_or_sponsor | important_collaborators"
+    ],
+    "buying_trigger": "buying_trigger_id or null",
+    "jtbd_relevance": "direct | indirect | adjacent | none",
+    "specsight_relevance": "direct | indirect | adjacent | none",
+    "relevant_product_areas": [
+      "product_area_id"
+    ],
+    "relevant_product_capabilities": [
+      "product_capability_id"
+    ],
+    "fit_explanation": "string",
+    "product_boundary_or_caveat": "string or null",
+    "evidence_quotes": [
+      "exact quote"
+    ],
+    "evidence_summary": "string",
+    "classification_confidence": "high | medium | low",
+    "review_required": "boolean"
+  },
+  "no_fit_examples": [
+    {
+      "topic": "How to prioritise a roadmap using RICE",
+      "reason": "Roadmap prioritisation is not a documented Specsight capability."
+    },
+    {
+      "topic": "A/B testing showed the feature did not improve retention",
+      "reason": "Experimentation, analytics, adoption, and outcome validation are not documented Specsight capabilities."
+    },
+    {
+      "topic": "How to improve engineering velocity or estimation accuracy",
+      "reason": "Generic delivery performance is not enough to establish a product-context or behaviour-visibility fit."
+    },
+    {
+      "topic": "Production latency incident and observability tooling",
+      "reason": "Runtime monitoring and incident root-cause analysis are not documented Specsight capabilities."
+    }
+  ]
+}
