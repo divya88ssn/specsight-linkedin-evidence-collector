@@ -1,0 +1,282 @@
+{
+  "taxonomy_name": "Specsight Product Taxonomy",
+  "version": "1.0",
+  "source_boundary": {
+    "authoritative_source": "Specsight documentation pages in the Working with the spec section",
+    "included_product_areas": [
+      "features_and_scenarios",
+      "ask_specsight",
+      "annotations",
+      "changelog",
+      "feature_map",
+      "digests",
+      "automatic_syncing",
+      "export_the_spec"
+    ],
+    "excluded_areas": [
+      "account_creation",
+      "pricing",
+      "organisation_administration",
+      "github_setup",
+      "mcp_setup",
+      "billing",
+      "security",
+      "onboarding"
+    ],
+    "interpretation_rule": "This taxonomy encodes documented product functions, capabilities, relationships, and boundaries. It does not include ICP assumptions, buying triggers, market pain points, workflow failure modes, or speculative value claims."
+  },
+  "product_operating_model": {
+    "primary_product_object": "A code-derived, living product specification organised into features and plain-language behavioural scenarios.",
+    "flow": [
+      "codebase_and_releases",
+      "features_and_behavioural_scenarios",
+      "feature_relationships_and_internal_flows",
+      "human_context_and_annotations",
+      "change_history",
+      "questions_digests_and_exports"
+    ]
+  },
+  "product_areas": {
+    "features_and_scenarios": {
+      "display_name": "Features and scenarios",
+      "product_function": "Organises a product specification into features and scenario-level descriptions of product behaviour using a Context, Action, and Outcome structure.",
+      "capability_ids": [
+        "behaviour_level_product_representation",
+        "feature_based_product_organisation",
+        "scenario_level_behavioural_decomposition",
+        "context_action_outcome_clarity",
+        "happy_path_edge_case_and_error_visibility",
+        "plain_language_accessibility",
+        "human_review_and_correction"
+      ],
+      "boundary": "Does not by itself prove that a scenario is an approved requirement, an executable automated test, or a substitute for strategy, design rationale, customer help content, or roadmap documentation."
+    },
+    "ask_specsight": {
+      "display_name": "Ask Specsight",
+      "product_function": "Provides a conversational interface for asking questions about the product specification and receiving answers grounded in features, scenarios, changelog entries, and digests.",
+      "capability_ids": [
+        "natural_language_product_inquiry",
+        "specification_grounded_answers",
+        "source_backed_product_explanations",
+        "cross_feature_knowledge_access",
+        "historical_product_inquiry",
+        "self_service_product_knowledge_access"
+      ],
+      "boundary": "Does not provide authoritative business strategy, customer commitments, undocumented rationale, or external information unless that context exists inside Specsight."
+    },
+    "annotations": {
+      "display_name": "Annotations",
+      "product_function": "Allows free-text notes to be attached to individual scenarios for questions, rationale, caveats, links, and supporting context that cannot be inferred directly from code.",
+      "capability_ids": [
+        "human_context_enrichment",
+        "scenario_level_collaboration",
+        "decision_rationale_capture",
+        "caveat_and_constraint_documentation",
+        "linked_evidence_attachment",
+        "shared_organisational_visibility"
+      ],
+      "boundary": "Annotations are manually supplied and do not automatically validate whether the added context is current or correct."
+    },
+    "changelog": {
+      "display_name": "Changelog",
+      "product_function": "Provides a chronological record of changes to a project's specification, including automatic syncs, manual edits, annotations, and releases with no relevant behavioural change.",
+      "capability_ids": [
+        "product_behaviour_change_history",
+        "release_to_specification_traceability",
+        "added_changed_and_removed_behaviour_visibility",
+        "human_versus_system_change_attribution",
+        "no_behaviour_change_confirmation",
+        "feature_and_scenario_level_history",
+        "historical_reconstruction"
+      ],
+      "boundary": "Is not necessarily a complete engineering audit log, source-control replacement, incident timeline, or explanation of why every code change occurred."
+    },
+    "feature_map": {
+      "display_name": "Feature map",
+      "product_function": "Provides a project-level visual model of product features and their relationships plus a feature-level view of the ordered flow within a selected feature.",
+      "capability_ids": [
+        "product_wide_structural_visibility",
+        "cross_feature_relationship_mapping",
+        "dependency_awareness",
+        "change_blast_radius_awareness",
+        "feature_level_flow_visualisation",
+        "user_journey_and_system_flow_comprehension"
+      ],
+      "boundary": "Is not automatically a complete technical architecture diagram, service dependency map, data lineage model, or guaranteed impact analysis."
+    },
+    "digests": {
+      "display_name": "Digests",
+      "product_function": "Summarises how a project's specification changed across a selected date range and can be generated on demand or on a schedule.",
+      "capability_ids": [
+        "time_bounded_change_summarisation",
+        "on_demand_stakeholder_reporting",
+        "scheduled_product_change_reporting",
+        "change_synthesis",
+        "behaviour_change_communication",
+        "shareable_product_updates"
+      ],
+      "boundary": "Is not automatically a marketing release note, legal customer notice, roadmap status report, incident report, or adoption-impact analysis."
+    },
+    "automatic_syncing": {
+      "display_name": "Automatic syncing",
+      "product_function": "Watches a selected branch and automatically analyses relevant release changes to update affected scenarios in the product specification.",
+      "capability_ids": [
+        "release_triggered_specification_maintenance",
+        "incremental_behavioural_reanalysis",
+        "code_to_specification_alignment",
+        "documentation_drift_reduction",
+        "continuous_product_behaviour_visibility",
+        "change_history_accumulation"
+      ],
+      "boundary": "Does not prove runtime correctness, production adoption, customer value, performance, test coverage, or conformity with original product intent."
+    },
+    "export_the_spec": {
+      "display_name": "Export the spec",
+      "product_function": "Allows the full specification, an individual feature, and digests to be exported for use outside Specsight in supported formats including PDF, XLSX, and Markdown.",
+      "capability_ids": [
+        "portable_product_specification",
+        "full_specification_export",
+        "feature_specific_export",
+        "multi_format_distribution",
+        "offline_review",
+        "existing_workflow_interoperability"
+      ],
+      "boundary": "An export is a point-in-time copy and does not remain current after later releases unless exported again."
+    }
+  },
+  "capabilities": {
+    "behaviour_level_product_representation": {"name": "Behaviour-level product representation", "definition": "Represents the product in terms of externally meaningful behaviour rather than implementation details alone.", "provided_by": ["features_and_scenarios"]},
+    "feature_based_product_organisation": {"name": "Feature-based product organisation", "definition": "Groups related behaviour into meaningful product or user-facing feature areas.", "provided_by": ["features_and_scenarios"]},
+    "scenario_level_behavioural_decomposition": {"name": "Scenario-level behavioural decomposition", "definition": "Breaks broad features into specific situations that can be read and reviewed independently.", "provided_by": ["features_and_scenarios"]},
+    "context_action_outcome_clarity": {"name": "Context-action-outcome clarity", "definition": "Uses a consistent structure to describe the conditions, interaction, and resulting behaviour of a scenario.", "provided_by": ["features_and_scenarios"]},
+    "happy_path_edge_case_and_error_visibility": {"name": "Happy-path, edge-case, and error visibility", "definition": "Makes normal flows, blocked actions, validation behaviour, edge cases, and error behaviour visible together.", "provided_by": ["features_and_scenarios"]},
+    "plain_language_accessibility": {"name": "Plain-language accessibility", "definition": "Makes product behaviour understandable to people who do not read source code.", "provided_by": ["features_and_scenarios"]},
+    "human_review_and_correction": {"name": "Human review and correction", "definition": "Allows users to add, edit, or delete generated scenarios when clarification or correction is needed.", "provided_by": ["features_and_scenarios"]},
+    "natural_language_product_inquiry": {"name": "Natural-language product inquiry", "definition": "Allows users to ask questions about the product in ordinary language.", "provided_by": ["ask_specsight"]},
+    "specification_grounded_answers": {"name": "Specification-grounded answers", "definition": "Uses the product specification and its represented history as the basis for answers.", "provided_by": ["ask_specsight"]},
+    "source_backed_product_explanations": {"name": "Source-backed product explanations", "definition": "Provides supporting sources that users can inspect behind an answer.", "provided_by": ["ask_specsight"]},
+    "cross_feature_knowledge_access": {"name": "Cross-feature knowledge access", "definition": "Supports questions whose answers may span multiple features, scenarios, or historical changes.", "provided_by": ["ask_specsight", "feature_map"]},
+    "historical_product_inquiry": {"name": "Historical product inquiry", "definition": "Supports questions about how represented product behaviour changed over time.", "provided_by": ["ask_specsight", "changelog", "digests"]},
+    "self_service_product_knowledge_access": {"name": "Self-service product knowledge access", "definition": "Makes product information accessible without routing every question through an engineer or internal expert.", "provided_by": ["ask_specsight"]},
+    "human_context_enrichment": {"name": "Human context enrichment", "definition": "Adds business or organisational context to a code-derived behavioural scenario.", "provided_by": ["annotations"]},
+    "scenario_level_collaboration": {"name": "Scenario-level collaboration", "definition": "Keeps discussion and clarification attached to the exact product behaviour being discussed.", "provided_by": ["annotations"]},
+    "decision_rationale_capture": {"name": "Decision-rationale capture", "definition": "Preserves explanations for why a behaviour exists or why a decision was made.", "provided_by": ["annotations"]},
+    "caveat_and_constraint_documentation": {"name": "Caveat and constraint documentation", "definition": "Records limitations, exceptions, dependencies, or operational considerations not apparent from implementation alone.", "provided_by": ["annotations"]},
+    "linked_evidence_attachment": {"name": "Linked-evidence attachment", "definition": "Associates related tickets or external references with a scenario.", "provided_by": ["annotations"]},
+    "shared_organisational_visibility": {"name": "Shared organisational visibility", "definition": "Makes added context visible across the organisation rather than leaving it in private conversations or individual memory.", "provided_by": ["annotations"]},
+    "product_behaviour_change_history": {"name": "Product-behaviour change history", "definition": "Records how represented product behaviour evolves over time.", "provided_by": ["changelog", "automatic_syncing"]},
+    "release_to_specification_traceability": {"name": "Release-to-specification traceability", "definition": "Connects releases and sync activity to changes in the product specification.", "provided_by": ["changelog", "automatic_syncing"]},
+    "added_changed_and_removed_behaviour_visibility": {"name": "Added, changed, and removed behaviour visibility", "definition": "Shows whether behavioural elements were introduced, modified, or removed.", "provided_by": ["changelog", "digests"]},
+    "human_versus_system_change_attribution": {"name": "Human-versus-system change attribution", "definition": "Distinguishes automatic product-analysis updates from manual human edits when attribution is available.", "provided_by": ["changelog"]},
+    "no_behaviour_change_confirmation": {"name": "No-behaviour-change confirmation", "definition": "Records releases analysed without a resulting behavioural specification change.", "provided_by": ["changelog"]},
+    "feature_and_scenario_level_history": {"name": "Feature- and scenario-level history", "definition": "Allows inspection of the evolution of a selected feature or scenario.", "provided_by": ["changelog"]},
+    "historical_reconstruction": {"name": "Historical reconstruction", "definition": "Supports understanding what the product specification showed at different points in its evolution.", "provided_by": ["changelog"]},
+    "product_wide_structural_visibility": {"name": "Product-wide structural visibility", "definition": "Shows product features as a connected system rather than an isolated list.", "provided_by": ["feature_map"]},
+    "cross_feature_relationship_mapping": {"name": "Cross-feature relationship mapping", "definition": "Represents how one feature leads to, authenticates, triggers, notifies, or otherwise connects with another feature.", "provided_by": ["feature_map"]},
+    "dependency_awareness": {"name": "Dependency awareness", "definition": "Helps users identify product areas that may rely on or interact with one another.", "provided_by": ["feature_map"]},
+    "change_blast_radius_awareness": {"name": "Change blast-radius awareness", "definition": "Supports inspection of connected feature areas that may warrant attention when one part of the product changes.", "provided_by": ["feature_map", "changelog"]},
+    "feature_level_flow_visualisation": {"name": "Feature-level flow visualisation", "definition": "Shows the ordered internal behavioural flow of an individual feature.", "provided_by": ["feature_map"]},
+    "user_journey_and_system_flow_comprehension": {"name": "User-journey and system-flow comprehension", "definition": "Makes multi-step product paths easier to understand through a visual model.", "provided_by": ["feature_map"]},
+    "time_bounded_change_summarisation": {"name": "Time-bounded change summarisation", "definition": "Summarises represented product-behaviour changes occurring during a chosen period.", "provided_by": ["digests"]},
+    "on_demand_stakeholder_reporting": {"name": "On-demand stakeholder reporting", "definition": "Generates a current change summary when a specific communication need arises.", "provided_by": ["digests"]},
+    "scheduled_product_change_reporting": {"name": "Scheduled product-change reporting", "definition": "Supports recurring product-change summaries without manual assembly each time.", "provided_by": ["digests"]},
+    "change_synthesis": {"name": "Change synthesis", "definition": "Consolidates multiple scenario- and feature-level changes into a more consumable report.", "provided_by": ["digests"]},
+    "behaviour_change_communication": {"name": "Behaviour-change communication", "definition": "Organises updates around added, changed, and removed product behaviour rather than raw engineering activity.", "provided_by": ["digests"]},
+    "shareable_product_updates": {"name": "Shareable product updates", "definition": "Produces product-change information designed to be forwarded to stakeholders with less rewriting.", "provided_by": ["digests", "export_the_spec"]},
+    "release_triggered_specification_maintenance": {"name": "Release-triggered specification maintenance", "definition": "Updates the product specification when releases are made to the watched branch.", "provided_by": ["automatic_syncing"]},
+    "incremental_behavioural_reanalysis": {"name": "Incremental behavioural re-analysis", "definition": "Focuses subsequent analysis on affected behaviour rather than repeatedly analysing the complete product.", "provided_by": ["automatic_syncing"]},
+    "code_to_specification_alignment": {"name": "Code-to-specification alignment", "definition": "Uses changes in implementation to keep the behavioural specification current.", "provided_by": ["automatic_syncing"]},
+    "documentation_drift_reduction": {"name": "Documentation-drift reduction", "definition": "Reduces reliance on people remembering to update a separate product-behaviour document after every release.", "provided_by": ["automatic_syncing"]},
+    "continuous_product_behaviour_visibility": {"name": "Continuous product-behaviour visibility", "definition": "Maintains an evolving view of represented product behaviour across successive releases.", "provided_by": ["automatic_syncing", "changelog"]},
+    "change_history_accumulation": {"name": "Change-history accumulation", "definition": "Builds a historical record of product evolution through repeated release syncs.", "provided_by": ["automatic_syncing", "changelog"]},
+    "portable_product_specification": {"name": "Portable product specification", "definition": "Makes specification content usable outside the Specsight interface.", "provided_by": ["export_the_spec"]},
+    "full_specification_export": {"name": "Full-specification export", "definition": "Allows the complete project specification to be downloaded as an external artifact.", "provided_by": ["export_the_spec"]},
+    "feature_specific_export": {"name": "Feature-specific export", "definition": "Allows one selected product area to be shared or reviewed without exporting the entire project.", "provided_by": ["export_the_spec"]},
+    "multi_format_distribution": {"name": "Multi-format distribution", "definition": "Supports different stakeholder and workflow needs through PDF, XLSX, and Markdown formats.", "provided_by": ["export_the_spec"]},
+    "offline_review": {"name": "Offline review", "definition": "Enables product behaviour to be reviewed without live access to the Specsight application.", "provided_by": ["export_the_spec"]},
+    "existing_workflow_interoperability": {"name": "Existing-workflow interoperability", "definition": "Allows specification content to be used in external documentation, review, audit, handoff, and communication workflows.", "provided_by": ["export_the_spec", "digests"]}
+  },
+  "capability_groups": {
+    "product_behaviour_representation": {
+      "display_name": "Product behaviour representation",
+      "primary_product_areas": ["features_and_scenarios"],
+      "capability_ids": [
+        "behaviour_level_product_representation",
+        "feature_based_product_organisation",
+        "scenario_level_behavioural_decomposition",
+        "context_action_outcome_clarity",
+        "happy_path_edge_case_and_error_visibility",
+        "plain_language_accessibility",
+        "human_review_and_correction"
+      ]
+    },
+    "product_knowledge_access": {
+      "display_name": "Product knowledge access",
+      "primary_product_areas": ["features_and_scenarios", "ask_specsight", "feature_map"],
+      "capability_ids": [
+        "plain_language_accessibility",
+        "natural_language_product_inquiry",
+        "specification_grounded_answers",
+        "source_backed_product_explanations",
+        "cross_feature_knowledge_access",
+        "historical_product_inquiry",
+        "self_service_product_knowledge_access",
+        "product_wide_structural_visibility"
+      ]
+    },
+    "human_context_and_collaboration": {
+      "display_name": "Human context and collaboration",
+      "primary_product_areas": ["annotations", "features_and_scenarios"],
+      "capability_ids": [
+        "human_context_enrichment",
+        "scenario_level_collaboration",
+        "decision_rationale_capture",
+        "caveat_and_constraint_documentation",
+        "linked_evidence_attachment",
+        "shared_organisational_visibility",
+        "human_review_and_correction"
+      ]
+    },
+    "product_change_observability": {
+      "display_name": "Product change observability",
+      "primary_product_areas": ["changelog", "automatic_syncing", "digests"],
+      "capability_ids": [
+        "product_behaviour_change_history",
+        "release_to_specification_traceability",
+        "added_changed_and_removed_behaviour_visibility",
+        "no_behaviour_change_confirmation",
+        "historical_reconstruction",
+        "time_bounded_change_summarisation",
+        "scheduled_product_change_reporting",
+        "release_triggered_specification_maintenance",
+        "continuous_product_behaviour_visibility",
+        "change_history_accumulation"
+      ]
+    },
+    "product_structure_and_impact_awareness": {
+      "display_name": "Product structure and impact awareness",
+      "primary_product_areas": ["feature_map", "features_and_scenarios", "changelog"],
+      "capability_ids": [
+        "product_wide_structural_visibility",
+        "cross_feature_relationship_mapping",
+        "dependency_awareness",
+        "change_blast_radius_awareness",
+        "feature_level_flow_visualisation",
+        "user_journey_and_system_flow_comprehension"
+      ]
+    },
+    "product_knowledge_portability": {
+      "display_name": "Product knowledge portability",
+      "primary_product_areas": ["export_the_spec", "digests"],
+      "capability_ids": [
+        "portable_product_specification",
+        "full_specification_export",
+        "feature_specific_export",
+        "multi_format_distribution",
+        "offline_review",
+        "existing_workflow_interoperability",
+        "shareable_product_updates"
+      ]
+    }
+  }
+}
