@@ -1,0 +1,93 @@
+You do not need a full schemas/ folder before drafting classify_posts.py.
+
+For the first implementation, you only need to settle one thing:
+
+What exact JSON object must the LLM return for each post?
+
+That contract already mostly exists inside:
+
+specsight_classification_taxonomy.json
+→ classifier_output_schema
+
+So the practical sequence is:
+
+1. Finalize the classifier output fields
+2. Draft classify_posts.py
+3. Add a formal JSON Schema once the first output shape is stable
+What belongs in schemas/
+
+For your current scope, only one schema is immediately useful:
+
+schemas/
+└── classified_post.schema.json
+
+It should validate the JSON produced by the LLM.
+
+You do not need schemas yet for URL collection or extraction unless you want strict validation across the whole pipeline.
+
+Why classified_post.schema.json matters
+
+Your classifier will combine:
+
+LinkedIn post
++
+knowledge context
++
+classification rules
++
+taxonomy
++
+LLM API call
+
+The model may still return:
+
+missing fields;
+extra fields;
+invalid label IDs;
+malformed arrays;
+prose around the JSON;
+unsupported values such as "strong" instead of "direct";
+nulls where arrays are expected.
+
+A schema lets classify_posts.py reject or repair invalid outputs before writing them to your dataset.
+
+The formal JSON Schema should enforce:
+required fields
+field types
+allowed enum values
+nullable fields
+maximum secondary labels
+additionalProperties: false
+Important distinction
+
+You have three different artifacts with different jobs.
+
+classification_rules.md
+
+Tells the LLM how to reason.
+
+Examples:
+
+classify evidence first;
+do not force fit;
+use exact quotes;
+return null when unsupported;
+map only documented product capabilities.
+specsight_classification_taxonomy.json
+
+Tells the LLM which concepts and identifiers exist.
+
+Examples:
+
+workflow stage IDs;
+pain-point IDs;
+failure-mode IDs;
+buying-trigger IDs;
+capability IDs;
+relevance definitions.
+classified_post.schema.json
+
+Tells the program what the returned JSON must look like.
+
+It does not explain the market or product. It only validates structure.
+
