@@ -1,0 +1,23 @@
+{
+  "post_id": "string",
+  "url": "string",
+  "primary_workflow_stage": "workflow_stage_id or null",
+  "secondary_workflow_stages": [],
+  "primary_pain_point": "pain_point_id or null",
+  "secondary_pain_points": [],
+  "failure_modes": [],
+  "root_causes": [],
+  "business_consequences": [],
+  "persona_relevance": [],
+  "buying_trigger": "buying_trigger_id or null",
+  "jtbd_relevance": "direct | indirect | adjacent | none",
+  "specsight_relevance": "direct | indirect | adjacent | none",
+  "relevant_product_areas": [],
+  "relevant_product_capabilities": [],
+  "fit_explanation": "string",
+  "product_boundary_or_caveat": "string or null",
+  "evidence_quotes": [],
+  "evidence_summary": "string",
+  "classification_confidence": "high | medium | low",
+  "review_required": true
+}
